@@ -32,7 +32,7 @@ public class ReimbursementRequest {
 	
 	private int requestId;
 	
-	private int employeeId;
+	private int userId;
 	
 	private double cost;
 	
@@ -62,7 +62,7 @@ public class ReimbursementRequest {
 
 	/** Constructor with defaults:
 	 * @param requestId
-	 * @param employeeId
+	 * @param userId
 	 * @param cost
 	 * @param date set to current date
 	 * @param time set to current time
@@ -74,11 +74,11 @@ public class ReimbursementRequest {
 	 * @param projected set to 0.0
 	 * @param approval set to DS_PENDING
 	 */
-	public ReimbursementRequest(int requestId, int employeeId, double cost,
+	public ReimbursementRequest(int requestId, int userId, double cost,
 			String location, String description, String gradingFormat, EventType eventType) {
 		super();
 		this.requestId = requestId;
-		this.employeeId = employeeId;
+		this.userId = userId;
 		this.cost = cost;
 		this.date = LocalDate.now();
 		this.time = LocalTime.now();
@@ -94,7 +94,7 @@ public class ReimbursementRequest {
 
 	/** No default constructor
 	 * @param requestId
-	 * @param employeeId
+	 * @param userId
 	 * @param cost
 	 * @param date
 	 * @param time
@@ -106,12 +106,12 @@ public class ReimbursementRequest {
 	 * @param projected
 	 * @param approval
 	 */
-	public ReimbursementRequest(int requestId, int employeeId, double cost, LocalDate date, LocalTime time,
+	public ReimbursementRequest(int requestId, int userId, double cost, LocalDate date, LocalTime time,
 			String location, String description, String gradingFormat, EventType eventType, boolean isUrgent,
 			double projected, ApprovalStatus approval) {
 		super();
 		this.requestId = requestId;
-		this.employeeId = employeeId;
+		this.userId = userId;
 		this.cost = cost;
 		this.date = date;
 		this.time = time;
@@ -142,18 +142,18 @@ public class ReimbursementRequest {
 
 
 	/**
-	 * @return the employeeId
+	 * @return the userId
 	 */
-	public int getEmployeeId() {
-		return employeeId;
+	public int getUserId() {
+		return userId;
 	}
 
 
 	/**
-	 * @param employeeId the employeeId to set
+	 * @param userId the userId to set
 	 */
-	public void setEmployeeId(int employeeId) {
-		this.employeeId = employeeId;
+	public void setUserId(int userId) {
+		this.userId = userId;
 	}
 
 
@@ -319,8 +319,8 @@ public class ReimbursementRequest {
 
 	@Override
 	public String toString() {
-		return "ReimbursementRequest [requestId=" + requestId + ", employeeId=" + employeeId + ", cost=" + cost
-				+ ", date=" + date + ", time=" + time + ", location=" + location + ", description=" + description
+		return "ReimbursementRequest [requestId=" + requestId + ", userId=" + userId + ", cost=" + cost + ", date="
+				+ date + ", time=" + time + ", location=" + location + ", description=" + description
 				+ ", gradingFormat=" + gradingFormat + ", eventType=" + eventType + ", isUrgent=" + isUrgent
 				+ ", projected=" + projected + ", approval=" + approval + "]";
 	}
@@ -336,7 +336,6 @@ public class ReimbursementRequest {
 		result = prime * result + (int) (temp ^ (temp >>> 32));
 		result = prime * result + ((date == null) ? 0 : date.hashCode());
 		result = prime * result + ((description == null) ? 0 : description.hashCode());
-		result = prime * result + employeeId;
 		result = prime * result + ((eventType == null) ? 0 : eventType.hashCode());
 		result = prime * result + ((gradingFormat == null) ? 0 : gradingFormat.hashCode());
 		result = prime * result + (isUrgent ? 1231 : 1237);
@@ -345,6 +344,7 @@ public class ReimbursementRequest {
 		result = prime * result + (int) (temp ^ (temp >>> 32));
 		result = prime * result + requestId;
 		result = prime * result + ((time == null) ? 0 : time.hashCode());
+		result = prime * result + userId;
 		return result;
 	}
 
@@ -372,8 +372,6 @@ public class ReimbursementRequest {
 				return false;
 		} else if (!description.equals(other.description))
 			return false;
-		if (employeeId != other.employeeId)
-			return false;
 		if (eventType != other.eventType)
 			return false;
 		if (gradingFormat == null) {
@@ -397,7 +395,9 @@ public class ReimbursementRequest {
 				return false;
 		} else if (!time.equals(other.time))
 			return false;
+		if (userId != other.userId)
+			return false;
 		return true;
-	}	
+	}
 
 }

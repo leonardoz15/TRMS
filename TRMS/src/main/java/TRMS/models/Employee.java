@@ -28,6 +28,8 @@ public class Employee {
 	
 	private String address;
 	
+	private int reportsTo;
+	
 	private AuthPriv authLevel;
 	
 	
@@ -41,17 +43,41 @@ public class Employee {
 	 * @param lastName the last name of the employee.
 	 * @param phoneNumber the phone number of the employee.
 	 * @param address the address of the employee
+	 * @param reportsTo the direct supervisor of the employee.
 	 * @param authLevel the authorization level of the employee
 	 */
+
 	public Employee(int employeeID, String firstName, String lastName, String phoneNumber, String address,
-			AuthPriv authLevel) {
+			int reportsTo, AuthPriv authLevel) {
 		super();
 		this.employeeID = employeeID;
 		this.firstName = firstName;
 		this.lastName = lastName;
 		this.phoneNumber = phoneNumber;
 		this.address = address;
+		this.reportsTo = reportsTo;
 		this.authLevel = authLevel;
+	}
+	
+	/**Constructor with defaults
+	 * @param employeeID
+	 * @param firstName
+	 * @param lastName
+	 * @param phoneNumber
+	 * @param address
+	 * @param reportsTo
+	 * @param authLevel default set to employee
+	 */
+	public Employee(int employeeID, String firstName, String lastName, String phoneNumber, String address,
+			int reportsTo) {
+		super();
+		this.employeeID = employeeID;
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.phoneNumber = phoneNumber;
+		this.address = address;
+		this.reportsTo = reportsTo;
+		this.authLevel = AuthPriv.EMPLOYEE;
 	}
 
 	/**
@@ -125,6 +151,20 @@ public class Employee {
 	}
 
 	/**
+	 * @return the reportsTo
+	 */
+	public int getReportsTo() {
+		return reportsTo;
+	}
+
+	/**
+	 * @param reportsTo the reportsTo to set
+	 */
+	public void setReportsTo(int reportsTo) {
+		this.reportsTo = reportsTo;
+	}
+
+	/**
 	 * @return the authLevel
 	 */
 	public AuthPriv getAuthLevel() {
@@ -141,7 +181,8 @@ public class Employee {
 	@Override
 	public String toString() {
 		return "Employee [employeeID=" + employeeID + ", firstName=" + firstName + ", lastName=" + lastName
-				+ ", phoneNumber=" + phoneNumber + ", address=" + address + ", authLevel=" + authLevel + "]";
+				+ ", phoneNumber=" + phoneNumber + ", address=" + address + ", reportsTo=" + reportsTo + ", authLevel="
+				+ authLevel + "]";
 	}
 
 	@Override
@@ -154,6 +195,7 @@ public class Employee {
 		result = prime * result + ((firstName == null) ? 0 : firstName.hashCode());
 		result = prime * result + ((lastName == null) ? 0 : lastName.hashCode());
 		result = prime * result + ((phoneNumber == null) ? 0 : phoneNumber.hashCode());
+		result = prime * result + reportsTo;
 		return result;
 	}
 
@@ -190,7 +232,9 @@ public class Employee {
 				return false;
 		} else if (!phoneNumber.equals(other.phoneNumber))
 			return false;
+		if (reportsTo != other.reportsTo)
+			return false;
 		return true;
-	}	
-	
+	}
+
 }
