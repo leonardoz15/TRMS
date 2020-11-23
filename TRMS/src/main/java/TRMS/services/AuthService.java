@@ -1,7 +1,7 @@
 /**
  * 
  */
-package TRMS.service;
+package TRMS.services;
 
 /**
  * @author Zachary Leonardo

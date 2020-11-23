@@ -4,6 +4,9 @@
 package TRMS;
 
 import org.junit.Test;
+
+import TRMS.javalin.Library;
+
 import static org.junit.Assert.*;
 
 public class LibraryTest {
