@@ -9,6 +9,15 @@ package TRMS.models;
  */
 public class User {
 	
+	public enum AuthPriv {
+		EMPLOYEE,
+		SUPERVISOR,
+		DEPT_HEAD,
+		BENCO,
+		BENCO_SUP,
+		ADMIN
+	}
+	
 	private int userId;
 	
 	private String username;
@@ -16,6 +25,8 @@ public class User {
 	private String password;
 	
 	private int employeeId;
+	
+	private AuthPriv authLevel;
 
 	
 	public User() {
@@ -28,18 +39,20 @@ public class User {
 	 * @param username the username of this user
 	 * @param password the password of this user
 	 * @param employeeId the id of the employee this user represents
+	 * @param authLevel the authorization level of the user
 	 */
-	public User(int userId, String username, String password, int employeeId) {
+	public User(int userId, String username, String password, int employeeId, AuthPriv authLevel) {
 		super();
 		this.userId = userId;
 		this.username = username;
 		this.password = password;
 		this.employeeId = employeeId;
+		this.authLevel = authLevel;
 	}
-
+	
 
 	/**
-	 * Constructor without user ID
+	 * Constructor without user ID and default authorization
 	 * @param username the username of this user
 	 * @param password the password of this user
 	 * @param employeeId the id of the employee this user represents
@@ -49,6 +62,7 @@ public class User {
 		this.username = username;
 		this.password = password;
 		this.employeeId = employeeId;
+		this.authLevel = AuthPriv.EMPLOYEE;
 	}
 
 
@@ -116,10 +130,26 @@ public class User {
 	}
 
 
+	/**
+	 * @return the authLevel
+	 */
+	public AuthPriv getAuthLevel() {
+		return authLevel;
+	}
+
+
+	/**
+	 * @param authLevel the authLevel to set
+	 */
+	public void setAuthLevel(AuthPriv authLevel) {
+		this.authLevel = authLevel;
+	}
+
+
 	@Override
 	public String toString() {
 		return "User [userId=" + userId + ", username=" + username + ", password=" + password + ", employeeId="
-				+ employeeId + "]";
+				+ employeeId + ", authLevel=" + authLevel + "]";
 	}
 
 
@@ -127,6 +157,7 @@ public class User {
 	public int hashCode() {
 		final int prime = 31;
 		int result = 1;
+		result = prime * result + ((authLevel == null) ? 0 : authLevel.hashCode());
 		result = prime * result + employeeId;
 		result = prime * result + ((password == null) ? 0 : password.hashCode());
 		result = prime * result + userId;
@@ -144,6 +175,8 @@ public class User {
 		if (getClass() != obj.getClass())
 			return false;
 		User other = (User) obj;
+		if (authLevel != other.authLevel)
+			return false;
 		if (employeeId != other.employeeId)
 			return false;
 		if (password == null) {
@@ -160,6 +193,5 @@ public class User {
 			return false;
 		return true;
 	}
-
 
 }

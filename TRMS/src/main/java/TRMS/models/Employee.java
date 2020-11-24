@@ -9,14 +9,6 @@ package TRMS.models;
  */
 public class Employee {
 	
-	public enum AuthPriv {
-		EMPLOYEE,
-		SUPERVISOR,
-		DEPT_HEAD,
-		BENCO,
-		BENCO_SUP,
-		ADMIN
-	}
 	
 	private int employeeID;
 	
@@ -30,8 +22,6 @@ public class Employee {
 	
 	private int reportsTo;
 	
-	private AuthPriv authLevel;
-	
 	
 	public Employee() {
 		super();
@@ -44,30 +34,8 @@ public class Employee {
 	 * @param phoneNumber the phone number of the employee.
 	 * @param address the address of the employee
 	 * @param reportsTo the direct supervisor of the employee.
-	 * @param authLevel the authorization level of the employee
 	 */
 
-	public Employee(int employeeID, String firstName, String lastName, String phoneNumber, String address,
-			int reportsTo, AuthPriv authLevel) {
-		super();
-		this.employeeID = employeeID;
-		this.firstName = firstName;
-		this.lastName = lastName;
-		this.phoneNumber = phoneNumber;
-		this.address = address;
-		this.reportsTo = reportsTo;
-		this.authLevel = authLevel;
-	}
-	
-	/**Constructor with defaults
-	 * @param employeeID
-	 * @param firstName
-	 * @param lastName
-	 * @param phoneNumber
-	 * @param address
-	 * @param reportsTo
-	 * @param authLevel default set to employee
-	 */
 	public Employee(int employeeID, String firstName, String lastName, String phoneNumber, String address,
 			int reportsTo) {
 		super();
@@ -77,7 +45,6 @@ public class Employee {
 		this.phoneNumber = phoneNumber;
 		this.address = address;
 		this.reportsTo = reportsTo;
-		this.authLevel = AuthPriv.EMPLOYEE;
 	}
 
 	/**
@@ -164,25 +131,10 @@ public class Employee {
 		this.reportsTo = reportsTo;
 	}
 
-	/**
-	 * @return the authLevel
-	 */
-	public AuthPriv getAuthLevel() {
-		return authLevel;
-	}
-
-	/**
-	 * @param authLevel the authLevel to set
-	 */
-	public void setAuthLevel(AuthPriv authLevel) {
-		this.authLevel = authLevel;
-	}
-
 	@Override
 	public String toString() {
 		return "Employee [employeeID=" + employeeID + ", firstName=" + firstName + ", lastName=" + lastName
-				+ ", phoneNumber=" + phoneNumber + ", address=" + address + ", reportsTo=" + reportsTo + ", authLevel="
-				+ authLevel + "]";
+				+ ", phoneNumber=" + phoneNumber + ", address=" + address + ", reportsTo=" + reportsTo + "]";
 	}
 
 	@Override
@@ -190,7 +142,6 @@ public class Employee {
 		final int prime = 31;
 		int result = 1;
 		result = prime * result + ((address == null) ? 0 : address.hashCode());
-		result = prime * result + ((authLevel == null) ? 0 : authLevel.hashCode());
 		result = prime * result + employeeID;
 		result = prime * result + ((firstName == null) ? 0 : firstName.hashCode());
 		result = prime * result + ((lastName == null) ? 0 : lastName.hashCode());
@@ -213,8 +164,6 @@ public class Employee {
 				return false;
 		} else if (!address.equals(other.address))
 			return false;
-		if (authLevel != other.authLevel)
-			return false;
 		if (employeeID != other.employeeID)
 			return false;
 		if (firstName == null) {
@@ -236,5 +185,5 @@ public class Employee {
 			return false;
 		return true;
 	}
-
+	
 }
