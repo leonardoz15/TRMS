@@ -57,7 +57,7 @@ public class EmployeeDaoPostgres implements EmployeeDao {
 			int rowsEffected = stmt.executeUpdate();
 			
 			if (rowsEffected != 1) {
-				log.warn("More than one account created, rolling back");
+				log.warn("More than one employee created, rolling back");
 				conn.rollback(s1);
 			} else {
 				conn.commit();
@@ -103,7 +103,7 @@ public class EmployeeDaoPostgres implements EmployeeDao {
 	}
 
 	@Override
-	public List<Employee> readAllGuests() {
+	public List<Employee> readAllEmployees() {
 
 		List<Employee> result = new ArrayList<Employee>();
 		
@@ -157,7 +157,7 @@ public class EmployeeDaoPostgres implements EmployeeDao {
 			int rowsEffected = stmt.executeUpdate();
 			
 			if (rowsEffected != 1) {
-				log.warn("More than one account updated, rolling back");
+				log.warn("More than one employee updated, rolling back");
 				conn.rollback(s1);
 			} else {
 				conn.commit();

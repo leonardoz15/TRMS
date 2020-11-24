@@ -17,7 +17,7 @@ public interface EmployeeDao {
 	
 	public Employee readEmployee(int employeeId);
 	
-	public List<Employee> readAllGuests();
+	public List<Employee> readAllEmployees();
 	
 	public Employee updateEmployee(int employeeId, Employee employee);
 	
