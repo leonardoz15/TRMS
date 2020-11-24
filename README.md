@@ -16,6 +16,5 @@ The purpose of TRMS is to provide a system that encourages quality knowledge gro
 - CSS for page styles
 - Javascript for page functionality
 - Utilize AJAX for acquiring resources as well as (maybe?) helping with user/app connection
-  - Personal goals include utilizing AJAX for attachment uploads to BLOB storage.
 - Fully published and hosted source code on Git-hub repository
 - Application and database hosted on Azure to enable access regardless of personal devices.
