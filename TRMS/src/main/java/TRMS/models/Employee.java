@@ -10,7 +10,7 @@ package TRMS.models;
 public class Employee {
 	
 	
-	private int employeeID;
+	private int employeeId;
 	
 	private String firstName;
 	
@@ -39,7 +39,7 @@ public class Employee {
 	public Employee(int employeeID, String firstName, String lastName, String phoneNumber, String address,
 			int reportsTo) {
 		super();
-		this.employeeID = employeeID;
+		this.employeeId = employeeID;
 		this.firstName = firstName;
 		this.lastName = lastName;
 		this.phoneNumber = phoneNumber;
@@ -51,14 +51,14 @@ public class Employee {
 	 * @return the employeeID
 	 */
 	public int getEmployeeID() {
-		return employeeID;
+		return employeeId;
 	}
 
 	/**
 	 * @param employeeID the employeeID to set
 	 */
 	public void setEmployeeID(int employeeID) {
-		this.employeeID = employeeID;
+		this.employeeId = employeeID;
 	}
 
 	/**
@@ -133,7 +133,7 @@ public class Employee {
 
 	@Override
 	public String toString() {
-		return "Employee [employeeID=" + employeeID + ", firstName=" + firstName + ", lastName=" + lastName
+		return "Employee [employeeID=" + employeeId + ", firstName=" + firstName + ", lastName=" + lastName
 				+ ", phoneNumber=" + phoneNumber + ", address=" + address + ", reportsTo=" + reportsTo + "]";
 	}
 
@@ -142,7 +142,7 @@ public class Employee {
 		final int prime = 31;
 		int result = 1;
 		result = prime * result + ((address == null) ? 0 : address.hashCode());
-		result = prime * result + employeeID;
+		result = prime * result + employeeId;
 		result = prime * result + ((firstName == null) ? 0 : firstName.hashCode());
 		result = prime * result + ((lastName == null) ? 0 : lastName.hashCode());
 		result = prime * result + ((phoneNumber == null) ? 0 : phoneNumber.hashCode());
@@ -164,7 +164,7 @@ public class Employee {
 				return false;
 		} else if (!address.equals(other.address))
 			return false;
-		if (employeeID != other.employeeID)
+		if (employeeId != other.employeeId)
 			return false;
 		if (firstName == null) {
 			if (other.firstName != null)

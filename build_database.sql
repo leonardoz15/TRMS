@@ -79,4 +79,7 @@ foreign key (request_id) references "request" (request_id) on delete cascade on 
 alter table "info_req" add constraint FK_employee_id
 foreign key (employee_id) references "employee" (employee_id) on delete cascade on update cascade;
 
-select * from users;
+
+--------------------------------------------------------------------------------------------------
+
+select * from employee;
