@@ -135,13 +135,74 @@ public class EmployeeDaoPostgres implements EmployeeDao {
 
 	@Override
 	public Employee updateEmployee(int employeeId, Employee employee) {
-		// TODO Auto-generated method stub
-		return null;
+		
+		String sql = "update employee set first_name = ?, last_name = ?, phone_number = ?, address = ?, "
+					+ "reports_to = ? where employee_id = ?";
+		
+		log.info("Starting to update employee with id " + employeeId);
+		
+		try(Connection conn = connUtil.createConnection()) {
+			
+			conn.setAutoCommit(false);
+			
+			stmt = conn.prepareStatement(sql);
+			stmt.setString(1, employee.getFirstName());
+			stmt.setString(2, employee.getLastName());
+			stmt.setInt(3, Integer.parseInt(employee.getPhoneNumber()));
+			stmt.setString(4, employee.getAddress());
+			stmt.setInt(5, employee.getReportsTo());
+			stmt.setInt(6, employeeId);
+			
+			Savepoint s1 = conn.setSavepoint();
+			int rowsEffected = stmt.executeUpdate();
+			
+			if (rowsEffected != 1) {
+				log.warn("More than one account updated, rolling back");
+				conn.rollback(s1);
+			} else {
+				conn.commit();
+				log.info("Successfully updated employee " + employee.getEmployeeID());
+			}
+			
+			conn.setAutoCommit(true);
+			
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		
+		return employee;
 	}
 
 	@Override
 	public void deleteEmployee(Employee employee) {
-		// TODO Auto-generated method stub
+		
+		String sql = "delete from employee where employee_id = ?";
+		
+		log.info("Starting to delete employee with id " + employee.getEmployeeID());
+		
+		try(Connection conn = connUtil.createConnection()) {
+			
+			conn.setAutoCommit(false);
+			
+			stmt = conn.prepareStatement(sql);
+			stmt.setInt(1, employee.getEmployeeID());
+			
+			Savepoint s1 = conn.setSavepoint();
+			int rowsEffected = stmt.executeUpdate();
+			
+			if (rowsEffected != 1) {
+				log.warn("More than one account deleted, rolling back");
+				conn.rollback(s1);
+			} else {
+				conn.commit();
+				log.info("Successfully deleted employee " + employee.getEmployeeID());
+			}
+			
+			conn.setAutoCommit(true);
+			
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
 
 	}
 
