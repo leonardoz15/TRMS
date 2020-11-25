@@ -19,7 +19,7 @@ public interface InformationRequestDao {
 	
 	public List<InformationRequest> readAllInfoRequest();
 	
-	public InformationRequest updateInfoRequest(InformationRequest infoRequest);
+	public InformationRequest updateInfoRequest(int infoId, InformationRequest infoRequest);
 	
 	public void deleteGuest(InformationRequest infoRequest);	
 

@@ -133,14 +133,46 @@ public class InformationRequestDaoPostgres implements InformationRequestDao {
 	}
 
 	@Override
-	public InformationRequest updateInfoRequest(InformationRequest infoRequest) {
-		// TODO Auto-generated method stub
-		return null;
+	public InformationRequest updateInfoRequest(int infoId, InformationRequest infoRequest) {
+		
+		String sql = "update info_req set request_id = ?, employee_id = ?, description = ? where info_id = ?";
+		
+		log.info("Starting to update info request with id " + infoId);
+		
+		try(Connection conn = connUtil.createConnection()) {
+			
+			conn.setAutoCommit(false);
+			
+			stmt = conn.prepareStatement(sql);
+			stmt.setInt(1,infoRequest.getRequestId());
+			stmt.setInt(2, infoRequest.getEmployeeId());
+			stmt.setString(3, infoRequest.getDescription());
+			stmt.setInt(4, infoId);
+			
+			Savepoint s1 = conn.setSavepoint();
+			int rowsEffected = stmt.executeUpdate();
+			
+			if (rowsEffected != 1) {
+				log.warn("More than one info request updated, rolling back");
+				conn.rollback(s1);
+			} else {
+				conn.commit();
+				log.info("Successfully updated info request " + infoId);
+			}
+			
+			conn.setAutoCommit(true);
+			
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		
+		return infoRequest;
 	}
 
 	@Override
 	public void deleteGuest(InformationRequest infoRequest) {
-		// TODO Auto-generated method stub
+		
+		
 
 	}
 
