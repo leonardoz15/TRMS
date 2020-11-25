@@ -157,7 +157,7 @@ public class UserDaoPostgres implements UserDao {
 				conn.rollback(s1);
 			} else {
 				conn.commit();
-				log.info("Successfully updated user " + user.getUserId());
+				log.info("Successfully updated user " + userId);
 			}
 			
 			conn.setAutoCommit(true);
@@ -165,6 +165,7 @@ public class UserDaoPostgres implements UserDao {
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
+		
 		return user;
 	}
 
