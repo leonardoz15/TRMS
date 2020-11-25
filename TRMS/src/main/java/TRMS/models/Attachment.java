@@ -25,7 +25,7 @@ public class Attachment {
 	}
 
 
-	/**
+	/** Without data
 	 * @param attachId the unique id of this attachment
 	 * @param requestId the id of the request this attachment belongs to
 	 * @param fileType the type of file this attachment is
@@ -35,6 +35,21 @@ public class Attachment {
 		this.attachId = attachId;
 		this.requestId = requestId;
 		this.fileType = fileType;
+	}
+
+
+	/** With data
+	 * @param attachId
+	 * @param requestId
+	 * @param fileType
+	 * @param dataStream
+	 */
+	public Attachment(int attachId, int requestId, String fileType, InputStream dataStream) {
+		super();
+		this.attachId = attachId;
+		this.requestId = requestId;
+		this.fileType = fileType;
+		this.dataStream = dataStream;
 	}
 
 
