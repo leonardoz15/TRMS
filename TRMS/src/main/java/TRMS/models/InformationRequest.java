@@ -37,6 +37,70 @@ public class InformationRequest {
 		this.description = description;
 	}
 
+	
+	/**
+	 * @return the infoId
+	 */
+	public int getInfoId() {
+		return infoId;
+	}
+
+
+	/**
+	 * @param infoId the infoId to set
+	 */
+	public void setInfoId(int infoId) {
+		this.infoId = infoId;
+	}
+
+
+	/**
+	 * @return the requestId
+	 */
+	public int getRequestId() {
+		return requestId;
+	}
+
+
+	/**
+	 * @param requestId the requestId to set
+	 */
+	public void setRequestId(int requestId) {
+		this.requestId = requestId;
+	}
+
+
+	/**
+	 * @return the employeeId
+	 */
+	public int getEmployeeId() {
+		return employeeId;
+	}
+
+
+	/**
+	 * @param employeeId the employeeId to set
+	 */
+	public void setEmployeeId(int employeeId) {
+		this.employeeId = employeeId;
+	}
+
+
+	/**
+	 * @return the description
+	 */
+	public String getDescription() {
+		return description;
+	}
+
+
+	/**
+	 * @param description the description to set
+	 */
+	public void setDescription(String description) {
+		this.description = description;
+	}
+
 
 	@Override
 	public String toString() {
