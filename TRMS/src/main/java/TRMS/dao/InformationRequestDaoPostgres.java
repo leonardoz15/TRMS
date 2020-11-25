@@ -172,7 +172,33 @@ public class InformationRequestDaoPostgres implements InformationRequestDao {
 	@Override
 	public void deleteGuest(InformationRequest infoRequest) {
 		
+		String sql = "delete from info_req where info_id = ?";
 		
+		log.info("Starting to delete info request with id " + infoRequest.getInfoId());
+		
+		try(Connection conn = connUtil.createConnection()) {
+			
+			conn.setAutoCommit(false);
+			
+			stmt = conn.prepareStatement(sql);
+			stmt.setInt(1, infoRequest.getInfoId());
+			
+			Savepoint s1 = conn.setSavepoint();
+			int rowsEffected = stmt.executeUpdate();
+			
+			if (rowsEffected != 1) {
+				log.warn("More than one info request deleted, rolling back");
+				conn.rollback(s1);
+			} else {
+				conn.commit();
+				log.info("Successfully deleted info request " + infoRequest.getInfoId());
+			}
+			
+			conn.setAutoCommit(true);
+			
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
 
 	}
 
