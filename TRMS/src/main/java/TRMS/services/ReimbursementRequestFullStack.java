@@ -41,13 +41,18 @@ public class ReimbursementRequestFullStack implements ReimbursementRequestServic
 
 	@Override
 	public ReimbursementRequest updateRequest(int requestId, ReimbursementRequest request) {
-		// TODO Auto-generated method stub
-		return null;
+		
+		log.info("Reimbursement service updating request");
+		
+		return reimbursementDao.updateRequest(requestId, request);
 	}
 
 	@Override
 	public void deleteRequest(ReimbursementRequest request) {
-		// TODO Auto-generated method stub
+
+		log.info("Reimbursement request deleting request");
+		
+		reimbursementDao.deleteRequest(request);
 
 	}
 
