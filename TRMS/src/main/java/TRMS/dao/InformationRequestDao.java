@@ -21,6 +21,6 @@ public interface InformationRequestDao {
 	
 	public InformationRequest updateInfoRequest(int infoId, InformationRequest infoRequest);
 	
-	public void deleteGuest(InformationRequest infoRequest);	
+	public void deleteRequest(InformationRequest infoRequest);	
 
 }

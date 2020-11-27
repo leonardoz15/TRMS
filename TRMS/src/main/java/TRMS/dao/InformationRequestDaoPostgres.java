@@ -170,7 +170,7 @@ public class InformationRequestDaoPostgres implements InformationRequestDao {
 	}
 
 	@Override
-	public void deleteGuest(InformationRequest infoRequest) {
+	public void deleteRequest(InformationRequest infoRequest) {
 		
 		String sql = "delete from info_req where info_id = ?";
 		
