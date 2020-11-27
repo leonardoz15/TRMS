@@ -121,6 +121,8 @@ public class EmployeeController {
 			
 			Employee toDelete = new Employee(employeeId, firstName, lastName, phoneNumber, address, reportsTo);
 			
+			service.deleteEmployee(toDelete);
+			
 			log.info("Successfully deleted employee: " + firstName);
 			ctx.status(200);
 			
