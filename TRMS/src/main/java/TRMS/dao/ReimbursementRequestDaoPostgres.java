@@ -119,7 +119,7 @@ public class ReimbursementRequestDaoPostgres implements ReimbursementRequestDao 
 	}
 
 	@Override
-	public List<ReimbursementRequest> readAllGuests() {
+	public List<ReimbursementRequest> readAllRequests() {
 		
 		List<ReimbursementRequest> result = new ArrayList<ReimbursementRequest>();
 		

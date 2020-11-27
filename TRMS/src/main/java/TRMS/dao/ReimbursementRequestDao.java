@@ -17,7 +17,7 @@ public interface ReimbursementRequestDao {
 	
 	public ReimbursementRequest readRequest(int requestId);
 	
-	public List<ReimbursementRequest> readAllGuests();
+	public List<ReimbursementRequest> readAllRequests();
 	
 	public ReimbursementRequest updateRequest(int requestId, ReimbursementRequest request);
 	

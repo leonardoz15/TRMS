@@ -16,20 +16,27 @@ public class ReimbursementRequestFullStack implements ReimbursementRequestServic
 
 	@Override
 	public void createRequest(ReimbursementRequest request) {
-		// TODO Auto-generated method stub
+		
+		log.info("Reimbursement service creating request");
+		
+		reimbursementDao.createRequest(request);
 
 	}
 
 	@Override
 	public ReimbursementRequest readRequest(int requestId) {
-		// TODO Auto-generated method stub
-		return null;
+
+		log.info("Reimbursement service reading request");
+		
+		return reimbursementDao.readRequest(requestId);
 	}
 
 	@Override
 	public List<ReimbursementRequest> readAllGuests() {
-		// TODO Auto-generated method stub
-		return null;
+
+		log.info("Reimbursement service reading all requests");
+		
+		return reimbursementDao.readAllRequests();
 	}
 
 	@Override
