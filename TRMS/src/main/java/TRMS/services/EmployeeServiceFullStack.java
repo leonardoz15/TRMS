@@ -10,18 +10,17 @@ import TRMS.models.Employee;
 
 public class EmployeeServiceFullStack implements EmployeeService {
 	
-	EmployeeDao employeeDao = new EmployeeDaoPostgres();
+	private EmployeeDao employeeDao = new EmployeeDaoPostgres();
 	
 	private static Logger log = Logger.getRootLogger();
 
 	@Override
-	public Employee createEmployee(Employee employee) {
+	public void createEmployee(Employee employee) {
 		
 		log.info("Employee service creating employee");
 		
 		employeeDao.createEmployee(employee);
 		
-		return employee;
 	}
 
 	@Override
@@ -46,9 +45,7 @@ public class EmployeeServiceFullStack implements EmployeeService {
 		
 		log.info("Employee service updating employee");
 		
-		employeeDao.updateEmployee(employeeId, employee);
-		
-		return employee;
+		return employeeDao.updateEmployee(employeeId, employee);
 	}
 
 	@Override
