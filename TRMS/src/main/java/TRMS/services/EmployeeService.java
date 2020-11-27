@@ -15,7 +15,7 @@ public interface EmployeeService {
 	
 	public Employee createEmployee(Employee employee);
 	
-	public Employee readEmployee(int EmployeeId);
+	public Employee readEmployee(int employeeId);
 	
 	public List<Employee> readAllEmployees();
 	
