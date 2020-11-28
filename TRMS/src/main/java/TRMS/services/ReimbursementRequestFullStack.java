@@ -32,7 +32,7 @@ public class ReimbursementRequestFullStack implements ReimbursementRequestServic
 	}
 
 	@Override
-	public List<ReimbursementRequest> readAllGuests() {
+	public List<ReimbursementRequest> readAllRequests() {
 
 		log.info("Reimbursement service reading all requests");
 		
