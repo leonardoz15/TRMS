@@ -6,8 +6,14 @@ package TRMS.services;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.security.SecureRandom;
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
+
+import org.apache.log4j.Logger;
+
+import TRMS.models.User;
 
 /**
  * @author Zachary Leonardo
@@ -15,13 +21,31 @@ import java.util.Map;
  */
 public class AuthServiceImpl implements AuthService {
 	
+	private static Logger log = Logger.getRootLogger();
+	
 	private static byte[] salt = new SecureRandom().getSeed(16);
 	
 	private Map<String, String> tokenRepo = new HashMap<>();
+	
+	private EmployeeService employeeService = new EmployeeServiceFullStack();
+	
+	private UserService userService = new UserServiceFullStack();
 
 	@Override
 	public boolean authenticateUser(String username, String password) {
-		// TODO Auto-generated method stub
+		//pull all users and see if user exists, return true or false
+		log.info("Authenticating user with username: "+ username +" password: "+ password);
+		
+		List<User> usersList = new ArrayList<User>();
+		
+		usersList = userService.readAllUsers();
+		
+		for (User u : usersList) {
+			if(u.getUsername() == username & u.getPassword() == password) {
+				return true;
+			}
+		}
+		log.warn("No user exists in database with username: "+ username +" password: "+ password);
 		return false;
 	}
 
