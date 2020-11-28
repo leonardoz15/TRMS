@@ -90,5 +90,73 @@ public class ReimbursementRequestController {
 			ctx.status(500);
 		}
 	}
+	
+	public void updateRequest(Context ctx) {
+		
+		try {
+			
+			int requestId = Integer.parseInt(ctx.formParam("request_id"));
+			
+			int userId = Integer.parseInt(ctx.formParam("user_id"));
+			double cost = Double.parseDouble(ctx.formParam("cost"));
+			LocalDate date = LocalDate.parse(ctx.formParam("date"));
+			LocalTime time = LocalTime.parse(ctx.formParam("time"));
+			String location = ctx.formParam("location");
+			String description = ctx.formParam("desription");
+			String gradingFormat = ctx.formParam("grading_format");
+			EventType eventType = EventType.valueOf(ctx.formParam("event_type"));
+			boolean isUrgent = Boolean.parseBoolean(ctx.formParam("urgent"));
+			double projected = Double.parseDouble(ctx.formParam("projected"));
+			ApprovalStatus approvalStatus = ApprovalStatus.valueOf(ctx.formParam("status"));
+			
+			ReimbursementRequest toUpdate = new ReimbursementRequest(0, userId, cost, date, time, location, description, gradingFormat,
+																	eventType, isUrgent, projected, approvalStatus);
+			
+			service.updateRequest(requestId, toUpdate);
+			
+			log.info("Successfully updated request: " + requestId);
+			ctx.status(200);
+			
+		} catch (Exception e) {
+			log.warn("Exception thrown when updating request: " + e);
+			ctx.html("Exception " + e);
+			ctx.status(500);
+		}
+		
+	}
+	
+	public void deleteRequest(Context ctx) {
+		
+		try {
+			
+			int requestId = Integer.parseInt(ctx.formParam("request_id"));
+			
+			int userId = Integer.parseInt(ctx.formParam("user_id"));
+			double cost = Double.parseDouble(ctx.formParam("cost"));
+			LocalDate date = LocalDate.parse(ctx.formParam("date"));
+			LocalTime time = LocalTime.parse(ctx.formParam("time"));
+			String location = ctx.formParam("location");
+			String description = ctx.formParam("desription");
+			String gradingFormat = ctx.formParam("grading_format");
+			EventType eventType = EventType.valueOf(ctx.formParam("event_type"));
+			boolean isUrgent = Boolean.parseBoolean(ctx.formParam("urgent"));
+			double projected = Double.parseDouble(ctx.formParam("projected"));
+			ApprovalStatus approvalStatus = ApprovalStatus.valueOf(ctx.formParam("status"));
+			
+			ReimbursementRequest toDelete = new ReimbursementRequest(requestId, userId, cost, date, time, location, description, gradingFormat,
+																	eventType, isUrgent, projected, approvalStatus);
+			
+			service.deleteRequest(toDelete);
+			
+			log.info("Successfully deleted request: " + requestId);
+			ctx.status(200);
+			
+		} catch (Exception e) {
+			log.warn("Exception thrown when deleting request: " + e);
+			ctx.html("Exception " + e);
+			ctx.status(500);
+		}
+		
+	}
 
 }
