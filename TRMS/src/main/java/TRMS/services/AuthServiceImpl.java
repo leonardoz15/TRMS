@@ -27,8 +27,6 @@ public class AuthServiceImpl implements AuthService {
 	
 	private Map<String, String> tokenRepo = new HashMap<>();
 	
-	private EmployeeService employeeService = new EmployeeServiceFullStack();
-	
 	private UserService userService = new UserServiceFullStack();
 
 	@Override
