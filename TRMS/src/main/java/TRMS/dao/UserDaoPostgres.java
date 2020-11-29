@@ -39,7 +39,7 @@ public class UserDaoPostgres implements UserDao {
 	@Override
 	public void createUser(User user) {
 		
-		String sql = "insert into users values (?, ?, ?, ?::auth_level)";
+		String sql = "insert into users values (default, ?, ?, ?, ?::auth_level)";
 		
 		log.info("Starting to insert employee with id " + user.getUserId());
 		
