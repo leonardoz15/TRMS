@@ -43,3 +43,8 @@
 2020-11-29 17:19:28 INFO  root:64 - Successfully inserted employee 0
 2020-11-29 17:19:28 INFO  root:33 - Successfully created employee: Zach
 2020-11-29 17:57:42 INFO  root:35 - Program has started
+2020-11-29 18:30:47 INFO  root:37 - Program has started
+2020-11-29 18:30:51 INFO  root:27 - User service creating user
+2020-11-29 18:30:51 INFO  root:44 - Starting to insert employee with id 0
+2020-11-29 18:30:51 INFO  root:64 - Successfully inserted user 0
+2020-11-29 18:30:51 INFO  root:33 - Successfully created user: admin

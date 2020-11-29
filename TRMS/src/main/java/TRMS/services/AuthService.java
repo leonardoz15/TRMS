@@ -13,6 +13,6 @@ public interface AuthService {
 		
 		public String createToken(String username);
 		
-		public String validateToken(String token);
+		public boolean validateToken(String token);
 
 }

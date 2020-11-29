@@ -41,7 +41,7 @@ public class ServerDriver {
 		
 		app.get(LOGIN_PATH, ctx -> authController.login(ctx));
 		
-		//Postman end points for testing:
+		//Postman endpoints for testing:
 		
 		app.post("/createEmp", ctx -> employeeController.createEmployee(ctx));
 		app.post("/createUser", ctx -> userController.createUser(ctx));

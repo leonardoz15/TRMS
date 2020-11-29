@@ -12,6 +12,8 @@ public class AuthController {
 	
 	private AuthService service = new AuthServiceImpl();
 	
+	private static final String TOKEN_NAME = "user_token";
+	
 	public void login(Context ctx) {
 		
 		String username = ctx.formParam("username");
@@ -19,10 +21,23 @@ public class AuthController {
 		
 		if(service.authenticateUser(username, password)) {
 			log.info("Logged into user: "+ username);
-			ctx.cookieStore("user_token", service.createToken(username));
+			ctx.cookieStore(TOKEN_NAME, service.createToken(username));
 			ctx.status(200);
 			//TODO: Pull AuthLevel and handle redirection
 		}
+		else {
+			ctx.redirect("login.html?error=failed-login");
+		}
+	}
+	
+	public boolean checkUser(Context ctx) {
+		boolean auth = false;
+        try {
+            auth = service.validateToken(ctx.cookieStore(TOKEN_NAME));
+        } catch (NullPointerException e) {
+            log.warn("No cookie found for user: " + e);
+        }
+        return auth;
 	}
 	
 	public void logout(Context ctx) {

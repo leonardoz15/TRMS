@@ -55,8 +55,13 @@ public class AuthServiceImpl implements AuthService {
 	}
 
 	@Override
-	public String validateToken(String token) {
-		return tokenRepo.get(token);
+	public boolean validateToken(String token) {
+		try {
+			tokenRepo.get(token);
+			return true;
+		} catch (NullPointerException e) {
+			return false;
+		}		
 	}
 	
 	private String simpleHash(String username) {
