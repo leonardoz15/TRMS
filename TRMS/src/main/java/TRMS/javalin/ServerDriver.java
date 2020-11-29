@@ -11,6 +11,7 @@ import TRMS.controllers.AuthController;
 import TRMS.controllers.EmployeeController;
 import TRMS.controllers.InformationRequestController;
 import TRMS.controllers.ReimbursementRequestController;
+import TRMS.controllers.UserController;
 import io.javalin.Javalin;
 
 /**
@@ -23,6 +24,7 @@ public class ServerDriver {
 	
 	private static AuthController authController = new AuthController();
 	private static EmployeeController employeeController = new EmployeeController();
+	private static UserController userController = new UserController();
 	private static ReimbursementRequestController reimbursementController = new ReimbursementRequestController();
 	private static InformationRequestController informationController = new InformationRequestController();
 	
@@ -37,7 +39,12 @@ public class ServerDriver {
 		app.get("", ctx -> ctx.redirect("index.html"));
 		app.get("home", ctx -> ctx.redirect("index.html"));
 		
-		app.post("/create", ctx -> employeeController.createEmployee(ctx));
+		app.get(LOGIN_PATH, ctx -> authController.login(ctx));
+		
+		//Postman end points for testing:
+		
+		app.post("/createEmp", ctx -> employeeController.createEmployee(ctx));
+		app.post("/createUser", ctx -> userController.createUser(ctx));
 		
 
 	}
