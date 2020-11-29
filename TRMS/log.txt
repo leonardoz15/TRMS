@@ -1,0 +1,44 @@
+2020-11-29 16:44:33 INFO  root:35 - Program has started
+2020-11-29 16:44:38 INFO  root:20 - Employee service creating employee
+2020-11-29 16:44:38 INFO  root:43 - Starting to insert employee with id 0
+2020-11-29 16:44:38 INFO  root:33 - Successfully created employee: Zach
+2020-11-29 16:56:21 INFO  root:35 - Program has started
+2020-11-29 16:56:27 INFO  root:20 - Employee service creating employee
+2020-11-29 16:56:27 INFO  root:43 - Starting to insert employee with id 0
+2020-11-29 16:56:27 INFO  root:33 - Successfully created employee: Zach
+2020-11-29 17:03:04 INFO  root:35 - Program has started
+2020-11-29 17:03:08 INFO  root:20 - Employee service creating employee
+2020-11-29 17:03:08 INFO  root:43 - Starting to insert employee with id 0
+2020-11-29 17:03:08 WARN  root:70 - SQLException thrown when creating employee: java.sql.SQLException: The url cannot be null
+2020-11-29 17:03:08 INFO  root:33 - Successfully created employee: Zach
+2020-11-29 17:04:37 INFO  root:35 - Program has started
+2020-11-29 17:04:42 INFO  root:20 - Employee service creating employee
+2020-11-29 17:04:42 INFO  root:43 - Starting to insert employee with id 0
+2020-11-29 17:04:42 WARN  root:37 - Exception thrown when creating employee: java.lang.NumberFormatException: For input string: "5704410895"
+2020-11-29 17:07:25 INFO  root:35 - Program has started
+2020-11-29 17:07:28 INFO  root:20 - Employee service creating employee
+2020-11-29 17:07:28 INFO  root:43 - Starting to insert employee with id 0
+2020-11-29 17:07:28 WARN  root:37 - Exception thrown when creating employee: java.lang.NumberFormatException: For input string: "5704410895"
+2020-11-29 17:08:21 INFO  root:20 - Employee service creating employee
+2020-11-29 17:08:21 INFO  root:43 - Starting to insert employee with id 0
+2020-11-29 17:08:21 WARN  root:70 - SQLException thrown when creating employee: org.postgresql.util.PSQLException: ERROR: column "employee_id" is of type integer but expression is of type character varying
+  Hint: You will need to rewrite or cast the expression.
+  Position: 30
+2020-11-29 17:08:21 INFO  root:33 - Successfully created employee: Zach
+2020-11-29 17:11:11 INFO  root:35 - Program has started
+2020-11-29 17:11:14 INFO  root:20 - Employee service creating employee
+2020-11-29 17:11:14 INFO  root:43 - Starting to insert employee with id 0
+2020-11-29 17:11:14 WARN  root:37 - Exception thrown when creating employee: java.lang.NumberFormatException: For input string: "5704410890"
+2020-11-29 17:12:43 INFO  root:20 - Employee service creating employee
+2020-11-29 17:12:43 INFO  root:43 - Starting to insert employee with id 0
+2020-11-29 17:12:43 INFO  root:64 - Successfully inserted employee 0
+2020-11-29 17:12:43 INFO  root:33 - Successfully created employee: Zach
+2020-11-29 17:19:14 INFO  root:35 - Program has started
+2020-11-29 17:19:18 INFO  root:20 - Employee service creating employee
+2020-11-29 17:19:18 INFO  root:43 - Starting to insert employee with id 0
+2020-11-29 17:19:19 INFO  root:64 - Successfully inserted employee 0
+2020-11-29 17:19:19 INFO  root:33 - Successfully created employee: Zach
+2020-11-29 17:19:28 INFO  root:20 - Employee service creating employee
+2020-11-29 17:19:28 INFO  root:43 - Starting to insert employee with id 0
+2020-11-29 17:19:28 INFO  root:64 - Successfully inserted employee 0
+2020-11-29 17:19:28 INFO  root:33 - Successfully created employee: Zach

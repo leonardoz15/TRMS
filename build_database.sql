@@ -82,4 +82,4 @@ foreign key (employee_id) references "employee" (employee_id) on delete cascade 
 
 --------------------------------------------------------------------------------------------------
 
-select * from employee;
+select * from waitlist;

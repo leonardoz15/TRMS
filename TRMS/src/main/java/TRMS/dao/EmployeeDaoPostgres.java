@@ -38,7 +38,7 @@ public class EmployeeDaoPostgres implements EmployeeDao {
 	@Override
 	public void createEmployee(Employee employee) {
 
-		String sql = "insert into employee values (?, ?, ?, ?, ?)";
+		String sql = "insert into employee values (default, ?, ?, ?, ?, ?)";
 		
 		log.info("Starting to insert employee with id " + employee.getEmployeeID());
 		
@@ -49,7 +49,7 @@ public class EmployeeDaoPostgres implements EmployeeDao {
 			stmt = conn.prepareStatement(sql);
 			stmt.setString(1, employee.getFirstName());
 			stmt.setString(2, employee.getLastName());
-			stmt.setInt(3, Integer.parseInt(employee.getPhoneNumber()));
+			stmt.setString(3, employee.getPhoneNumber());
 			stmt.setString(4, employee.getAddress());
 			stmt.setInt(5, employee.getReportsTo());
 			
@@ -67,6 +67,7 @@ public class EmployeeDaoPostgres implements EmployeeDao {
 			conn.setAutoCommit(true);
 			
 		} catch (SQLException e) {
+			log.warn("SQLException thrown when creating employee: " + e);
 			e.printStackTrace();
 		}
 
