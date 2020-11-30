@@ -46,3 +46,34 @@
 2020-11-29 19:32:10 INFO  root:123 - Successfully read all users, total: 1
 2020-11-29 19:32:10 INFO  root:43 - User exists
 2020-11-29 19:32:10 INFO  root:23 - Logged into user: admin
+2020-11-29 19:57:32 INFO  root:37 - Program has started
+2020-11-29 20:03:53 INFO  root:37 - Program has started
+2020-11-29 20:07:36 INFO  root:37 - Program has started
+2020-11-29 20:10:15 INFO  root:37 - Program has started
+2020-11-29 20:28:20 INFO  root:37 - Program has started
+2020-11-29 20:29:48 INFO  root:35 - Authenticating user with username: admin password: 1234
+2020-11-29 20:29:48 INFO  root:43 - User service reading all users
+2020-11-29 20:29:48 INFO  root:111 - Starting to read all users
+2020-11-29 20:29:48 INFO  root:123 - Successfully read all users, total: 1
+2020-11-29 20:29:48 INFO  root:43 - User exists
+2020-11-29 20:29:48 INFO  root:23 - Logged into user: admin
+2020-11-29 20:33:11 INFO  root:37 - Program has started
+2020-11-29 20:36:35 INFO  root:37 - Program has started
+2020-11-29 20:36:38 INFO  root:35 - Authenticating user with username: admin password: 1234
+2020-11-29 20:36:38 INFO  root:43 - User service reading all users
+2020-11-29 20:36:38 INFO  root:111 - Starting to read all users
+2020-11-29 20:36:38 INFO  root:123 - Successfully read all users, total: 1
+2020-11-29 20:36:38 INFO  root:43 - User exists
+2020-11-29 20:36:38 INFO  root:23 - Logged into user: admin
+2020-11-29 20:38:29 INFO  root:37 - Program has started
+2020-11-29 20:39:10 INFO  root:35 - Authenticating user with username: ad password: a
+2020-11-29 20:39:10 INFO  root:43 - User service reading all users
+2020-11-29 20:39:10 INFO  root:111 - Starting to read all users
+2020-11-29 20:39:11 INFO  root:123 - Successfully read all users, total: 1
+2020-11-29 20:39:11 WARN  root:47 - No user exists in database with username: ad password: a
+2020-11-29 20:39:29 INFO  root:35 - Authenticating user with username: admin password: 1234
+2020-11-29 20:39:29 INFO  root:43 - User service reading all users
+2020-11-29 20:39:29 INFO  root:111 - Starting to read all users
+2020-11-29 20:39:29 INFO  root:123 - Successfully read all users, total: 1
+2020-11-29 20:39:29 INFO  root:43 - User exists
+2020-11-29 20:39:29 INFO  root:23 - Logged into user: admin

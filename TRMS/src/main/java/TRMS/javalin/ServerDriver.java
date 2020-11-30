@@ -28,7 +28,7 @@ public class ServerDriver {
 	private static ReimbursementRequestController reimbursementController = new ReimbursementRequestController();
 	private static InformationRequestController informationController = new InformationRequestController();
 	
-	private static final String LOGIN_PATH = "/login";
+	private static final String LOGIN_PATH = "login";
 	
 	public static void main(String[] args) {
 		
@@ -41,6 +41,7 @@ public class ServerDriver {
 		
 		app.post(LOGIN_PATH, ctx -> authController.login(ctx));
 		app.get(LOGIN_PATH, ctx -> authController.checkUser(ctx));
+		app.get("logout", ctx -> {authController.logout(ctx); ctx.redirect("index.html");});
 		
 		//Postman endpoints for testing:
 		
