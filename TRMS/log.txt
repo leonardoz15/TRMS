@@ -192,3 +192,8 @@
 2020-11-29 22:17:16 INFO  root:83 - Starting to read employee with id 2
 2020-11-29 22:17:16 INFO  root:97 - Successfully read employee Zach
 2020-11-29 22:17:16 INFO  root:52 - Successfully read employee: 2
+2020-11-29 22:18:23 INFO  root:38 - Program has started
+2020-11-29 22:18:27 INFO  root:35 - User service reading user
+2020-11-29 22:18:27 INFO  root:82 - Starting to read user with id 1
+2020-11-29 22:18:28 INFO  root:93 - Successfully read user admin
+2020-11-29 22:18:28 INFO  root:52 - Successfully read user: 1
