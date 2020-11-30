@@ -53,7 +53,7 @@ public class ServerDriver {
 		app.post("/createInfoRequest", ctx -> informationController.createInfoRequest(ctx));
 		app.get("/getEmp", ctx -> employeeController.readEmployee(ctx));
 		app.get("/getUser", ctx -> userController.readUser(ctx));
-
+		app.get("/hello", ctx -> ctx.html("hello there"));
 	}
 
 }
