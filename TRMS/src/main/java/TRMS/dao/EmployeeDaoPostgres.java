@@ -76,7 +76,7 @@ public class EmployeeDaoPostgres implements EmployeeDao {
 	@Override
 	public Employee readEmployee(int employeeId) {
 		
-		Employee read;
+		Employee read = null;
 		
 		String sql = "select * from employee where employee_id = ?";
 		
@@ -88,8 +88,11 @@ public class EmployeeDaoPostgres implements EmployeeDao {
 			stmt.setInt(1, employeeId);
 			
 			ResultSet rs = stmt.executeQuery();
-			read = new Employee(rs.getInt(1), rs.getString(2), rs.getString(3), Integer.toString(rs.getInt(4)), 
+			
+			while(rs.next()) {
+			read = new Employee(rs.getInt(1), rs.getString(2), rs.getString(3), rs.getString(4), 
 										rs.getString(5), rs.getInt(6));
+			}
 			
 			log.info("Successfully read employee " + read.getFirstName());
 			

@@ -169,3 +169,26 @@
 2020-11-29 22:06:47 INFO  root:45 - Starting to insert info request with id 0
 2020-11-29 22:06:47 INFO  root:64 - Successfully inserted info request 0
 2020-11-29 22:06:47 INFO  root:31 - Successfully created info request for reimbursement: 1
+2020-11-29 22:12:02 INFO  root:38 - Program has started
+2020-11-29 22:12:04 INFO  root:29 - Employee service reading employee
+2020-11-29 22:12:04 INFO  root:83 - Starting to read employee with id 2
+2020-11-29 22:12:05 WARN  root:99 - SQLException thrown when reading employee with id 2
+2020-11-29 22:12:05 WARN  root:56 - Exception thrown when reading employee: java.lang.IllegalArgumentException: Parameter specified as non-null is null: method io.javalin.http.Context.json, parameter obj
+2020-11-29 22:13:57 INFO  root:29 - Employee service reading employee
+2020-11-29 22:13:57 INFO  root:83 - Starting to read employee with id 2
+2020-11-29 22:13:57 WARN  root:99 - SQLException thrown when reading employee with id 2
+2020-11-29 22:13:57 WARN  root:56 - Exception thrown when reading employee: java.lang.IllegalArgumentException: Parameter specified as non-null is null: method io.javalin.http.Context.json, parameter obj
+2020-11-29 22:16:00 INFO  root:29 - Employee service reading employee
+2020-11-29 22:16:00 INFO  root:83 - Starting to read employee with id 2
+2020-11-29 22:16:00 WARN  root:99 - SQLException thrown when reading employee with id 2
+2020-11-29 22:16:00 WARN  root:56 - Exception thrown when reading employee: java.lang.IllegalArgumentException: Parameter specified as non-null is null: method io.javalin.http.Context.json, parameter obj
+2020-11-29 22:16:13 INFO  root:38 - Program has started
+2020-11-29 22:16:15 INFO  root:29 - Employee service reading employee
+2020-11-29 22:16:15 INFO  root:83 - Starting to read employee with id 2
+2020-11-29 22:16:15 WARN  root:102 - SQLException thrown when reading employee with id 2
+2020-11-29 22:16:15 WARN  root:56 - Exception thrown when reading employee: java.lang.IllegalArgumentException: Parameter specified as non-null is null: method io.javalin.http.Context.json, parameter obj
+2020-11-29 22:17:11 INFO  root:38 - Program has started
+2020-11-29 22:17:16 INFO  root:29 - Employee service reading employee
+2020-11-29 22:17:16 INFO  root:83 - Starting to read employee with id 2
+2020-11-29 22:17:16 INFO  root:97 - Successfully read employee Zach
+2020-11-29 22:17:16 INFO  root:52 - Successfully read employee: 2
