@@ -1,0 +1,222 @@
+2020-11-29 19:22:23 INFO  root:37 - Program has started
+2020-11-29 19:22:28 INFO  root:35 - Authenticating user with username: admin password: 1234
+2020-11-29 19:22:28 INFO  root:43 - User service reading all users
+2020-11-29 19:22:28 INFO  root:111 - Starting to read all users
+2020-11-29 19:22:28 INFO  root:123 - Successfully read all users, total: 1
+2020-11-29 19:22:28 WARN  root:46 - No user exists in database with username: admin password: 1234
+2020-11-29 19:25:40 INFO  root:35 - Authenticating user with username: admin password: 1234
+2020-11-29 19:25:40 INFO  root:43 - User service reading all users
+2020-11-29 19:25:40 INFO  root:111 - Starting to read all users
+2020-11-29 19:25:40 INFO  root:123 - Successfully read all users, total: 1
+2020-11-29 19:25:40 WARN  root:46 - No user exists in database with username: admin password: 1234
+2020-11-29 19:26:02 INFO  root:35 - Authenticating user with username: admin password: 1234
+2020-11-29 19:26:02 INFO  root:43 - User service reading all users
+2020-11-29 19:26:02 INFO  root:111 - Starting to read all users
+2020-11-29 19:26:02 INFO  root:123 - Successfully read all users, total: 1
+2020-11-29 19:26:02 WARN  root:46 - No user exists in database with username: admin password: 1234
+2020-11-29 19:27:11 INFO  root:37 - Program has started
+2020-11-29 19:27:24 INFO  root:35 - Authenticating user with username: admin password: 1234
+2020-11-29 19:27:24 INFO  root:43 - User service reading all users
+2020-11-29 19:27:24 INFO  root:111 - Starting to read all users
+2020-11-29 19:27:24 INFO  root:123 - Successfully read all users, total: 1
+2020-11-29 19:27:24 WARN  root:48 - No user exists in database with username: admin password: 1234
+2020-11-29 19:29:02 INFO  root:37 - Program has started
+2020-11-29 19:29:04 INFO  root:35 - Authenticating user with username: admin password: 1234
+2020-11-29 19:29:04 INFO  root:43 - User service reading all users
+2020-11-29 19:29:04 INFO  root:111 - Starting to read all users
+2020-11-29 19:29:04 INFO  root:123 - Successfully read all users, total: 1
+2020-11-29 19:29:04 WARN  root:48 - No user exists in database with username: admin password: 1234
+2020-11-29 19:29:37 INFO  root:37 - Program has started
+2020-11-29 19:29:41 INFO  root:35 - Authenticating user with username: admin password: 1234
+2020-11-29 19:29:41 INFO  root:43 - User service reading all users
+2020-11-29 19:29:41 INFO  root:111 - Starting to read all users
+2020-11-29 19:29:41 INFO  root:123 - Successfully read all users, total: 1
+2020-11-29 19:29:41 WARN  root:48 - No user exists in database with username: admin password: 1234
+2020-11-29 19:30:25 INFO  root:37 - Program has started
+2020-11-29 19:30:27 INFO  root:35 - Authenticating user with username: admin password: 1234
+2020-11-29 19:30:27 INFO  root:43 - User service reading all users
+2020-11-29 19:30:27 INFO  root:111 - Starting to read all users
+2020-11-29 19:30:27 INFO  root:123 - Successfully read all users, total: 1
+2020-11-29 19:30:27 INFO  root:43 - User exists
+2020-11-29 19:30:27 INFO  root:23 - Logged into user: admin
+2020-11-29 19:32:05 INFO  root:37 - Program has started
+2020-11-29 19:32:09 INFO  root:35 - Authenticating user with username: admin password: 1234
+2020-11-29 19:32:09 INFO  root:43 - User service reading all users
+2020-11-29 19:32:09 INFO  root:111 - Starting to read all users
+2020-11-29 19:32:10 INFO  root:123 - Successfully read all users, total: 1
+2020-11-29 19:32:10 INFO  root:43 - User exists
+2020-11-29 19:32:10 INFO  root:23 - Logged into user: admin
+2020-11-29 19:57:32 INFO  root:37 - Program has started
+2020-11-29 20:03:53 INFO  root:37 - Program has started
+2020-11-29 20:07:36 INFO  root:37 - Program has started
+2020-11-29 20:10:15 INFO  root:37 - Program has started
+2020-11-29 20:28:20 INFO  root:37 - Program has started
+2020-11-29 20:29:48 INFO  root:35 - Authenticating user with username: admin password: 1234
+2020-11-29 20:29:48 INFO  root:43 - User service reading all users
+2020-11-29 20:29:48 INFO  root:111 - Starting to read all users
+2020-11-29 20:29:48 INFO  root:123 - Successfully read all users, total: 1
+2020-11-29 20:29:48 INFO  root:43 - User exists
+2020-11-29 20:29:48 INFO  root:23 - Logged into user: admin
+2020-11-29 20:33:11 INFO  root:37 - Program has started
+2020-11-29 20:36:35 INFO  root:37 - Program has started
+2020-11-29 20:36:38 INFO  root:35 - Authenticating user with username: admin password: 1234
+2020-11-29 20:36:38 INFO  root:43 - User service reading all users
+2020-11-29 20:36:38 INFO  root:111 - Starting to read all users
+2020-11-29 20:36:38 INFO  root:123 - Successfully read all users, total: 1
+2020-11-29 20:36:38 INFO  root:43 - User exists
+2020-11-29 20:36:38 INFO  root:23 - Logged into user: admin
+2020-11-29 20:38:29 INFO  root:37 - Program has started
+2020-11-29 20:39:10 INFO  root:35 - Authenticating user with username: ad password: a
+2020-11-29 20:39:10 INFO  root:43 - User service reading all users
+2020-11-29 20:39:10 INFO  root:111 - Starting to read all users
+2020-11-29 20:39:11 INFO  root:123 - Successfully read all users, total: 1
+2020-11-29 20:39:11 WARN  root:47 - No user exists in database with username: ad password: a
+2020-11-29 20:39:29 INFO  root:35 - Authenticating user with username: admin password: 1234
+2020-11-29 20:39:29 INFO  root:43 - User service reading all users
+2020-11-29 20:39:29 INFO  root:111 - Starting to read all users
+2020-11-29 20:39:29 INFO  root:123 - Successfully read all users, total: 1
+2020-11-29 20:39:29 INFO  root:43 - User exists
+2020-11-29 20:39:29 INFO  root:23 - Logged into user: admin
+2020-11-29 20:46:31 INFO  root:37 - Program has started
+2020-11-29 20:46:36 INFO  root:35 - Authenticating user with username: admin password: 1234
+2020-11-29 20:46:36 INFO  root:43 - User service reading all users
+2020-11-29 20:46:36 INFO  root:111 - Starting to read all users
+2020-11-29 20:46:36 INFO  root:123 - Successfully read all users, total: 1
+2020-11-29 20:46:36 INFO  root:43 - User exists
+2020-11-29 20:46:36 INFO  root:23 - Logged into user: admin
+2020-11-29 20:46:50 INFO  root:46 - Logging out user
+2020-11-29 20:47:38 INFO  root:37 - Program has started
+2020-11-29 20:47:51 INFO  root:35 - Authenticating user with username: admin password: 1234
+2020-11-29 20:47:51 INFO  root:43 - User service reading all users
+2020-11-29 20:47:51 INFO  root:111 - Starting to read all users
+2020-11-29 20:47:51 INFO  root:123 - Successfully read all users, total: 1
+2020-11-29 20:47:51 INFO  root:43 - User exists
+2020-11-29 20:47:51 INFO  root:23 - Logged into user: admin
+2020-11-29 20:48:11 INFO  root:35 - Authenticating user with username: admin password: 1234
+2020-11-29 20:48:11 INFO  root:43 - User service reading all users
+2020-11-29 20:48:11 INFO  root:111 - Starting to read all users
+2020-11-29 20:48:11 INFO  root:123 - Successfully read all users, total: 1
+2020-11-29 20:48:11 INFO  root:43 - User exists
+2020-11-29 20:48:11 INFO  root:23 - Logged into user: admin
+2020-11-29 20:48:36 INFO  root:35 - Authenticating user with username: admin password: 1234
+2020-11-29 20:48:36 INFO  root:43 - User service reading all users
+2020-11-29 20:48:36 INFO  root:111 - Starting to read all users
+2020-11-29 20:48:36 INFO  root:123 - Successfully read all users, total: 1
+2020-11-29 20:48:36 INFO  root:43 - User exists
+2020-11-29 20:48:36 INFO  root:23 - Logged into user: admin
+2020-11-29 20:50:09 INFO  root:20 - Reimbursement service creating request
+2020-11-29 20:50:09 INFO  root:51 - Starting to insert request with id 0
+2020-11-29 20:50:09 INFO  root:45 - Successfully created request for user 1
+2020-11-29 20:51:53 INFO  root:20 - Reimbursement service creating request
+2020-11-29 20:51:53 INFO  root:51 - Starting to insert request with id 0
+2020-11-29 20:51:53 INFO  root:45 - Successfully created request for user 1
+2020-11-29 20:53:36 INFO  root:37 - Program has started
+2020-11-29 20:53:41 INFO  root:20 - Reimbursement service creating request
+2020-11-29 20:53:41 INFO  root:51 - Starting to insert request with id 0
+2020-11-29 20:53:41 INFO  root:45 - Successfully created request for user 1
+2020-11-29 20:54:00 INFO  root:20 - Reimbursement service creating request
+2020-11-29 20:54:00 INFO  root:51 - Starting to insert request with id 0
+2020-11-29 20:54:00 INFO  root:79 - Successfully inserted request 0
+2020-11-29 20:54:00 INFO  root:45 - Successfully created request for user 1
+2020-11-29 21:45:21 INFO  root:38 - Program has started
+2020-11-29 21:45:41 INFO  root:35 - Authenticating user with username: admin password: 1234
+2020-11-29 21:45:41 INFO  root:43 - User service reading all users
+2020-11-29 21:45:41 INFO  root:111 - Starting to read all users
+2020-11-29 21:45:41 INFO  root:123 - Successfully read all users, total: 1
+2020-11-29 21:45:41 INFO  root:43 - User exists
+2020-11-29 21:45:41 INFO  root:23 - Logged into user: admin
+2020-11-29 21:46:25 WARN  root:49 - Exception thrown when creating request: java.lang.NumberFormatException: null
+2020-11-29 21:58:45 INFO  root:38 - Program has started
+2020-11-29 21:59:18 INFO  root:35 - Authenticating user with username: admin password: 98
+2020-11-29 21:59:18 INFO  root:43 - User service reading all users
+2020-11-29 21:59:18 INFO  root:111 - Starting to read all users
+2020-11-29 21:59:19 INFO  root:123 - Successfully read all users, total: 1
+2020-11-29 21:59:19 WARN  root:47 - No user exists in database with username: admin password: 98
+2020-11-29 21:59:25 INFO  root:35 - Authenticating user with username: admin password: 1234
+2020-11-29 21:59:25 INFO  root:43 - User service reading all users
+2020-11-29 21:59:25 INFO  root:111 - Starting to read all users
+2020-11-29 21:59:25 INFO  root:123 - Successfully read all users, total: 1
+2020-11-29 21:59:25 INFO  root:43 - User exists
+2020-11-29 21:59:25 INFO  root:23 - Logged into user: admin
+2020-11-29 21:59:35 WARN  root:49 - Exception thrown when creating request: java.lang.NumberFormatException: null
+2020-11-29 22:01:03 INFO  root:38 - Program has started
+2020-11-29 22:01:16 INFO  root:35 - Authenticating user with username: admin password: 1234
+2020-11-29 22:01:16 INFO  root:43 - User service reading all users
+2020-11-29 22:01:16 INFO  root:111 - Starting to read all users
+2020-11-29 22:01:16 INFO  root:123 - Successfully read all users, total: 1
+2020-11-29 22:01:16 INFO  root:43 - User exists
+2020-11-29 22:01:16 INFO  root:23 - Logged into user: admin
+2020-11-29 22:02:03 INFO  root:38 - Program has started
+2020-11-29 22:02:13 INFO  root:35 - Authenticating user with username: admin password: 1234
+2020-11-29 22:02:13 INFO  root:43 - User service reading all users
+2020-11-29 22:02:13 INFO  root:111 - Starting to read all users
+2020-11-29 22:02:13 INFO  root:123 - Successfully read all users, total: 1
+2020-11-29 22:02:13 INFO  root:43 - User exists
+2020-11-29 22:02:13 INFO  root:23 - Logged into user: admin
+2020-11-29 22:03:11 INFO  root:38 - Program has started
+2020-11-29 22:03:24 INFO  root:35 - Authenticating user with username: admin password: 1234
+2020-11-29 22:03:24 INFO  root:43 - User service reading all users
+2020-11-29 22:03:24 INFO  root:111 - Starting to read all users
+2020-11-29 22:03:25 INFO  root:123 - Successfully read all users, total: 1
+2020-11-29 22:03:25 INFO  root:43 - User exists
+2020-11-29 22:03:25 INFO  root:23 - Logged into user: admin
+2020-11-29 22:06:03 INFO  root:38 - Program has started
+2020-11-29 22:06:06 INFO  root:20 - Information service creating request
+2020-11-29 22:06:06 INFO  root:45 - Starting to insert info request with id 0
+2020-11-29 22:06:07 INFO  root:31 - Successfully created info request for reimbursement: 1
+2020-11-29 22:06:44 INFO  root:38 - Program has started
+2020-11-29 22:06:47 INFO  root:20 - Information service creating request
+2020-11-29 22:06:47 INFO  root:45 - Starting to insert info request with id 0
+2020-11-29 22:06:47 INFO  root:64 - Successfully inserted info request 0
+2020-11-29 22:06:47 INFO  root:31 - Successfully created info request for reimbursement: 1
+2020-11-29 22:12:02 INFO  root:38 - Program has started
+2020-11-29 22:12:04 INFO  root:29 - Employee service reading employee
+2020-11-29 22:12:04 INFO  root:83 - Starting to read employee with id 2
+2020-11-29 22:12:05 WARN  root:99 - SQLException thrown when reading employee with id 2
+2020-11-29 22:12:05 WARN  root:56 - Exception thrown when reading employee: java.lang.IllegalArgumentException: Parameter specified as non-null is null: method io.javalin.http.Context.json, parameter obj
+2020-11-29 22:13:57 INFO  root:29 - Employee service reading employee
+2020-11-29 22:13:57 INFO  root:83 - Starting to read employee with id 2
+2020-11-29 22:13:57 WARN  root:99 - SQLException thrown when reading employee with id 2
+2020-11-29 22:13:57 WARN  root:56 - Exception thrown when reading employee: java.lang.IllegalArgumentException: Parameter specified as non-null is null: method io.javalin.http.Context.json, parameter obj
+2020-11-29 22:16:00 INFO  root:29 - Employee service reading employee
+2020-11-29 22:16:00 INFO  root:83 - Starting to read employee with id 2
+2020-11-29 22:16:00 WARN  root:99 - SQLException thrown when reading employee with id 2
+2020-11-29 22:16:00 WARN  root:56 - Exception thrown when reading employee: java.lang.IllegalArgumentException: Parameter specified as non-null is null: method io.javalin.http.Context.json, parameter obj
+2020-11-29 22:16:13 INFO  root:38 - Program has started
+2020-11-29 22:16:15 INFO  root:29 - Employee service reading employee
+2020-11-29 22:16:15 INFO  root:83 - Starting to read employee with id 2
+2020-11-29 22:16:15 WARN  root:102 - SQLException thrown when reading employee with id 2
+2020-11-29 22:16:15 WARN  root:56 - Exception thrown when reading employee: java.lang.IllegalArgumentException: Parameter specified as non-null is null: method io.javalin.http.Context.json, parameter obj
+2020-11-29 22:17:11 INFO  root:38 - Program has started
+2020-11-29 22:17:16 INFO  root:29 - Employee service reading employee
+2020-11-29 22:17:16 INFO  root:83 - Starting to read employee with id 2
+2020-11-29 22:17:16 INFO  root:97 - Successfully read employee Zach
+2020-11-29 22:17:16 INFO  root:52 - Successfully read employee: 2
+2020-11-29 22:18:23 INFO  root:38 - Program has started
+2020-11-29 22:18:27 INFO  root:35 - User service reading user
+2020-11-29 22:18:27 INFO  root:82 - Starting to read user with id 1
+2020-11-29 22:18:28 INFO  root:93 - Successfully read user admin
+2020-11-29 22:18:28 INFO  root:52 - Successfully read user: 1
+2020-11-30 10:16:42 INFO  root:38 - Program has started
+2020-11-30 10:17:06 INFO  root:35 - Authenticating user with username: admin password: 1234
+2020-11-30 10:17:06 INFO  root:43 - User service reading all users
+2020-11-30 10:17:06 INFO  root:112 - Starting to read all users
+2020-11-30 10:17:07 INFO  root:124 - Successfully read all users, total: 1
+2020-11-30 10:17:07 INFO  root:43 - User exists
+2020-11-30 10:17:07 INFO  root:23 - Logged into user: admin
+2020-11-30 14:03:59 INFO  root:38 - Program has started
+2020-11-30 14:05:51 INFO  root:35 - Authenticating user with username: admin password: 1234
+2020-11-30 14:05:51 INFO  root:43 - User service reading all users
+2020-11-30 14:05:51 INFO  root:112 - Starting to read all users
+2020-11-30 14:05:51 INFO  root:124 - Successfully read all users, total: 1
+2020-11-30 14:05:51 INFO  root:43 - User exists
+2020-11-30 14:05:51 INFO  root:23 - Logged into user: admin
+2020-11-30 14:07:00 WARN  root:49 - Exception thrown when creating request: java.lang.NumberFormatException: null
+2020-11-30 14:10:54 INFO  root:20 - Employee service creating employee
+2020-11-30 14:10:54 INFO  root:43 - Starting to insert employee with id 0
+2020-11-30 14:10:54 INFO  root:64 - Successfully inserted employee 0
+2020-11-30 14:10:54 INFO  root:33 - Successfully created employee: Randy
+2020-11-30 14:11:12 INFO  root:27 - User service creating user
+2020-11-30 14:11:12 INFO  root:44 - Starting to insert employee with id 0
+2020-11-30 14:11:12 INFO  root:64 - Successfully inserted user 0
+2020-11-30 14:11:12 INFO  root:33 - Successfully created user: randy
