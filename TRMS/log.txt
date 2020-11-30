@@ -197,3 +197,26 @@
 2020-11-29 22:18:27 INFO  root:82 - Starting to read user with id 1
 2020-11-29 22:18:28 INFO  root:93 - Successfully read user admin
 2020-11-29 22:18:28 INFO  root:52 - Successfully read user: 1
+2020-11-30 10:16:42 INFO  root:38 - Program has started
+2020-11-30 10:17:06 INFO  root:35 - Authenticating user with username: admin password: 1234
+2020-11-30 10:17:06 INFO  root:43 - User service reading all users
+2020-11-30 10:17:06 INFO  root:112 - Starting to read all users
+2020-11-30 10:17:07 INFO  root:124 - Successfully read all users, total: 1
+2020-11-30 10:17:07 INFO  root:43 - User exists
+2020-11-30 10:17:07 INFO  root:23 - Logged into user: admin
+2020-11-30 14:03:59 INFO  root:38 - Program has started
+2020-11-30 14:05:51 INFO  root:35 - Authenticating user with username: admin password: 1234
+2020-11-30 14:05:51 INFO  root:43 - User service reading all users
+2020-11-30 14:05:51 INFO  root:112 - Starting to read all users
+2020-11-30 14:05:51 INFO  root:124 - Successfully read all users, total: 1
+2020-11-30 14:05:51 INFO  root:43 - User exists
+2020-11-30 14:05:51 INFO  root:23 - Logged into user: admin
+2020-11-30 14:07:00 WARN  root:49 - Exception thrown when creating request: java.lang.NumberFormatException: null
+2020-11-30 14:10:54 INFO  root:20 - Employee service creating employee
+2020-11-30 14:10:54 INFO  root:43 - Starting to insert employee with id 0
+2020-11-30 14:10:54 INFO  root:64 - Successfully inserted employee 0
+2020-11-30 14:10:54 INFO  root:33 - Successfully created employee: Randy
+2020-11-30 14:11:12 INFO  root:27 - User service creating user
+2020-11-30 14:11:12 INFO  root:44 - Starting to insert employee with id 0
+2020-11-30 14:11:12 INFO  root:64 - Successfully inserted user 0
+2020-11-30 14:11:12 INFO  root:33 - Successfully created user: randy

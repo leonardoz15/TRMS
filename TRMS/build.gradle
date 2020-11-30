@@ -13,7 +13,7 @@ plugins {
 
 jar {
 	manifest {
-			attributes 'Main-Class': 'TRMS.ServerDriver'
+			attributes 'Main-Class': 'TRMS.javalin.ServerDriver'
 	}
 	from {
 			configurations.compile.collect {it.isDirectory() ? it : zipTree(it) }
