@@ -100,6 +100,12 @@ public class EmployeeDaoTest {
 		}
 	}
 	
+	
+	@Test
+	public void readEmployeeTest() {
+		
+	}
+	
 	private void initStmtHelper(String sql) throws SQLException {
 		//Prep Mockito Spy
 		stmt = realConn.prepareStatement(sql);
