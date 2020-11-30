@@ -46,7 +46,7 @@ public class ReimbursementRequestDaoPostgres implements ReimbursementRequestDao 
 	@Override
 	public void createRequest(ReimbursementRequest request) {
 		
-		String sql = "insert into request values (?,?,?,?,?,?,?,?::event_type,?,?,?::approval_status)";
+		String sql = "insert into request values (default,?,?,?,?,?,?,?,?::event_type,?,?,?::approval_status)";
 		
 		log.info("Starting to insert request with id " + request.getRequestId());
 		

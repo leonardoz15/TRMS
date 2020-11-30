@@ -45,7 +45,8 @@ public class ServerDriver {
 		
 		app.post("/createEmp", ctx -> employeeController.createEmployee(ctx));
 		app.post("/createUser", ctx -> userController.createUser(ctx));
-		
+		app.post("/createRequest", ctx -> reimbursementController.createRequest(ctx));
+		app.post("/createInfoRequest", ctx -> reimbursementController.createRequest(ctx));
 
 	}
 

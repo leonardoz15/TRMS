@@ -23,6 +23,7 @@ public class AuthController {
 			log.info("Logged into user: "+ username);
 			ctx.cookieStore(TOKEN_NAME, service.createToken(username));
 			ctx.status(200);
+			ctx.redirect("new-reimbursement.html");
 			//TODO: Pull AuthLevel and handle redirection
 		}
 		else {
