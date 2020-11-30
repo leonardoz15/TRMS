@@ -49,7 +49,7 @@ public class UserController {
 			
 			ctx.json(service.readUser(userId));			
 			
-			log.info("Successfully created user: " + userId);
+			log.info("Successfully read user: " + userId);
 			ctx.status(200);
 			
 		} catch (Exception e) {

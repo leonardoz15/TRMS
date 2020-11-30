@@ -40,7 +40,7 @@ public class InformationRequestDaoPostgres implements InformationRequestDao {
 	@Override
 	public void createInfoRequest(InformationRequest infoRequest) {
 		
-		String sql = "insert into info_req values(?, ?, ?)";
+		String sql = "insert into info_req values(default, ?, ?, ?)";
 		
 		log.info("Starting to insert info request with id " + infoRequest.getInfoId());
 		

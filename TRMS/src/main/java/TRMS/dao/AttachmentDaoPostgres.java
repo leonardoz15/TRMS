@@ -40,7 +40,7 @@ public class AttachmentDaoPostgres implements AttachmentDao {
 	@Override
 	public void createAttachment(Attachment attachment) {
 		
-		String sql = "insert into attachment values (?, ?, ?)";
+		String sql = "insert into attachment values (default, ?, ?, ?)";
 		
 		log.info("Starting to insert attachment with id " + attachment.getAttachId());
 		

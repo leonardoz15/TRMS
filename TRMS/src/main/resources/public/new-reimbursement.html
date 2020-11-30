@@ -21,14 +21,78 @@
           <div class="inner">
             <h3 class="masthead-brand">TRMS</h3>
             <nav class="nav nav-masthead justify-content-center">
-              <a class="nav-link active" href="#">Home</a>
-              <a class="nav-link" href="#">Logout</a>
+              <a class="nav-link active" href="index.html">Home</a>
+              <a class="nav-link" action="logout" method="GET" href="index.html">Logout</a>
               <a class="nav-link" href="#">Contact</a>
             </nav>
           </div>
         </header>
-  
         
+      <main role="main" class="inner cover">
+        <h1 class="cover-heading">New Reimbursement Request</h1>
+        <form id="new-reimbursement-form" method="POST" action="http://localhost:9091/request" enctype="multipart/form-data">
+
+          <div class="form-group">
+            <label for="radio-type">Event Type:</label>
+            <div class="radio radio-inline" id="radio-type">
+              <label><input type="radio" name="event_type" value="UNI_COURSE" />University Course</label>
+              <label><input type="radio" name="event_type" value="SEMINAR" />Seminar</label>
+              <label
+                ><input type="radio" name="event_type" value="CERT_PREP_CLASS" />Certification Prep
+                Class</label
+              >
+              <label><input type="radio" name="event_type" value="CERTIFICATION" />Certification</label>
+              <label
+                ><input type="radio" name="event_type" value="TECHNICAL_TRAINING" />Technical
+                Training</label
+              >
+              <label><input type="radio" name="event_type" value="OTHER" />Other</label>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label>Estimated Cost:</label>
+            <input type="number" id="event-cost" name="cost" />
+          </div>
+
+          <div class="form-group form-inline">
+            <label>Event Date & Time:</label>
+            <input type="date" class="form-control" name="date" />
+            <input type="time" class="form-control" name="time" />
+          </div>
+
+          <div class="form-group">
+            <label>Event Location:</label>
+            <input type="text" class="form-control" id="event-location" name="location" />
+          </div>
+
+          <div class="form-group">
+            <label>Description of Event:</label>
+            <textarea class="form-control" rows="6" name="description"></textarea>
+          </div>
+          
+          <div class="form-group">
+            <label>Grading format:</label>
+            <input type="text" class="form-control" name="grading_format" />
+            <p>
+              Formats include: Presentation, Pass/Fail, A-F, or a % out of 100.
+            </p>
+          </div>
+
+          <div class="form-group">
+            <label>Is this an urgent request?</label>
+            <div class="radio" id="urgency">
+              <label><input type="radio" name="urgent" value="true" /> Yes</label>
+              <label><input type="radio" name="urgent" value="false" /> No</label>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <button type="submit" id="submit-btn" class="login-form">Submit</button>
+            <button type="button" id="clear-btn">Clear</button>
+          </div>
+        </form>
+      </main>
   
         <footer class="mastfoot mt-auto">
           <div class="inner">

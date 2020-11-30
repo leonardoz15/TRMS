@@ -29,6 +29,7 @@ public class ServerDriver {
 	private static InformationRequestController informationController = new InformationRequestController();
 	
 	private static final String LOGIN_PATH = "login";
+	private static final String REQUEST_PATH = "request";
 	
 	public static void main(String[] args) {
 		
@@ -42,6 +43,7 @@ public class ServerDriver {
 		app.post(LOGIN_PATH, ctx -> authController.login(ctx));
 		app.get(LOGIN_PATH, ctx -> authController.checkUser(ctx));
 		app.get("logout", ctx -> {authController.logout(ctx); ctx.redirect("index.html");});
+		app.post(REQUEST_PATH, ctx -> reimbursementController.createRequest(ctx));
 		
 		//Postman endpoints for testing:
 		
@@ -49,6 +51,8 @@ public class ServerDriver {
 		app.post("/createUser", ctx -> userController.createUser(ctx));
 		app.post("/createRequest", ctx -> reimbursementController.createRequest(ctx));
 		app.post("/createInfoRequest", ctx -> informationController.createInfoRequest(ctx));
+		app.get("/getEmp", ctx -> employeeController.readEmployee(ctx));
+		app.get("/getUser", ctx -> userController.readUser(ctx));
 
 	}
 
