@@ -39,14 +39,15 @@ public class ServerDriver {
 		app.get("", ctx -> ctx.redirect("index.html"));
 		app.get("home", ctx -> ctx.redirect("index.html"));
 		
-		app.get(LOGIN_PATH, ctx -> authController.login(ctx));
+		app.post(LOGIN_PATH, ctx -> authController.login(ctx));
+		app.get(LOGIN_PATH, ctx -> authController.checkUser(ctx));
 		
 		//Postman endpoints for testing:
 		
 		app.post("/createEmp", ctx -> employeeController.createEmployee(ctx));
 		app.post("/createUser", ctx -> userController.createUser(ctx));
 		app.post("/createRequest", ctx -> reimbursementController.createRequest(ctx));
-		app.post("/createInfoRequest", ctx -> reimbursementController.createRequest(ctx));
+		app.post("/createInfoRequest", ctx -> informationController.createInfoRequest(ctx));
 
 	}
 

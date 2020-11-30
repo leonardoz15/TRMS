@@ -1,0 +1,48 @@
+2020-11-29 19:22:23 INFO  root:37 - Program has started
+2020-11-29 19:22:28 INFO  root:35 - Authenticating user with username: admin password: 1234
+2020-11-29 19:22:28 INFO  root:43 - User service reading all users
+2020-11-29 19:22:28 INFO  root:111 - Starting to read all users
+2020-11-29 19:22:28 INFO  root:123 - Successfully read all users, total: 1
+2020-11-29 19:22:28 WARN  root:46 - No user exists in database with username: admin password: 1234
+2020-11-29 19:25:40 INFO  root:35 - Authenticating user with username: admin password: 1234
+2020-11-29 19:25:40 INFO  root:43 - User service reading all users
+2020-11-29 19:25:40 INFO  root:111 - Starting to read all users
+2020-11-29 19:25:40 INFO  root:123 - Successfully read all users, total: 1
+2020-11-29 19:25:40 WARN  root:46 - No user exists in database with username: admin password: 1234
+2020-11-29 19:26:02 INFO  root:35 - Authenticating user with username: admin password: 1234
+2020-11-29 19:26:02 INFO  root:43 - User service reading all users
+2020-11-29 19:26:02 INFO  root:111 - Starting to read all users
+2020-11-29 19:26:02 INFO  root:123 - Successfully read all users, total: 1
+2020-11-29 19:26:02 WARN  root:46 - No user exists in database with username: admin password: 1234
+2020-11-29 19:27:11 INFO  root:37 - Program has started
+2020-11-29 19:27:24 INFO  root:35 - Authenticating user with username: admin password: 1234
+2020-11-29 19:27:24 INFO  root:43 - User service reading all users
+2020-11-29 19:27:24 INFO  root:111 - Starting to read all users
+2020-11-29 19:27:24 INFO  root:123 - Successfully read all users, total: 1
+2020-11-29 19:27:24 WARN  root:48 - No user exists in database with username: admin password: 1234
+2020-11-29 19:29:02 INFO  root:37 - Program has started
+2020-11-29 19:29:04 INFO  root:35 - Authenticating user with username: admin password: 1234
+2020-11-29 19:29:04 INFO  root:43 - User service reading all users
+2020-11-29 19:29:04 INFO  root:111 - Starting to read all users
+2020-11-29 19:29:04 INFO  root:123 - Successfully read all users, total: 1
+2020-11-29 19:29:04 WARN  root:48 - No user exists in database with username: admin password: 1234
+2020-11-29 19:29:37 INFO  root:37 - Program has started
+2020-11-29 19:29:41 INFO  root:35 - Authenticating user with username: admin password: 1234
+2020-11-29 19:29:41 INFO  root:43 - User service reading all users
+2020-11-29 19:29:41 INFO  root:111 - Starting to read all users
+2020-11-29 19:29:41 INFO  root:123 - Successfully read all users, total: 1
+2020-11-29 19:29:41 WARN  root:48 - No user exists in database with username: admin password: 1234
+2020-11-29 19:30:25 INFO  root:37 - Program has started
+2020-11-29 19:30:27 INFO  root:35 - Authenticating user with username: admin password: 1234
+2020-11-29 19:30:27 INFO  root:43 - User service reading all users
+2020-11-29 19:30:27 INFO  root:111 - Starting to read all users
+2020-11-29 19:30:27 INFO  root:123 - Successfully read all users, total: 1
+2020-11-29 19:30:27 INFO  root:43 - User exists
+2020-11-29 19:30:27 INFO  root:23 - Logged into user: admin
+2020-11-29 19:32:05 INFO  root:37 - Program has started
+2020-11-29 19:32:09 INFO  root:35 - Authenticating user with username: admin password: 1234
+2020-11-29 19:32:09 INFO  root:43 - User service reading all users
+2020-11-29 19:32:09 INFO  root:111 - Starting to read all users
+2020-11-29 19:32:10 INFO  root:123 - Successfully read all users, total: 1
+2020-11-29 19:32:10 INFO  root:43 - User exists
+2020-11-29 19:32:10 INFO  root:23 - Logged into user: admin

@@ -44,7 +44,7 @@ public class AuthController {
 	public void logout(Context ctx) {
 		try {
 			log.info("Logging out user");
-			ctx.cookieStore("user_token", "");
+			ctx.cookieStore(TOKEN_NAME, "");
 		} catch (Exception e) {
 			log.warn("Exception thrown when logging out "+ e);
 		}

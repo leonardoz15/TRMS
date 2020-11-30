@@ -39,7 +39,8 @@ public class AuthServiceImpl implements AuthService {
 		usersList = userService.readAllUsers();
 		
 		for (User u : usersList) {
-			if(u.getUsername() == username & u.getPassword() == password) {
+			if(u.getUsername().equals(username) & u.getPassword().equals(password)) {
+				log.info("User exists");
 				return true;
 			}
 		}
