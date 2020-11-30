@@ -75,7 +75,7 @@ public class UserDaoPostgres implements UserDao {
 	@Override
 	public User readUser(int userId) {
 		
-		User read;
+		User read = null;
 		
 		String sql = "select * from users where user_id = ?";
 		
@@ -87,8 +87,9 @@ public class UserDaoPostgres implements UserDao {
 			stmt.setInt(1, userId);
 			
 			ResultSet rs = stmt.executeQuery();
-			read = new User(rs.getInt(1), rs.getString(3), rs.getString(4), rs.getInt(2), AuthPriv.valueOf(rs.getString(5)));
-			
+			while(rs.next()) {
+				read = new User(rs.getInt(1), rs.getString(3), rs.getString(4), rs.getInt(2), AuthPriv.valueOf(rs.getString(5)));
+			}
 			log.info("Successfully read user " + read.getUsername());
 			
 			return read;
