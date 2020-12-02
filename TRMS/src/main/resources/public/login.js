@@ -1,7 +1,7 @@
 window.onload = function () {
 
     var xhr = new XMLHttpRequest();
-    var url = "http://login.html";
+    var url = "http://localhost:9091/login.html";
     //sets up ready state handler
     xhr.onreadystatechange = function () {
         console.log(xhr.readyState);
