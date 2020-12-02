@@ -53,10 +53,31 @@ body {
     text-align: center;
   }
 
+.starter-template h3 {
+  margin-top: 5px;
+  margin-bottom: 50px;
+}
+
 .main-container {
     justify-content: center;
 }
 
+.main-options {
+  margin: auto;
+  width: 500px;
+}
+
+.options{
+  padding: 5px;
+}
+
+.options-item{
+  width: 300px;
+}
+
+/*
+* Footer
+*/
 .footer{
     position: fixed;
     left: 0;

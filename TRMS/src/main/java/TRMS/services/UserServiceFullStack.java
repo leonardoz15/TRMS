@@ -36,6 +36,15 @@ public class UserServiceFullStack implements UserService {
 		
 		return userDao.readUser(userId);
 	}
+	
+
+	@Override
+	public User readUserByLogin(String username, String password) {
+
+		log.info("User service reading user by login");
+		
+		return userDao.readUserByLogin(username, password);
+	}
 
 	@Override
 	public List<User> readAllUsers() {

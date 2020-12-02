@@ -102,6 +102,38 @@ public class UserDaoPostgres implements UserDao {
 		return null;
 	}
 
+	
+	@Override
+	public User readUserByLogin(String username, String password) {
+		
+		User read = null;
+		
+		String sql = "select * from users where username = ?, password = ?";
+		
+		log.info("Starting to read user by login creds");
+		
+		try (Connection conn = connUtil.createConnection()){
+			
+			stmt = conn.prepareStatement(sql);
+			stmt.setString(1, username);
+			stmt.setString(2, password);
+			
+			ResultSet rs = stmt.executeQuery();
+			while(rs.next()) {
+				read = new User(rs.getInt(1), rs.getString(3), rs.getString(4), rs.getInt(2), AuthPriv.valueOf(rs.getString(5)));
+			}
+			log.info("Successfully read user " + read.getUsername());
+			
+			return read;
+			
+		} catch (SQLException e) {
+			log.warn("SQLException thrown when reading user with credentials");
+			e.printStackTrace();
+		}
+		
+		return null;
+	}
+
 	@Override
 	public List<User> readAllUsers() {
 		

@@ -1,9 +1,16 @@
 package TRMS.controllers;
 
+import java.util.HashMap;
+import java.util.Map;
+
 import org.apache.log4j.Logger;
 
 import TRMS.services.AuthService;
 import TRMS.services.AuthServiceImpl;
+import TRMS.services.UserService;
+import TRMS.services.UserServiceFullStack;
+import TRMS.models.*;
+import TRMS.models.User.AuthPriv;
 import io.javalin.http.Context;
 
 public class AuthController {
@@ -11,6 +18,8 @@ public class AuthController {
 	private static Logger log = Logger.getRootLogger();
 	
 	private AuthService service = new AuthServiceImpl();
+	
+	private UserService userService = new UserServiceFullStack();
 	
 	private static final String TOKEN_NAME = "user_token";
 	
@@ -23,8 +32,29 @@ public class AuthController {
 			log.info("Logged into user: "+ username);
 			ctx.cookieStore(TOKEN_NAME, service.createToken(username));
 			ctx.status(200);
-			ctx.redirect("new-reimbursement.html");
-			//TODO: Pull AuthLevel and handle redirection
+			User loggedIn = userService.readUserByLogin(username, password);
+			String priviledge = loggedIn.getAuthLevel().toString();
+			
+			switch(priviledge) {
+				case "EMPLOYEE":
+					ctx.redirect("emp-dashboard.html");
+					break;
+				case "SUPERVISOR":
+					ctx.redirect("approver-dashboard.html");
+					break;
+				case "DEPT_HEAD":
+					ctx.redirect("approver-dashboard.html");
+					break;
+				case "BENCO":
+					ctx.redirect("approver-dashboard.html");
+					break;
+				case "BENCO_SUP":
+					ctx.redirect("approver-dashboard.html");
+					break;
+				case "ADMIN":
+					ctx.redirect("approver-dashboard.html");
+					break;	
+			}
 		}
 		else {
 			ctx.redirect("login.html?error=failed-login");
@@ -49,5 +79,6 @@ public class AuthController {
 			log.warn("Exception thrown when logging out "+ e);
 		}
 	}
+	
 
 }
