@@ -22,6 +22,8 @@ public class Employee {
 	
 	private int reportsTo;
 	
+	private int funds;
+	
 	
 	public Employee() {
 		super();
@@ -34,10 +36,11 @@ public class Employee {
 	 * @param phoneNumber the phone number of the employee.
 	 * @param address the address of the employee
 	 * @param reportsTo the direct supervisor of the employee.
+	 * @param funds the amount of funds available default to $1000
 	 */
 
 	public Employee(int employeeID, String firstName, String lastName, String phoneNumber, String address,
-			int reportsTo) {
+			int reportsTo, int funds) {
 		super();
 		this.employeeId = employeeID;
 		this.firstName = firstName;
@@ -45,6 +48,7 @@ public class Employee {
 		this.phoneNumber = phoneNumber;
 		this.address = address;
 		this.reportsTo = reportsTo;
+		this.funds = 1000;
 	}
 
 	/**
@@ -131,10 +135,25 @@ public class Employee {
 		this.reportsTo = reportsTo;
 	}
 
+	/**
+	 * @return the funds
+	 */
+	public int getFunds() {
+		return funds;
+	}
+
+	/**
+	 * @param funds the funds to set
+	 */
+	public void setFunds(int funds) {
+		this.funds = funds;
+	}
+
 	@Override
 	public String toString() {
-		return "Employee [employeeID=" + employeeId + ", firstName=" + firstName + ", lastName=" + lastName
-				+ ", phoneNumber=" + phoneNumber + ", address=" + address + ", reportsTo=" + reportsTo + "]";
+		return "Employee [employeeId=" + employeeId + ", firstName=" + firstName + ", lastName=" + lastName
+				+ ", phoneNumber=" + phoneNumber + ", address=" + address + ", reportsTo=" + reportsTo + ", funds="
+				+ funds + "]";
 	}
 
 	@Override
@@ -144,6 +163,7 @@ public class Employee {
 		result = prime * result + ((address == null) ? 0 : address.hashCode());
 		result = prime * result + employeeId;
 		result = prime * result + ((firstName == null) ? 0 : firstName.hashCode());
+		result = prime * result + funds;
 		result = prime * result + ((lastName == null) ? 0 : lastName.hashCode());
 		result = prime * result + ((phoneNumber == null) ? 0 : phoneNumber.hashCode());
 		result = prime * result + reportsTo;
@@ -170,6 +190,8 @@ public class Employee {
 			if (other.firstName != null)
 				return false;
 		} else if (!firstName.equals(other.firstName))
+			return false;
+		if (funds != other.funds)
 			return false;
 		if (lastName == null) {
 			if (other.lastName != null)

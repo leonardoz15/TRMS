@@ -10,6 +10,7 @@ CREATE TABLE "employee" (
   "phone_number" numeric(10,0),
   "address" text,
   "reports_to" int,
+  "funds_available" int,
   PRIMARY KEY ("employee_id")
 );
 
@@ -82,11 +83,3 @@ foreign key (employee_id) references "employee" (employee_id) on delete cascade 
 
 --------------------------------------------------------------------------------------------------
 
-select * from users;
-select * from employee;
-select * from request;
-
-alter table request alter column projected_amount type numeric(5,2);
-
-delete from employee;
-select setval('public.employee_employee_id_seq', 1, false);

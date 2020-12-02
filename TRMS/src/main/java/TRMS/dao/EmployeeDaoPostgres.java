@@ -38,7 +38,7 @@ public class EmployeeDaoPostgres implements EmployeeDao {
 	@Override
 	public void createEmployee(Employee employee) {
 
-		String sql = "insert into employee values (default, ?, ?, ?, ?, ?)";
+		String sql = "insert into employee values (default, ?, ?, ?, ?, ?, ?)";
 		
 		log.info("Starting to insert employee with id " + employee.getEmployeeID());
 		
@@ -52,6 +52,7 @@ public class EmployeeDaoPostgres implements EmployeeDao {
 			stmt.setString(3, employee.getPhoneNumber());
 			stmt.setString(4, employee.getAddress());
 			stmt.setInt(5, employee.getReportsTo());
+			stmt.setInt(6, employee.getFunds());
 			
 			Savepoint s1 = conn.setSavepoint();
 			int rowsEffected = stmt.executeUpdate();
@@ -91,7 +92,7 @@ public class EmployeeDaoPostgres implements EmployeeDao {
 			
 			while(rs.next()) {
 			read = new Employee(rs.getInt(1), rs.getString(2), rs.getString(3), rs.getString(4), 
-										rs.getString(5), rs.getInt(6));
+										rs.getString(5), rs.getInt(6), rs.getInt(7));
 			}
 			
 			log.info("Successfully read employee " + read.getFirstName());
@@ -122,7 +123,7 @@ public class EmployeeDaoPostgres implements EmployeeDao {
 			ResultSet rs = stmt.executeQuery();
 			while(rs.next()) {
 				Employee toAdd = new Employee(rs.getInt(1), rs.getString(2), rs.getString(3), Integer.toString(rs.getInt(4)), 
-										rs.getString(5), rs.getInt(6));
+										rs.getString(5), rs.getInt(6), rs.getInt(7));
 				result.add(toAdd);
 			}
 			log.info("Successfully read all employees, total: " + result.size());
@@ -141,7 +142,7 @@ public class EmployeeDaoPostgres implements EmployeeDao {
 	public Employee updateEmployee(int employeeId, Employee employee) {
 		
 		String sql = "update employee set first_name = ?, last_name = ?, phone_number = ?, address = ?, "
-					+ "reports_to = ? where employee_id = ?";
+					+ "reports_to = ?, funds_available = ? where employee_id = ?";
 		
 		log.info("Starting to update employee with id " + employeeId);
 		
@@ -155,7 +156,9 @@ public class EmployeeDaoPostgres implements EmployeeDao {
 			stmt.setInt(3, Integer.parseInt(employee.getPhoneNumber()));
 			stmt.setString(4, employee.getAddress());
 			stmt.setInt(5, employee.getReportsTo());
-			stmt.setInt(6, employeeId);
+			stmt.setInt(6, employee.getFunds());
+			stmt.setInt(7, employeeId);
+			
 			
 			Savepoint s1 = conn.setSavepoint();
 			int rowsEffected = stmt.executeUpdate();

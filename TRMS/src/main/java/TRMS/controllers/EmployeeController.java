@@ -25,8 +25,9 @@ public class EmployeeController {
 			String phoneNumber = ctx.formParam("phone_number");
 			String address = ctx.formParam("address");
 			int reportsTo = Integer.valueOf(ctx.formParam("reports_to"));
+			int funds = Integer.valueOf(ctx.formParam("funds"));
 			
-			Employee toCreate = new Employee(0, firstName, lastName, phoneNumber, address, reportsTo);
+			Employee toCreate = new Employee(0, firstName, lastName, phoneNumber, address, reportsTo, funds);
 			
 			service.createEmployee(toCreate);
 			
@@ -91,8 +92,10 @@ public class EmployeeController {
 			String phoneNumber = ctx.formParam("phone_number");
 			String address = ctx.formParam("address");
 			int reportsTo = Integer.valueOf(ctx.formParam("reports_to"));
+			int funds = Integer.valueOf(ctx.formParam("funds"));
 			
-			Employee toUpdate = new Employee(0, firstName, lastName, phoneNumber, address, reportsTo);
+			
+			Employee toUpdate = new Employee(0, firstName, lastName, phoneNumber, address, reportsTo, funds);
 			
 			service.updateEmployee(employeeId, toUpdate);
 			
@@ -118,8 +121,9 @@ public class EmployeeController {
 			String phoneNumber = ctx.formParam("phone_number");
 			String address = ctx.formParam("address");
 			int reportsTo = Integer.valueOf(ctx.formParam("reports_to"));
+			int funds = Integer.valueOf(ctx.formParam("funds"));
 			
-			Employee toDelete = new Employee(employeeId, firstName, lastName, phoneNumber, address, reportsTo);
+			Employee toDelete = new Employee(employeeId, firstName, lastName, phoneNumber, address, reportsTo, funds);
 			
 			service.deleteEmployee(toDelete);
 			
