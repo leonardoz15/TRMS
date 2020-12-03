@@ -34,6 +34,9 @@ public class AuthController {
 			ctx.status(200);
 			User loggedIn = userService.readUserByLogin(username, password);
 			String priviledge = loggedIn.getAuthLevel().toString();
+			ctx.cookieStore("priv", priviledge);
+			ctx.cookieStore("userId",Integer.toString(loggedIn.getUserId()));
+			ctx.cookieStore("empId", Integer.toString(loggedIn.getEmployeeId()));
 			
 			switch(priviledge) {
 				case "EMPLOYEE":

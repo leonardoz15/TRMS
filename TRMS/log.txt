@@ -220,3 +220,443 @@
 2020-11-30 14:11:12 INFO  root:44 - Starting to insert employee with id 0
 2020-11-30 14:11:12 INFO  root:64 - Successfully inserted user 0
 2020-11-30 14:11:12 INFO  root:33 - Successfully created user: randy
+2020-12-02 17:30:42 INFO  root:39 - Program has started
+2020-12-02 17:30:57 INFO  root:35 - Authenticating user with username: admin password: 1234
+2020-12-02 17:30:57 INFO  root:52 - User service reading all users
+2020-12-02 17:30:57 INFO  root:144 - Starting to read all users
+2020-12-02 17:30:57 INFO  root:156 - Successfully read all users, total: 2
+2020-12-02 17:30:57 INFO  root:43 - User exists
+2020-12-02 17:30:57 INFO  root:32 - Logged into user: admin
+2020-12-02 17:30:57 INFO  root:44 - User service reading user by login
+2020-12-02 17:30:57 INFO  root:113 - Starting to read user by login creds
+2020-12-02 17:30:57 WARN  root:130 - SQLException thrown when reading user with credentials
+2020-12-02 17:46:01 INFO  root:39 - Program has started
+2020-12-02 17:46:14 INFO  root:35 - Authenticating user with username: randy password: password
+2020-12-02 17:46:14 INFO  root:52 - User service reading all users
+2020-12-02 17:46:14 INFO  root:144 - Starting to read all users
+2020-12-02 17:46:14 INFO  root:156 - Successfully read all users, total: 2
+2020-12-02 17:46:14 INFO  root:43 - User exists
+2020-12-02 17:46:14 INFO  root:32 - Logged into user: randy
+2020-12-02 17:46:14 INFO  root:44 - User service reading user by login
+2020-12-02 17:46:14 INFO  root:113 - Starting to read user by login creds
+2020-12-02 17:46:14 WARN  root:130 - SQLException thrown when reading user with credentials
+2020-12-02 17:49:39 INFO  root:39 - Program has started
+2020-12-02 17:49:51 INFO  root:35 - Authenticating user with username: admin password: 1234
+2020-12-02 17:49:51 INFO  root:52 - User service reading all users
+2020-12-02 17:49:51 INFO  root:144 - Starting to read all users
+2020-12-02 17:49:51 INFO  root:156 - Successfully read all users, total: 2
+2020-12-02 17:49:51 INFO  root:43 - User exists
+2020-12-02 17:49:51 INFO  root:32 - Logged into user: admin
+2020-12-02 17:49:51 INFO  root:44 - User service reading user by login
+2020-12-02 17:49:51 INFO  root:113 - Starting to read user by login creds
+2020-12-02 17:49:51 INFO  root:125 - Successfully read user admin
+2020-12-02 17:50:04 INFO  root:35 - Authenticating user with username: randy password: password
+2020-12-02 17:50:04 INFO  root:52 - User service reading all users
+2020-12-02 17:50:04 INFO  root:144 - Starting to read all users
+2020-12-02 17:50:04 INFO  root:156 - Successfully read all users, total: 2
+2020-12-02 17:50:04 INFO  root:43 - User exists
+2020-12-02 17:50:04 INFO  root:32 - Logged into user: randy
+2020-12-02 17:50:04 INFO  root:44 - User service reading user by login
+2020-12-02 17:50:04 INFO  root:113 - Starting to read user by login creds
+2020-12-02 17:50:04 INFO  root:125 - Successfully read user randy
+2020-12-02 17:51:49 INFO  root:39 - Program has started
+2020-12-02 17:54:23 INFO  root:39 - Program has started
+2020-12-02 17:54:25 WARN  root:38 - Exception thrown when creating employee: java.lang.NumberFormatException: null
+2020-12-02 17:55:59 INFO  root:20 - Employee service creating employee
+2020-12-02 17:55:59 INFO  root:43 - Starting to insert employee with id 0
+2020-12-02 17:56:00 INFO  root:65 - Successfully inserted employee 0
+2020-12-02 17:56:00 INFO  root:34 - Successfully created employee: Jonny
+2020-12-02 17:58:21 INFO  root:39 - Program has started
+2020-12-02 17:58:26 INFO  root:27 - User service creating user
+2020-12-02 17:58:26 INFO  root:44 - Starting to insert employee with id 0
+2020-12-02 17:58:26 INFO  root:64 - Successfully inserted user 0
+2020-12-02 17:58:26 INFO  root:33 - Successfully created user: jb
+2020-12-02 19:01:18 INFO  root:39 - Program has started
+2020-12-02 19:01:29 INFO  root:35 - Authenticating user with username: admin password: 1234
+2020-12-02 19:01:29 INFO  root:52 - User service reading all users
+2020-12-02 19:01:29 INFO  root:144 - Starting to read all users
+2020-12-02 19:01:29 INFO  root:156 - Successfully read all users, total: 3
+2020-12-02 19:01:29 INFO  root:43 - User exists
+2020-12-02 19:01:29 INFO  root:32 - Logged into user: admin
+2020-12-02 19:01:29 INFO  root:44 - User service reading user by login
+2020-12-02 19:01:29 INFO  root:113 - Starting to read user by login creds
+2020-12-02 19:01:29 INFO  root:125 - Successfully read user admin
+2020-12-02 19:33:48 INFO  root:39 - Program has started
+2020-12-02 19:33:58 INFO  root:35 - Authenticating user with username: randy password: password
+2020-12-02 19:33:58 INFO  root:52 - User service reading all users
+2020-12-02 19:33:58 INFO  root:144 - Starting to read all users
+2020-12-02 19:33:59 INFO  root:156 - Successfully read all users, total: 3
+2020-12-02 19:33:59 INFO  root:43 - User exists
+2020-12-02 19:33:59 INFO  root:32 - Logged into user: randy
+2020-12-02 19:33:59 INFO  root:44 - User service reading user by login
+2020-12-02 19:33:59 INFO  root:113 - Starting to read user by login creds
+2020-12-02 19:33:59 INFO  root:125 - Successfully read user randy
+2020-12-02 20:23:38 INFO  root:40 - Program has started
+2020-12-02 20:24:03 INFO  root:35 - Authenticating user with username: admin password: 1234
+2020-12-02 20:24:03 INFO  root:52 - User service reading all users
+2020-12-02 20:24:03 INFO  root:144 - Starting to read all users
+2020-12-02 20:24:04 INFO  root:156 - Successfully read all users, total: 3
+2020-12-02 20:24:04 INFO  root:43 - User exists
+2020-12-02 20:24:04 INFO  root:32 - Logged into user: admin
+2020-12-02 20:24:04 INFO  root:44 - User service reading user by login
+2020-12-02 20:24:04 INFO  root:113 - Starting to read user by login creds
+2020-12-02 20:24:04 INFO  root:125 - Successfully read user admin
+2020-12-02 20:24:32 INFO  root:40 - Program has started
+2020-12-02 20:24:43 INFO  root:35 - Authenticating user with username: admin password: 1234
+2020-12-02 20:24:43 INFO  root:52 - User service reading all users
+2020-12-02 20:24:43 INFO  root:144 - Starting to read all users
+2020-12-02 20:24:44 INFO  root:156 - Successfully read all users, total: 3
+2020-12-02 20:24:44 INFO  root:43 - User exists
+2020-12-02 20:24:44 INFO  root:32 - Logged into user: admin
+2020-12-02 20:24:44 INFO  root:44 - User service reading user by login
+2020-12-02 20:24:44 INFO  root:113 - Starting to read user by login creds
+2020-12-02 20:24:44 INFO  root:125 - Successfully read user admin
+2020-12-02 20:26:48 INFO  root:40 - Program has started
+2020-12-02 20:26:53 INFO  root:35 - Authenticating user with username: admin password: 1234
+2020-12-02 20:26:53 INFO  root:52 - User service reading all users
+2020-12-02 20:26:53 INFO  root:144 - Starting to read all users
+2020-12-02 20:26:53 INFO  root:156 - Successfully read all users, total: 3
+2020-12-02 20:26:53 INFO  root:43 - User exists
+2020-12-02 20:26:53 INFO  root:32 - Logged into user: admin
+2020-12-02 20:26:53 INFO  root:44 - User service reading user by login
+2020-12-02 20:26:53 INFO  root:113 - Starting to read user by login creds
+2020-12-02 20:26:53 INFO  root:125 - Successfully read user admin
+2020-12-02 20:26:56 INFO  root:142 - Getting employee
+2020-12-02 20:26:56 INFO  root:29 - Employee service reading employee
+2020-12-02 20:26:56 INFO  root:84 - Starting to read employee with id 2
+2020-12-02 20:26:56 INFO  root:98 - Successfully read employee Zach
+2020-12-02 20:27:29 INFO  root:178 - Reading balance for logged in user
+2020-12-02 20:29:06 INFO  root:40 - Program has started
+2020-12-02 20:29:11 INFO  root:35 - Authenticating user with username: admin password: 1234
+2020-12-02 20:29:11 INFO  root:52 - User service reading all users
+2020-12-02 20:29:11 INFO  root:144 - Starting to read all users
+2020-12-02 20:29:12 INFO  root:156 - Successfully read all users, total: 3
+2020-12-02 20:29:12 INFO  root:43 - User exists
+2020-12-02 20:29:12 INFO  root:32 - Logged into user: admin
+2020-12-02 20:29:12 INFO  root:44 - User service reading user by login
+2020-12-02 20:29:12 INFO  root:113 - Starting to read user by login creds
+2020-12-02 20:29:12 INFO  root:125 - Successfully read user admin
+2020-12-02 20:29:15 INFO  root:178 - Reading balance for logged in user
+2020-12-02 20:29:15 INFO  root:29 - Employee service reading employee
+2020-12-02 20:29:15 INFO  root:84 - Starting to read employee with id 2
+2020-12-02 20:29:15 INFO  root:98 - Successfully read employee Zach
+2020-12-02 20:41:41 INFO  root:40 - Program has started
+2020-12-02 20:41:52 INFO  root:35 - Authenticating user with username: admin password: 1234
+2020-12-02 20:41:52 INFO  root:52 - User service reading all users
+2020-12-02 20:41:52 INFO  root:144 - Starting to read all users
+2020-12-02 20:41:52 INFO  root:156 - Successfully read all users, total: 3
+2020-12-02 20:41:52 INFO  root:43 - User exists
+2020-12-02 20:41:52 INFO  root:32 - Logged into user: admin
+2020-12-02 20:41:53 INFO  root:44 - User service reading user by login
+2020-12-02 20:41:53 INFO  root:113 - Starting to read user by login creds
+2020-12-02 20:41:53 INFO  root:125 - Successfully read user admin
+2020-12-02 20:43:51 INFO  root:40 - Program has started
+2020-12-02 20:43:59 INFO  root:35 - Authenticating user with username: admin password: 1234
+2020-12-02 20:43:59 INFO  root:52 - User service reading all users
+2020-12-02 20:43:59 INFO  root:144 - Starting to read all users
+2020-12-02 20:43:59 INFO  root:156 - Successfully read all users, total: 3
+2020-12-02 20:43:59 INFO  root:43 - User exists
+2020-12-02 20:43:59 INFO  root:32 - Logged into user: admin
+2020-12-02 20:43:59 INFO  root:44 - User service reading user by login
+2020-12-02 20:43:59 INFO  root:113 - Starting to read user by login creds
+2020-12-02 20:44:00 INFO  root:125 - Successfully read user admin
+2020-12-02 20:45:07 INFO  root:35 - Authenticating user with username: randy password: password
+2020-12-02 20:45:07 INFO  root:52 - User service reading all users
+2020-12-02 20:45:07 INFO  root:144 - Starting to read all users
+2020-12-02 20:45:07 INFO  root:156 - Successfully read all users, total: 3
+2020-12-02 20:45:07 INFO  root:43 - User exists
+2020-12-02 20:45:07 INFO  root:32 - Logged into user: randy
+2020-12-02 20:45:07 INFO  root:44 - User service reading user by login
+2020-12-02 20:45:07 INFO  root:113 - Starting to read user by login creds
+2020-12-02 20:45:07 INFO  root:125 - Successfully read user randy
+2020-12-02 20:47:00 INFO  root:40 - Program has started
+2020-12-02 20:47:24 INFO  root:35 - Authenticating user with username: admin password: 1234
+2020-12-02 20:47:24 INFO  root:52 - User service reading all users
+2020-12-02 20:47:24 INFO  root:144 - Starting to read all users
+2020-12-02 20:47:24 INFO  root:156 - Successfully read all users, total: 3
+2020-12-02 20:47:24 INFO  root:43 - User exists
+2020-12-02 20:47:24 INFO  root:32 - Logged into user: admin
+2020-12-02 20:47:25 INFO  root:44 - User service reading user by login
+2020-12-02 20:47:25 INFO  root:113 - Starting to read user by login creds
+2020-12-02 20:47:25 INFO  root:125 - Successfully read user admin
+2020-12-02 20:47:25 INFO  root:178 - Reading balance for logged in user
+2020-12-02 20:47:25 INFO  root:29 - Employee service reading employee
+2020-12-02 20:47:25 INFO  root:84 - Starting to read employee with id 2
+2020-12-02 20:47:25 INFO  root:98 - Successfully read employee Zach
+2020-12-02 20:49:03 INFO  root:178 - Reading balance for logged in user
+2020-12-02 20:49:03 INFO  root:29 - Employee service reading employee
+2020-12-02 20:49:03 INFO  root:84 - Starting to read employee with id 2
+2020-12-02 20:49:03 INFO  root:98 - Successfully read employee Zach
+2020-12-02 20:49:29 INFO  root:178 - Reading balance for logged in user
+2020-12-02 20:49:29 INFO  root:29 - Employee service reading employee
+2020-12-02 20:49:29 INFO  root:84 - Starting to read employee with id 2
+2020-12-02 20:49:29 INFO  root:98 - Successfully read employee Zach
+2020-12-02 20:49:48 INFO  root:40 - Program has started
+2020-12-02 20:50:02 INFO  root:35 - Authenticating user with username: admin password: 1234
+2020-12-02 20:50:02 INFO  root:52 - User service reading all users
+2020-12-02 20:50:02 INFO  root:144 - Starting to read all users
+2020-12-02 20:50:03 INFO  root:156 - Successfully read all users, total: 3
+2020-12-02 20:50:03 INFO  root:43 - User exists
+2020-12-02 20:50:03 INFO  root:32 - Logged into user: admin
+2020-12-02 20:50:03 INFO  root:44 - User service reading user by login
+2020-12-02 20:50:03 INFO  root:113 - Starting to read user by login creds
+2020-12-02 20:50:03 INFO  root:125 - Successfully read user admin
+2020-12-02 20:50:03 INFO  root:178 - Reading balance for logged in user
+2020-12-02 20:50:03 INFO  root:29 - Employee service reading employee
+2020-12-02 20:50:03 INFO  root:84 - Starting to read employee with id 2
+2020-12-02 20:50:03 INFO  root:98 - Successfully read employee Zach
+2020-12-02 20:52:03 INFO  root:40 - Program has started
+2020-12-02 20:52:12 INFO  root:35 - Authenticating user with username: admin password: 123
+2020-12-02 20:52:12 INFO  root:52 - User service reading all users
+2020-12-02 20:52:12 INFO  root:144 - Starting to read all users
+2020-12-02 20:52:12 INFO  root:156 - Successfully read all users, total: 3
+2020-12-02 20:52:12 WARN  root:47 - No user exists in database with username: admin password: 123
+2020-12-02 20:52:16 INFO  root:35 - Authenticating user with username: admin password: 1234
+2020-12-02 20:52:16 INFO  root:52 - User service reading all users
+2020-12-02 20:52:16 INFO  root:144 - Starting to read all users
+2020-12-02 20:52:16 INFO  root:156 - Successfully read all users, total: 3
+2020-12-02 20:52:16 INFO  root:43 - User exists
+2020-12-02 20:52:16 INFO  root:32 - Logged into user: admin
+2020-12-02 20:52:16 INFO  root:44 - User service reading user by login
+2020-12-02 20:52:16 INFO  root:113 - Starting to read user by login creds
+2020-12-02 20:52:16 INFO  root:125 - Successfully read user admin
+2020-12-02 20:52:17 INFO  root:178 - Reading balance for logged in user
+2020-12-02 20:52:17 INFO  root:29 - Employee service reading employee
+2020-12-02 20:52:17 INFO  root:84 - Starting to read employee with id 2
+2020-12-02 20:52:17 INFO  root:98 - Successfully read employee Zach
+2020-12-02 20:52:32 INFO  root:35 - Authenticating user with username: randy password: password
+2020-12-02 20:52:32 INFO  root:52 - User service reading all users
+2020-12-02 20:52:32 INFO  root:144 - Starting to read all users
+2020-12-02 20:52:32 INFO  root:156 - Successfully read all users, total: 3
+2020-12-02 20:52:32 INFO  root:43 - User exists
+2020-12-02 20:52:32 INFO  root:32 - Logged into user: randy
+2020-12-02 20:52:32 INFO  root:44 - User service reading user by login
+2020-12-02 20:52:32 INFO  root:113 - Starting to read user by login creds
+2020-12-02 20:52:32 INFO  root:125 - Successfully read user randy
+2020-12-02 20:52:33 INFO  root:178 - Reading balance for logged in user
+2020-12-02 20:52:33 INFO  root:29 - Employee service reading employee
+2020-12-02 20:52:33 INFO  root:84 - Starting to read employee with id 3
+2020-12-02 20:52:33 INFO  root:98 - Successfully read employee Randy
+2020-12-02 20:55:25 INFO  root:40 - Program has started
+2020-12-02 20:55:35 INFO  root:35 - Authenticating user with username: randy password: password
+2020-12-02 20:55:35 INFO  root:52 - User service reading all users
+2020-12-02 20:55:35 INFO  root:144 - Starting to read all users
+2020-12-02 20:55:35 INFO  root:156 - Successfully read all users, total: 3
+2020-12-02 20:55:35 INFO  root:43 - User exists
+2020-12-02 20:55:35 INFO  root:32 - Logged into user: randy
+2020-12-02 20:55:36 INFO  root:44 - User service reading user by login
+2020-12-02 20:55:36 INFO  root:113 - Starting to read user by login creds
+2020-12-02 20:55:36 INFO  root:125 - Successfully read user randy
+2020-12-02 20:55:36 INFO  root:178 - Reading balance for logged in user
+2020-12-02 20:55:36 INFO  root:29 - Employee service reading employee
+2020-12-02 20:55:36 INFO  root:84 - Starting to read employee with id 3
+2020-12-02 20:55:36 INFO  root:98 - Successfully read employee Randy
+2020-12-02 20:55:42 INFO  root:35 - Authenticating user with username: admin password: 1234
+2020-12-02 20:55:42 INFO  root:52 - User service reading all users
+2020-12-02 20:55:42 INFO  root:144 - Starting to read all users
+2020-12-02 20:55:42 INFO  root:156 - Successfully read all users, total: 3
+2020-12-02 20:55:42 INFO  root:43 - User exists
+2020-12-02 20:55:42 INFO  root:32 - Logged into user: admin
+2020-12-02 20:55:42 INFO  root:44 - User service reading user by login
+2020-12-02 20:55:42 INFO  root:113 - Starting to read user by login creds
+2020-12-02 20:55:42 INFO  root:125 - Successfully read user admin
+2020-12-02 20:55:42 INFO  root:178 - Reading balance for logged in user
+2020-12-02 20:55:42 INFO  root:29 - Employee service reading employee
+2020-12-02 20:55:42 INFO  root:84 - Starting to read employee with id 2
+2020-12-02 20:55:42 INFO  root:98 - Successfully read employee Zach
+2020-12-02 20:56:20 INFO  root:178 - Reading balance for logged in user
+2020-12-02 20:56:20 INFO  root:29 - Employee service reading employee
+2020-12-02 20:56:20 INFO  root:84 - Starting to read employee with id 2
+2020-12-02 20:56:20 INFO  root:98 - Successfully read employee Zach
+2020-12-02 20:57:36 INFO  root:178 - Reading balance for logged in user
+2020-12-02 20:57:36 INFO  root:29 - Employee service reading employee
+2020-12-02 20:57:36 INFO  root:84 - Starting to read employee with id 2
+2020-12-02 20:57:36 INFO  root:98 - Successfully read employee Zach
+2020-12-02 20:57:37 INFO  root:178 - Reading balance for logged in user
+2020-12-02 20:57:37 INFO  root:29 - Employee service reading employee
+2020-12-02 20:57:37 INFO  root:84 - Starting to read employee with id 2
+2020-12-02 20:57:38 INFO  root:98 - Successfully read employee Zach
+2020-12-02 20:57:42 INFO  root:178 - Reading balance for logged in user
+2020-12-02 20:57:42 INFO  root:29 - Employee service reading employee
+2020-12-02 20:57:42 INFO  root:84 - Starting to read employee with id 2
+2020-12-02 20:57:42 INFO  root:98 - Successfully read employee Zach
+2020-12-02 20:58:06 INFO  root:35 - Authenticating user with username: randy password: password
+2020-12-02 20:58:06 INFO  root:52 - User service reading all users
+2020-12-02 20:58:06 INFO  root:144 - Starting to read all users
+2020-12-02 20:58:06 INFO  root:156 - Successfully read all users, total: 3
+2020-12-02 20:58:06 INFO  root:43 - User exists
+2020-12-02 20:58:06 INFO  root:32 - Logged into user: randy
+2020-12-02 20:58:06 INFO  root:44 - User service reading user by login
+2020-12-02 20:58:06 INFO  root:113 - Starting to read user by login creds
+2020-12-02 20:58:06 INFO  root:125 - Successfully read user randy
+2020-12-02 20:58:06 INFO  root:178 - Reading balance for logged in user
+2020-12-02 20:58:06 INFO  root:29 - Employee service reading employee
+2020-12-02 20:58:06 INFO  root:84 - Starting to read employee with id 3
+2020-12-02 20:58:06 INFO  root:98 - Successfully read employee Randy
+2020-12-02 20:58:19 INFO  root:35 - Authenticating user with username: admin password: 1234
+2020-12-02 20:58:19 INFO  root:52 - User service reading all users
+2020-12-02 20:58:19 INFO  root:144 - Starting to read all users
+2020-12-02 20:58:19 INFO  root:156 - Successfully read all users, total: 3
+2020-12-02 20:58:19 INFO  root:43 - User exists
+2020-12-02 20:58:19 INFO  root:32 - Logged into user: admin
+2020-12-02 20:58:19 INFO  root:44 - User service reading user by login
+2020-12-02 20:58:19 INFO  root:113 - Starting to read user by login creds
+2020-12-02 20:58:19 INFO  root:125 - Successfully read user admin
+2020-12-02 20:58:19 INFO  root:178 - Reading balance for logged in user
+2020-12-02 20:58:19 INFO  root:29 - Employee service reading employee
+2020-12-02 20:58:19 INFO  root:84 - Starting to read employee with id 2
+2020-12-02 20:58:19 INFO  root:98 - Successfully read employee Zach
+2020-12-02 20:58:45 INFO  root:178 - Reading balance for logged in user
+2020-12-02 20:58:45 INFO  root:29 - Employee service reading employee
+2020-12-02 20:58:45 INFO  root:84 - Starting to read employee with id 2
+2020-12-02 20:58:45 INFO  root:98 - Successfully read employee Zach
+2020-12-02 21:00:24 INFO  root:178 - Reading balance for logged in user
+2020-12-02 21:00:40 INFO  root:178 - Reading balance for logged in user
+2020-12-02 21:00:57 INFO  root:178 - Reading balance for logged in user
+2020-12-02 21:00:57 INFO  root:29 - Employee service reading employee
+2020-12-02 21:00:57 INFO  root:84 - Starting to read employee with id 2
+2020-12-02 21:00:58 INFO  root:98 - Successfully read employee Zach
+2020-12-02 21:01:02 INFO  root:178 - Reading balance for logged in user
+2020-12-02 21:01:02 INFO  root:29 - Employee service reading employee
+2020-12-02 21:01:02 INFO  root:84 - Starting to read employee with id 2
+2020-12-02 21:01:02 INFO  root:98 - Successfully read employee Zach
+2020-12-02 21:01:37 INFO  root:40 - Program has started
+2020-12-02 21:02:01 INFO  root:35 - Authenticating user with username: admin password: 1234
+2020-12-02 21:02:01 INFO  root:52 - User service reading all users
+2020-12-02 21:02:01 INFO  root:144 - Starting to read all users
+2020-12-02 21:02:02 INFO  root:156 - Successfully read all users, total: 3
+2020-12-02 21:02:02 INFO  root:43 - User exists
+2020-12-02 21:02:02 INFO  root:32 - Logged into user: admin
+2020-12-02 21:02:02 INFO  root:44 - User service reading user by login
+2020-12-02 21:02:02 INFO  root:113 - Starting to read user by login creds
+2020-12-02 21:02:02 INFO  root:125 - Successfully read user admin
+2020-12-02 21:02:02 INFO  root:178 - Reading balance for logged in user
+2020-12-02 21:02:02 INFO  root:29 - Employee service reading employee
+2020-12-02 21:02:02 INFO  root:84 - Starting to read employee with id 2
+2020-12-02 21:02:02 INFO  root:98 - Successfully read employee Zach
+2020-12-02 21:03:26 INFO  root:178 - Reading balance for logged in user
+2020-12-02 21:03:26 INFO  root:29 - Employee service reading employee
+2020-12-02 21:03:26 INFO  root:84 - Starting to read employee with id 2
+2020-12-02 21:03:26 INFO  root:98 - Successfully read employee Zach
+2020-12-02 21:06:01 INFO  root:40 - Program has started
+2020-12-02 21:06:11 INFO  root:35 - Authenticating user with username: admin password: 1234
+2020-12-02 21:06:11 INFO  root:52 - User service reading all users
+2020-12-02 21:06:11 INFO  root:144 - Starting to read all users
+2020-12-02 21:06:12 INFO  root:156 - Successfully read all users, total: 3
+2020-12-02 21:06:12 INFO  root:43 - User exists
+2020-12-02 21:06:12 INFO  root:32 - Logged into user: admin
+2020-12-02 21:06:12 INFO  root:44 - User service reading user by login
+2020-12-02 21:06:12 INFO  root:113 - Starting to read user by login creds
+2020-12-02 21:06:12 INFO  root:125 - Successfully read user admin
+2020-12-02 21:06:15 INFO  root:178 - Reading balance for logged in user
+2020-12-02 21:06:15 INFO  root:29 - Employee service reading employee
+2020-12-02 21:06:15 INFO  root:84 - Starting to read employee with id 2
+2020-12-02 21:06:15 INFO  root:98 - Successfully read employee Zach
+2020-12-02 21:06:15 INFO  root:184 - Funds for emp: 2 = 1000
+2020-12-02 21:06:59 INFO  root:40 - Program has started
+2020-12-02 21:07:14 INFO  root:35 - Authenticating user with username: admin password: 1234
+2020-12-02 21:07:14 INFO  root:52 - User service reading all users
+2020-12-02 21:07:14 INFO  root:144 - Starting to read all users
+2020-12-02 21:07:15 INFO  root:156 - Successfully read all users, total: 3
+2020-12-02 21:07:15 INFO  root:43 - User exists
+2020-12-02 21:07:15 INFO  root:32 - Logged into user: admin
+2020-12-02 21:07:15 INFO  root:44 - User service reading user by login
+2020-12-02 21:07:15 INFO  root:113 - Starting to read user by login creds
+2020-12-02 21:07:15 INFO  root:125 - Successfully read user admin
+2020-12-02 21:07:15 INFO  root:178 - Reading balance for logged in user
+2020-12-02 21:07:15 INFO  root:29 - Employee service reading employee
+2020-12-02 21:07:15 INFO  root:84 - Starting to read employee with id 2
+2020-12-02 21:07:15 INFO  root:98 - Successfully read employee Zach
+2020-12-02 21:07:15 INFO  root:184 - Funds for emp: 2 = 1000
+2020-12-02 21:08:16 INFO  root:35 - Authenticating user with username: randy password: password
+2020-12-02 21:08:16 INFO  root:52 - User service reading all users
+2020-12-02 21:08:16 INFO  root:144 - Starting to read all users
+2020-12-02 21:08:17 INFO  root:156 - Successfully read all users, total: 3
+2020-12-02 21:08:17 INFO  root:43 - User exists
+2020-12-02 21:08:17 INFO  root:32 - Logged into user: randy
+2020-12-02 21:08:17 INFO  root:44 - User service reading user by login
+2020-12-02 21:08:17 INFO  root:113 - Starting to read user by login creds
+2020-12-02 21:08:17 INFO  root:125 - Successfully read user randy
+2020-12-02 21:08:17 INFO  root:178 - Reading balance for logged in user
+2020-12-02 21:08:17 INFO  root:29 - Employee service reading employee
+2020-12-02 21:08:17 INFO  root:84 - Starting to read employee with id 3
+2020-12-02 21:08:17 INFO  root:98 - Successfully read employee Randy
+2020-12-02 21:08:17 INFO  root:184 - Funds for emp: 3 = 1000
+2020-12-02 21:08:30 INFO  root:35 - Authenticating user with username: admin password: 1234
+2020-12-02 21:08:30 INFO  root:52 - User service reading all users
+2020-12-02 21:08:30 INFO  root:144 - Starting to read all users
+2020-12-02 21:08:30 INFO  root:156 - Successfully read all users, total: 3
+2020-12-02 21:08:30 INFO  root:43 - User exists
+2020-12-02 21:08:30 INFO  root:32 - Logged into user: admin
+2020-12-02 21:08:30 INFO  root:44 - User service reading user by login
+2020-12-02 21:08:30 INFO  root:113 - Starting to read user by login creds
+2020-12-02 21:08:30 INFO  root:125 - Successfully read user admin
+2020-12-02 21:08:31 INFO  root:178 - Reading balance for logged in user
+2020-12-02 21:08:31 INFO  root:29 - Employee service reading employee
+2020-12-02 21:08:31 INFO  root:84 - Starting to read employee with id 2
+2020-12-02 21:08:31 INFO  root:98 - Successfully read employee Zach
+2020-12-02 21:08:31 INFO  root:184 - Funds for emp: 2 = 1000
+2020-12-02 21:10:09 INFO  root:35 - Authenticating user with username: jb password: 123
+2020-12-02 21:10:09 INFO  root:52 - User service reading all users
+2020-12-02 21:10:09 INFO  root:144 - Starting to read all users
+2020-12-02 21:10:09 INFO  root:156 - Successfully read all users, total: 3
+2020-12-02 21:10:09 INFO  root:43 - User exists
+2020-12-02 21:10:09 INFO  root:32 - Logged into user: jb
+2020-12-02 21:10:09 INFO  root:44 - User service reading user by login
+2020-12-02 21:10:09 INFO  root:113 - Starting to read user by login creds
+2020-12-02 21:10:09 INFO  root:125 - Successfully read user jb
+2020-12-02 21:10:10 INFO  root:178 - Reading balance for logged in user
+2020-12-02 21:10:10 INFO  root:29 - Employee service reading employee
+2020-12-02 21:10:10 INFO  root:84 - Starting to read employee with id 4
+2020-12-02 21:10:10 INFO  root:98 - Successfully read employee Jonny
+2020-12-02 21:10:10 INFO  root:184 - Funds for emp: 4 = 1000
+2020-12-02 21:10:45 INFO  root:178 - Reading balance for logged in user
+2020-12-02 21:10:45 INFO  root:29 - Employee service reading employee
+2020-12-02 21:10:45 INFO  root:84 - Starting to read employee with id 4
+2020-12-02 21:10:45 INFO  root:98 - Successfully read employee Jonny
+2020-12-02 21:10:45 INFO  root:184 - Funds for emp: 4 = 1000
+2020-12-02 21:11:08 INFO  root:178 - Reading balance for logged in user
+2020-12-02 21:11:08 INFO  root:29 - Employee service reading employee
+2020-12-02 21:11:08 INFO  root:84 - Starting to read employee with id 4
+2020-12-02 21:11:08 INFO  root:98 - Successfully read employee Jonny
+2020-12-02 21:11:08 INFO  root:184 - Funds for emp: 4 = 1000
+2020-12-02 21:11:22 INFO  root:40 - Program has started
+2020-12-02 21:11:32 INFO  root:35 - Authenticating user with username: admin password: 1234
+2020-12-02 21:11:32 INFO  root:52 - User service reading all users
+2020-12-02 21:11:32 INFO  root:144 - Starting to read all users
+2020-12-02 21:11:32 INFO  root:156 - Successfully read all users, total: 3
+2020-12-02 21:11:32 INFO  root:43 - User exists
+2020-12-02 21:11:32 INFO  root:32 - Logged into user: admin
+2020-12-02 21:11:32 INFO  root:44 - User service reading user by login
+2020-12-02 21:11:32 INFO  root:113 - Starting to read user by login creds
+2020-12-02 21:11:32 INFO  root:125 - Successfully read user admin
+2020-12-02 21:11:33 INFO  root:178 - Reading balance for logged in user
+2020-12-02 21:11:33 INFO  root:29 - Employee service reading employee
+2020-12-02 21:11:33 INFO  root:84 - Starting to read employee with id 2
+2020-12-02 21:11:33 INFO  root:98 - Successfully read employee Zach
+2020-12-02 21:11:33 INFO  root:184 - Funds for emp: 2 = 1000
+2020-12-02 21:11:41 INFO  root:178 - Reading balance for logged in user
+2020-12-02 21:11:41 INFO  root:29 - Employee service reading employee
+2020-12-02 21:11:41 INFO  root:84 - Starting to read employee with id 2
+2020-12-02 21:11:41 INFO  root:98 - Successfully read employee Zach
+2020-12-02 21:11:41 INFO  root:184 - Funds for emp: 2 = 1000
+2020-12-02 21:12:15 INFO  root:40 - Program has started
+2020-12-02 21:12:31 INFO  root:35 - Authenticating user with username: admin password: 1234
+2020-12-02 21:12:31 INFO  root:52 - User service reading all users
+2020-12-02 21:12:31 INFO  root:144 - Starting to read all users
+2020-12-02 21:12:31 INFO  root:156 - Successfully read all users, total: 3
+2020-12-02 21:12:31 INFO  root:43 - User exists
+2020-12-02 21:12:31 INFO  root:32 - Logged into user: admin
+2020-12-02 21:12:31 INFO  root:44 - User service reading user by login
+2020-12-02 21:12:31 INFO  root:113 - Starting to read user by login creds
+2020-12-02 21:12:31 INFO  root:125 - Successfully read user admin
+2020-12-02 21:12:31 INFO  root:178 - Reading balance for logged in user
+2020-12-02 21:12:31 INFO  root:29 - Employee service reading employee
+2020-12-02 21:12:31 INFO  root:84 - Starting to read employee with id 2
+2020-12-02 21:12:31 INFO  root:98 - Successfully read employee Zach
+2020-12-02 21:12:31 INFO  root:184 - Funds for emp: 2 = 1000
+2020-12-02 21:13:36 INFO  root:178 - Reading balance for logged in user
+2020-12-02 21:13:36 INFO  root:29 - Employee service reading employee
+2020-12-02 21:13:36 INFO  root:84 - Starting to read employee with id 2
+2020-12-02 21:13:36 INFO  root:98 - Successfully read employee Zach
+2020-12-02 21:13:36 INFO  root:184 - Funds for emp: 2 = 1000

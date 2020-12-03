@@ -17,8 +17,8 @@ CREATE TABLE "employee" (
 CREATE TABLE "users" (
   "user_id" serial,
   "employee_id" int,
-  "username" varchar(25),
-  "password" varchar(25),
+  "username" text,
+  "password" text,
   "auth_level" auth_level,
   PRIMARY KEY ("user_id")
 );

@@ -30,6 +30,7 @@ public class ServerDriver {
 	
 	private static final String LOGIN_PATH = "login";
 	private static final String USER_PATH = "user";
+	private static final String EMPLOYEE_PATH = "employee";
 	private static final String REQUEST_PATH = "request";
 	
 	public static void main(String[] args) {
@@ -44,7 +45,8 @@ public class ServerDriver {
 		app.post(LOGIN_PATH, ctx -> authController.login(ctx));
 		app.get(LOGIN_PATH, ctx -> authController.checkUser(ctx));
 		app.get("logout", ctx -> {authController.logout(ctx); ctx.redirect("index.html");});
-		app.get(USER_PATH+"/:id", ctx -> );
+		app.get(EMPLOYEE_PATH +"/:id", ctx -> employeeController.getEmployee(ctx));
+		app.get(EMPLOYEE_PATH+"Balance", ctx -> employeeController.getBalance(ctx));
 		app.post(REQUEST_PATH, ctx -> reimbursementController.createRequest(ctx));
 		
 		//Postman endpoints for testing: 

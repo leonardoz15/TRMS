@@ -108,7 +108,7 @@ public class UserDaoPostgres implements UserDao {
 		
 		User read = null;
 		
-		String sql = "select * from users where username = ?, password = ?";
+		String sql = "select * from users where username = ? and password = ?";
 		
 		log.info("Starting to read user by login creds");
 		

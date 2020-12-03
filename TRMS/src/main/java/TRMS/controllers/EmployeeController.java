@@ -137,5 +137,52 @@ public class EmployeeController {
 		}
 		
 	}
+	
+	public void getEmployee(Context ctx) {
+		log.info("Getting employee");
+		String empId = ctx.pathParam("id");
+		Employee employee = service.readEmployee(Integer.parseInt(empId));
+		ctx.json(employee);
+	}
+	
+	public void addFunds(Context ctx) {
+		//add funds back to the emp in dao
+		log.info("Adding funds back to logged in user");
+		int empId = Integer.parseInt(ctx.cookieStore("empId"));
+		Employee read = service.readEmployee(empId);
+		
+		try {
+			
+		} catch (Exception e) {
+			log.warn("Exception thrown when adding funds: " + e);
+			ctx.status(500);
+		}
+	}
+	
+	public void removeFunds(Context ctx) {
+		//remove funds from emp in dao
+		log.info("removing funds from logged in user");
+		int empId = Integer.parseInt(ctx.cookieStore("empId"));
+		Employee read = service.readEmployee(empId);
+		//read.setFunds(funds);
+		try {
+			service.updateEmployee(empId, read);
+			
+		} catch (Exception e) {
+			log.warn("Exception thrown when removing funds: " + e);
+			ctx.status(500);
+		}
+	}
+	public void getBalance(Context ctx) {
+		
+		log.info("Reading balance for logged in user");
+		
+		int empId = Integer.parseInt(ctx.cookieStore("empId"));
+		Employee read = service.readEmployee(empId);
+		
+		ctx.json(read.getFunds());
+		log.info("Funds for emp: "+empId+" = "+read.getFunds());
+		
+	}
 
 }
