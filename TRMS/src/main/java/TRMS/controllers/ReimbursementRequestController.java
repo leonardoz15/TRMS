@@ -1,4 +1,4 @@
-	package TRMS.controllers;
+package TRMS.controllers;
 
 import java.time.LocalDate;
 import java.time.LocalTime;
@@ -10,6 +10,7 @@ import org.apache.log4j.Logger;
 import TRMS.models.ReimbursementRequest;
 import TRMS.models.ReimbursementRequest.ApprovalStatus;
 import TRMS.models.ReimbursementRequest.EventType;
+
 import TRMS.services.ReimbursementRequestFullStack;
 import TRMS.services.ReimbursementRequestService;
 import io.javalin.http.Context;
@@ -19,6 +20,8 @@ public class ReimbursementRequestController {
 	private static Logger log = Logger.getRootLogger();
 	
 	private ReimbursementRequestService service = new ReimbursementRequestFullStack();
+	
+	private EmployeeController employeeController = new EmployeeController();
 	
 	public void createRequest(Context ctx) {
 		
@@ -157,6 +160,46 @@ public class ReimbursementRequestController {
 			ctx.status(500);
 		}
 		
+	}
+	
+	public void newRequest(Context ctx) {
+		//get user id, calculate projected, set default approval
+
+		try {
+	
+			int userId = Integer.parseInt(ctx.cookieStore("userId"));
+			double cost = Double.parseDouble(ctx.formParam("cost"));
+			LocalDate date = LocalDate.parse(ctx.formParam("date"));
+			LocalTime time = LocalTime.parse(ctx.formParam("time"));
+			String location = ctx.formParam("location");
+			String description = ctx.formParam("description");
+			String gradingFormat = ctx.formParam("grading_format");
+			EventType eventType = EventType.valueOf(ctx.formParam("event_type"));
+			boolean isUrgent = Boolean.parseBoolean(ctx.formParam("urgent"));
+			double projected = service.calculateProjected(cost, eventType);
+			ApprovalStatus approvalStatus = ApprovalStatus.DS_PENDING;
+		
+			ReimbursementRequest toAdd = new ReimbursementRequest(0, userId, cost, date, time, location, description, gradingFormat,
+					eventType, isUrgent, projected, approvalStatus);
+			
+			service.createRequest(toAdd);
+			
+			employeeController.removeFunds(ctx, cost);
+			
+			log.info("Successfully created request for user " + userId);
+			ctx.status(200);
+			if(ctx.cookieStore("priv").equals("EMPLOYEE")) {
+				ctx.redirect("emp-dashboard.html");
+			}
+			else {
+				ctx.redirect("approver-dashboard.html");
+			}
+			
+			
+		} catch (Exception e) {
+			log.warn("Exception when adding a new request: " + e);
+			ctx.status(500);
+		}
 	}
 
 }

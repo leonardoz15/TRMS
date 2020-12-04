@@ -47,7 +47,7 @@ public class ServerDriver {
 		app.get("logout", ctx -> {authController.logout(ctx); ctx.redirect("index.html");});
 		app.get(EMPLOYEE_PATH +"/:id", ctx -> employeeController.getEmployee(ctx));
 		app.get(EMPLOYEE_PATH+"Balance", ctx -> employeeController.getBalance(ctx));
-		app.post(REQUEST_PATH, ctx -> reimbursementController.createRequest(ctx));
+		app.post(REQUEST_PATH, ctx -> reimbursementController.newRequest(ctx));
 		
 		//Postman endpoints for testing: 
 		

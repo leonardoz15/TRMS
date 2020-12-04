@@ -159,12 +159,12 @@ public class EmployeeController {
 		}
 	}
 	
-	public void removeFunds(Context ctx) {
+	public void removeFunds(Context ctx, double cost) {
 		//remove funds from emp in dao
 		log.info("removing funds from logged in user");
 		int empId = Integer.parseInt(ctx.cookieStore("empId"));
 		Employee read = service.readEmployee(empId);
-		//read.setFunds(funds);
+		read.setFunds(read.getFunds()-cost);
 		try {
 			service.updateEmployee(empId, read);
 			

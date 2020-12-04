@@ -28,9 +28,13 @@
     </nav>
         
       <main role="main" class="main-container">
+
         <div class="starter-template">
-        <h1 class="cover-heading">New Reimbursement Request</h1>
-        <form id="new-reimbursement-form" method="POST" action="http://localhost:9091/request" enctype="multipart/form-data">
+          <h2>New Reimbursement Request</h2>
+          <p>Please fill out the required information about your request:</p>
+        </div>
+
+        <form id="new-reimbursement-form" method="POST" action="/request" enctype="multipart/form-data">
 
           <div class="form-group">
             <label for="radio-type">Event Type:</label>
@@ -75,7 +79,7 @@
             <label>Grading format:</label>
             <input type="text" class="form-control" name="grading_format" />
             <p>
-              Formats include: Presentation, Pass/Fail, A-F, or a % out of 100.
+              <i>Formats include: Presentation, Pass/Fail, A-F, or a percentage.</i>
             </p>
           </div>
 
@@ -92,7 +96,7 @@
             <button type="button" id="clear-btn">Clear</button>
           </div>
         </form>
-      </div>
+
       </main>
   
     <footer>

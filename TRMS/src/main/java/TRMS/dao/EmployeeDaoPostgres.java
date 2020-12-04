@@ -52,7 +52,7 @@ public class EmployeeDaoPostgres implements EmployeeDao {
 			stmt.setString(3, employee.getPhoneNumber());
 			stmt.setString(4, employee.getAddress());
 			stmt.setInt(5, employee.getReportsTo());
-			stmt.setInt(6, employee.getFunds());
+			stmt.setDouble(6, employee.getFunds());
 			
 			Savepoint s1 = conn.setSavepoint();
 			int rowsEffected = stmt.executeUpdate();
@@ -153,10 +153,10 @@ public class EmployeeDaoPostgres implements EmployeeDao {
 			stmt = conn.prepareStatement(sql);
 			stmt.setString(1, employee.getFirstName());
 			stmt.setString(2, employee.getLastName());
-			stmt.setInt(3, Integer.parseInt(employee.getPhoneNumber()));
+			stmt.setString(3, employee.getPhoneNumber());
 			stmt.setString(4, employee.getAddress());
 			stmt.setInt(5, employee.getReportsTo());
-			stmt.setInt(6, employee.getFunds());
+			stmt.setDouble(6, employee.getFunds());
 			stmt.setInt(7, employeeId);
 			
 			

@@ -660,3 +660,874 @@
 2020-12-02 21:13:36 INFO  root:84 - Starting to read employee with id 2
 2020-12-02 21:13:36 INFO  root:98 - Successfully read employee Zach
 2020-12-02 21:13:36 INFO  root:184 - Funds for emp: 2 = 1000
+2020-12-03 13:51:01 INFO  root:40 - Program has started
+2020-12-03 13:51:19 INFO  root:35 - Authenticating user with username: admin password: 1234
+2020-12-03 13:51:19 INFO  root:52 - User service reading all users
+2020-12-03 13:51:19 INFO  root:144 - Starting to read all users
+2020-12-03 13:51:19 INFO  root:156 - Successfully read all users, total: 3
+2020-12-03 13:51:19 INFO  root:43 - User exists
+2020-12-03 13:51:19 INFO  root:32 - Logged into user: admin
+2020-12-03 13:51:19 INFO  root:44 - User service reading user by login
+2020-12-03 13:51:19 INFO  root:113 - Starting to read user by login creds
+2020-12-03 13:51:19 INFO  root:125 - Successfully read user admin
+2020-12-03 13:51:19 INFO  root:178 - Reading balance for logged in user
+2020-12-03 13:51:19 INFO  root:29 - Employee service reading employee
+2020-12-03 13:51:19 INFO  root:84 - Starting to read employee with id 2
+2020-12-03 13:51:19 INFO  root:98 - Successfully read employee Zach
+2020-12-03 13:51:19 INFO  root:184 - Funds for emp: 2 = 1000
+2020-12-03 14:08:37 INFO  root:40 - Program has started
+2020-12-03 14:12:58 INFO  root:40 - Program has started
+2020-12-03 14:13:21 INFO  root:80 - Logging out user
+2020-12-03 14:15:29 INFO  root:40 - Program has started
+2020-12-03 14:15:38 INFO  root:70 - Checking user token
+2020-12-03 14:16:27 INFO  root:40 - Program has started
+2020-12-03 14:16:30 INFO  root:70 - Checking user token
+2020-12-03 14:16:30 INFO  root:72 - 1
+2020-12-03 14:17:07 INFO  root:82 - Logging out user
+2020-12-03 14:17:21 INFO  root:70 - Checking user token
+2020-12-03 14:17:21 INFO  root:72 - 1
+2020-12-03 14:17:37 INFO  root:40 - Program has started
+2020-12-03 14:17:41 INFO  root:82 - Logging out user
+2020-12-03 14:17:47 INFO  root:70 - Checking user token
+2020-12-03 14:17:47 INFO  root:72 - 
+2020-12-03 14:20:28 INFO  root:40 - Program has started
+2020-12-03 14:20:32 INFO  root:70 - Checking user token
+2020-12-03 14:20:44 INFO  root:35 - Authenticating user with username: admin password: 1234
+2020-12-03 14:20:44 INFO  root:52 - User service reading all users
+2020-12-03 14:20:44 INFO  root:144 - Starting to read all users
+2020-12-03 14:20:44 INFO  root:156 - Successfully read all users, total: 3
+2020-12-03 14:20:44 INFO  root:43 - User exists
+2020-12-03 14:20:44 INFO  root:32 - Logged into user: admin
+2020-12-03 14:20:44 INFO  root:44 - User service reading user by login
+2020-12-03 14:20:44 INFO  root:113 - Starting to read user by login creds
+2020-12-03 14:20:44 INFO  root:125 - Successfully read user admin
+2020-12-03 14:20:47 INFO  root:70 - Checking user token
+2020-12-03 14:25:44 INFO  root:40 - Program has started
+2020-12-03 14:26:10 INFO  root:178 - Reading balance for logged in user
+2020-12-03 14:26:10 INFO  root:29 - Employee service reading employee
+2020-12-03 14:26:10 INFO  root:84 - Starting to read employee with id 2
+2020-12-03 14:26:10 INFO  root:98 - Successfully read employee Zach
+2020-12-03 14:26:10 INFO  root:184 - Funds for emp: 2 = 1000
+2020-12-03 14:26:33 INFO  root:178 - Reading balance for logged in user
+2020-12-03 14:26:33 INFO  root:29 - Employee service reading employee
+2020-12-03 14:26:33 INFO  root:84 - Starting to read employee with id 2
+2020-12-03 14:26:33 INFO  root:98 - Successfully read employee Zach
+2020-12-03 14:26:33 INFO  root:184 - Funds for emp: 2 = 1000
+2020-12-03 14:26:38 INFO  root:178 - Reading balance for logged in user
+2020-12-03 14:26:38 INFO  root:29 - Employee service reading employee
+2020-12-03 14:26:38 INFO  root:84 - Starting to read employee with id 2
+2020-12-03 14:26:38 INFO  root:98 - Successfully read employee Zach
+2020-12-03 14:26:38 INFO  root:184 - Funds for emp: 2 = 1000
+2020-12-03 14:26:41 INFO  root:178 - Reading balance for logged in user
+2020-12-03 14:26:41 INFO  root:29 - Employee service reading employee
+2020-12-03 14:26:41 INFO  root:84 - Starting to read employee with id 2
+2020-12-03 14:26:41 INFO  root:98 - Successfully read employee Zach
+2020-12-03 14:26:41 INFO  root:184 - Funds for emp: 2 = 1000
+2020-12-03 14:27:35 INFO  root:40 - Program has started
+2020-12-03 14:27:57 INFO  root:178 - Reading balance for logged in user
+2020-12-03 14:30:11 INFO  root:40 - Program has started
+2020-12-03 14:30:26 INFO  root:178 - Reading balance for logged in user
+2020-12-03 14:30:43 INFO  root:178 - Reading balance for logged in user
+2020-12-03 14:31:36 INFO  root:178 - Reading balance for logged in user
+2020-12-03 14:32:07 INFO  root:178 - Reading balance for logged in user
+2020-12-03 14:34:31 INFO  root:178 - Reading balance for logged in user
+2020-12-03 14:34:45 INFO  root:40 - Program has started
+2020-12-03 14:34:49 INFO  root:178 - Reading balance for logged in user
+2020-12-03 14:34:54 INFO  root:178 - Reading balance for logged in user
+2020-12-03 14:35:13 INFO  root:178 - Reading balance for logged in user
+2020-12-03 14:35:16 INFO  root:178 - Reading balance for logged in user
+2020-12-03 14:35:54 INFO  root:40 - Program has started
+2020-12-03 14:36:00 INFO  root:178 - Reading balance for logged in user
+2020-12-03 14:36:21 INFO  root:178 - Reading balance for logged in user
+2020-12-03 14:36:38 INFO  root:70 - Checking user token
+2020-12-03 14:36:44 INFO  root:83 - Logging out user
+2020-12-03 14:36:47 INFO  root:70 - Checking user token
+2020-12-03 14:36:52 INFO  root:178 - Reading balance for logged in user
+2020-12-03 14:39:24 INFO  root:40 - Program has started
+2020-12-03 14:39:34 INFO  root:178 - Reading balance for logged in user
+2020-12-03 14:39:44 INFO  root:178 - Reading balance for logged in user
+2020-12-03 14:42:02 INFO  root:40 - Program has started
+2020-12-03 14:42:11 INFO  root:178 - Reading balance for logged in user
+2020-12-03 14:42:11 INFO  root:70 - Checking user token
+2020-12-03 14:42:11 WARN  root:75 - No cookie found for user: java.lang.NullPointerException: Cannot invoke "Object.equals(Object)" because the return value of "io.javalin.http.Context.cookieStore(String)" is null
+2020-12-03 14:42:15 INFO  root:70 - Checking user token
+2020-12-03 14:42:15 WARN  root:75 - No cookie found for user: java.lang.NullPointerException: Cannot invoke "Object.equals(Object)" because the return value of "io.javalin.http.Context.cookieStore(String)" is null
+2020-12-03 14:42:15 INFO  root:178 - Reading balance for logged in user
+2020-12-03 14:43:08 INFO  root:178 - Reading balance for logged in user
+2020-12-03 14:43:08 INFO  root:70 - Checking user token
+2020-12-03 14:43:08 WARN  root:75 - No cookie found for user: java.lang.NullPointerException: Cannot invoke "Object.equals(Object)" because the return value of "io.javalin.http.Context.cookieStore(String)" is null
+2020-12-03 14:45:05 INFO  root:40 - Program has started
+2020-12-03 14:45:11 INFO  root:178 - Reading balance for logged in user
+2020-12-03 14:45:11 INFO  root:70 - Checking user token
+2020-12-03 14:45:11 WARN  root:75 - No cookie found for user: java.lang.NullPointerException: Cannot invoke "Object.equals(Object)" because the return value of "io.javalin.http.Context.cookieStore(String)" is null
+2020-12-03 14:46:59 INFO  root:40 - Program has started
+2020-12-03 14:47:03 INFO  root:70 - Checking user token
+2020-12-03 14:47:03 INFO  root:178 - Reading balance for logged in user
+2020-12-03 14:47:03 WARN  root:75 - No cookie found for user: java.lang.NullPointerException: Cannot invoke "Object.equals(Object)" because the return value of "io.javalin.http.Context.cookieStore(String)" is null
+2020-12-03 14:47:53 INFO  root:70 - Checking user token
+2020-12-03 14:47:58 INFO  root:83 - Logging out user
+2020-12-03 14:48:00 INFO  root:70 - Checking user token
+2020-12-03 14:49:18 INFO  root:40 - Program has started
+2020-12-03 14:49:23 INFO  root:83 - Logging out user
+2020-12-03 14:49:28 INFO  root:70 - Checking user token
+2020-12-03 14:49:54 INFO  root:40 - Program has started
+2020-12-03 14:49:56 INFO  root:70 - Checking user token
+2020-12-03 14:50:36 INFO  root:70 - Checking user token
+2020-12-03 14:50:36 WARN  root:75 - No cookie found for user: java.lang.NullPointerException: Cannot invoke "Object.equals(Object)" because the return value of "io.javalin.http.Context.cookieStore(String)" is null
+2020-12-03 14:50:36 INFO  root:178 - Reading balance for logged in user
+2020-12-03 14:52:23 INFO  root:40 - Program has started
+2020-12-03 14:52:26 INFO  root:70 - Checking user token
+2020-12-03 14:52:26 INFO  root:178 - Reading balance for logged in user
+2020-12-03 14:52:26 WARN  root:75 - No cookie found for user: java.lang.NullPointerException: Cannot invoke "Object.equals(Object)" because the return value of "io.javalin.http.Context.cookieStore(String)" is null
+2020-12-03 14:53:11 INFO  root:40 - Program has started
+2020-12-03 14:53:14 INFO  root:70 - Checking user token
+2020-12-03 14:53:14 INFO  root:178 - Reading balance for logged in user
+2020-12-03 14:53:14 WARN  root:75 - No cookie found for user: java.lang.NullPointerException: Cannot invoke "Object.equals(Object)" because the return value of "io.javalin.http.Context.cookieStore(String)" is null
+2020-12-03 14:53:21 INFO  root:70 - Checking user token
+2020-12-03 14:53:21 INFO  root:178 - Reading balance for logged in user
+2020-12-03 14:53:21 WARN  root:75 - No cookie found for user: java.lang.NullPointerException: Cannot invoke "Object.equals(Object)" because the return value of "io.javalin.http.Context.cookieStore(String)" is null
+2020-12-03 14:53:42 INFO  root:40 - Program has started
+2020-12-03 14:53:46 INFO  root:70 - Checking user token
+2020-12-03 14:53:46 WARN  root:75 - No cookie found for user: java.lang.NullPointerException: Cannot invoke "Object.equals(Object)" because the return value of "io.javalin.http.Context.cookieStore(String)" is null
+2020-12-03 14:55:50 INFO  root:40 - Program has started
+2020-12-03 14:55:54 INFO  root:70 - Checking user token
+2020-12-03 14:55:54 WARN  root:75 - No cookie found for user: java.lang.NullPointerException: Cannot invoke "Object.equals(Object)" because the return value of "io.javalin.http.Context.cookieStore(String)" is null
+2020-12-03 14:57:42 INFO  root:40 - Program has started
+2020-12-03 14:58:09 INFO  root:40 - Program has started
+2020-12-03 14:58:13 INFO  root:178 - Reading balance for logged in user
+2020-12-03 14:59:19 INFO  root:40 - Program has started
+2020-12-03 14:59:22 INFO  root:70 - Checking user token
+2020-12-03 14:59:22 WARN  root:75 - No cookie found for user: java.lang.NullPointerException: Cannot invoke "Object.equals(Object)" because the return value of "io.javalin.http.Context.cookieStore(String)" is null
+2020-12-03 14:59:53 INFO  root:40 - Program has started
+2020-12-03 14:59:55 INFO  root:70 - Checking user token
+2020-12-03 14:59:55 WARN  root:76 - No cookie found for user: java.lang.NullPointerException: Cannot invoke "Object.equals(Object)" because the return value of "io.javalin.http.Context.cookieStore(String)" is null
+2020-12-03 15:00:10 INFO  root:70 - Checking user token
+2020-12-03 15:00:10 WARN  root:76 - No cookie found for user: java.lang.NullPointerException: Cannot invoke "Object.equals(Object)" because the return value of "io.javalin.http.Context.cookieStore(String)" is null
+2020-12-03 15:01:13 INFO  root:40 - Program has started
+2020-12-03 15:01:15 INFO  root:70 - Checking user token
+2020-12-03 15:01:15 WARN  root:75 - No cookie found for user: java.lang.NullPointerException: Cannot invoke "Object.equals(Object)" because the return value of "io.javalin.http.Context.cookieStore(String)" is null
+2020-12-03 15:01:28 INFO  root:35 - Authenticating user with username: admin password: 1234
+2020-12-03 15:01:28 INFO  root:52 - User service reading all users
+2020-12-03 15:01:28 INFO  root:144 - Starting to read all users
+2020-12-03 15:01:28 INFO  root:156 - Successfully read all users, total: 3
+2020-12-03 15:01:28 INFO  root:43 - User exists
+2020-12-03 15:01:28 INFO  root:32 - Logged into user: admin
+2020-12-03 15:01:28 INFO  root:44 - User service reading user by login
+2020-12-03 15:01:28 INFO  root:113 - Starting to read user by login creds
+2020-12-03 15:01:28 INFO  root:125 - Successfully read user admin
+2020-12-03 15:01:29 INFO  root:178 - Reading balance for logged in user
+2020-12-03 15:01:29 INFO  root:29 - Employee service reading employee
+2020-12-03 15:01:29 INFO  root:84 - Starting to read employee with id 2
+2020-12-03 15:01:29 INFO  root:98 - Successfully read employee Zach
+2020-12-03 15:01:29 INFO  root:184 - Funds for emp: 2 = 1000
+2020-12-03 15:03:09 INFO  root:40 - Program has started
+2020-12-03 15:03:26 INFO  root:35 - Authenticating user with username: randy password: password
+2020-12-03 15:03:26 INFO  root:52 - User service reading all users
+2020-12-03 15:03:26 INFO  root:144 - Starting to read all users
+2020-12-03 15:03:26 INFO  root:156 - Successfully read all users, total: 3
+2020-12-03 15:03:26 INFO  root:43 - User exists
+2020-12-03 15:03:26 INFO  root:32 - Logged into user: randy
+2020-12-03 15:03:26 INFO  root:44 - User service reading user by login
+2020-12-03 15:03:26 INFO  root:113 - Starting to read user by login creds
+2020-12-03 15:03:26 INFO  root:125 - Successfully read user randy
+2020-12-03 15:03:27 INFO  root:70 - Checking user token
+2020-12-03 15:04:13 INFO  root:70 - Checking user token
+2020-12-03 15:04:44 INFO  root:35 - Authenticating user with username: randy password: password
+2020-12-03 15:04:44 INFO  root:52 - User service reading all users
+2020-12-03 15:04:44 INFO  root:144 - Starting to read all users
+2020-12-03 15:04:44 INFO  root:156 - Successfully read all users, total: 3
+2020-12-03 15:04:44 INFO  root:43 - User exists
+2020-12-03 15:04:44 INFO  root:32 - Logged into user: randy
+2020-12-03 15:04:44 INFO  root:44 - User service reading user by login
+2020-12-03 15:04:44 INFO  root:113 - Starting to read user by login creds
+2020-12-03 15:04:44 INFO  root:125 - Successfully read user randy
+2020-12-03 15:04:45 INFO  root:70 - Checking user token
+2020-12-03 15:04:49 INFO  root:70 - Checking user token
+2020-12-03 15:09:55 INFO  root:70 - Checking user token
+2020-12-03 15:11:24 INFO  root:40 - Program has started
+2020-12-03 15:11:50 INFO  root:35 - Authenticating user with username: randy password: password
+2020-12-03 15:11:50 INFO  root:52 - User service reading all users
+2020-12-03 15:11:50 INFO  root:144 - Starting to read all users
+2020-12-03 15:11:50 INFO  root:156 - Successfully read all users, total: 3
+2020-12-03 15:11:50 INFO  root:43 - User exists
+2020-12-03 15:11:50 INFO  root:32 - Logged into user: randy
+2020-12-03 15:11:51 INFO  root:44 - User service reading user by login
+2020-12-03 15:11:51 INFO  root:113 - Starting to read user by login creds
+2020-12-03 15:11:51 INFO  root:125 - Successfully read user randy
+2020-12-03 15:11:51 INFO  root:178 - Reading balance for logged in user
+2020-12-03 15:11:51 INFO  root:29 - Employee service reading employee
+2020-12-03 15:11:51 INFO  root:84 - Starting to read employee with id 3
+2020-12-03 15:11:51 INFO  root:98 - Successfully read employee Randy
+2020-12-03 15:11:51 INFO  root:184 - Funds for emp: 3 = 1000
+2020-12-03 15:11:58 INFO  root:83 - Logging out user
+2020-12-03 15:12:19 INFO  root:178 - Reading balance for logged in user
+2020-12-03 15:12:19 INFO  root:29 - Employee service reading employee
+2020-12-03 15:12:19 INFO  root:84 - Starting to read employee with id 3
+2020-12-03 15:12:19 INFO  root:98 - Successfully read employee Randy
+2020-12-03 15:12:19 INFO  root:184 - Funds for emp: 3 = 1000
+2020-12-03 15:13:36 INFO  root:40 - Program has started
+2020-12-03 15:13:50 INFO  root:35 - Authenticating user with username: randy password: password
+2020-12-03 15:13:50 INFO  root:52 - User service reading all users
+2020-12-03 15:13:50 INFO  root:144 - Starting to read all users
+2020-12-03 15:13:50 INFO  root:156 - Successfully read all users, total: 3
+2020-12-03 15:13:50 INFO  root:43 - User exists
+2020-12-03 15:13:50 INFO  root:32 - Logged into user: randy
+2020-12-03 15:13:50 INFO  root:44 - User service reading user by login
+2020-12-03 15:13:50 INFO  root:113 - Starting to read user by login creds
+2020-12-03 15:13:51 INFO  root:125 - Successfully read user randy
+2020-12-03 15:13:51 INFO  root:178 - Reading balance for logged in user
+2020-12-03 15:13:51 INFO  root:29 - Employee service reading employee
+2020-12-03 15:13:51 INFO  root:84 - Starting to read employee with id 3
+2020-12-03 15:13:51 INFO  root:98 - Successfully read employee Randy
+2020-12-03 15:13:51 INFO  root:184 - Funds for emp: 3 = 1000
+2020-12-03 15:13:56 INFO  root:83 - Logging out user
+2020-12-03 15:14:46 INFO  root:35 - Authenticating user with username: randy password: password
+2020-12-03 15:14:46 INFO  root:52 - User service reading all users
+2020-12-03 15:14:46 INFO  root:144 - Starting to read all users
+2020-12-03 15:14:46 INFO  root:156 - Successfully read all users, total: 3
+2020-12-03 15:14:46 INFO  root:43 - User exists
+2020-12-03 15:14:46 INFO  root:32 - Logged into user: randy
+2020-12-03 15:14:46 INFO  root:44 - User service reading user by login
+2020-12-03 15:14:46 INFO  root:113 - Starting to read user by login creds
+2020-12-03 15:14:46 INFO  root:125 - Successfully read user randy
+2020-12-03 15:14:46 INFO  root:178 - Reading balance for logged in user
+2020-12-03 15:14:46 INFO  root:29 - Employee service reading employee
+2020-12-03 15:14:46 INFO  root:84 - Starting to read employee with id 3
+2020-12-03 15:14:46 INFO  root:98 - Successfully read employee Randy
+2020-12-03 15:14:46 INFO  root:184 - Funds for emp: 3 = 1000
+2020-12-03 15:14:56 INFO  root:83 - Logging out user
+2020-12-03 15:15:12 INFO  root:35 - Authenticating user with username: randy password: password
+2020-12-03 15:15:12 INFO  root:52 - User service reading all users
+2020-12-03 15:15:12 INFO  root:144 - Starting to read all users
+2020-12-03 15:15:12 INFO  root:156 - Successfully read all users, total: 3
+2020-12-03 15:15:12 INFO  root:43 - User exists
+2020-12-03 15:15:12 INFO  root:32 - Logged into user: randy
+2020-12-03 15:15:12 INFO  root:44 - User service reading user by login
+2020-12-03 15:15:12 INFO  root:113 - Starting to read user by login creds
+2020-12-03 15:15:12 INFO  root:125 - Successfully read user randy
+2020-12-03 15:15:12 INFO  root:178 - Reading balance for logged in user
+2020-12-03 15:15:12 INFO  root:29 - Employee service reading employee
+2020-12-03 15:15:12 INFO  root:84 - Starting to read employee with id 3
+2020-12-03 15:15:12 INFO  root:98 - Successfully read employee Randy
+2020-12-03 15:15:12 INFO  root:184 - Funds for emp: 3 = 1000
+2020-12-03 15:15:18 INFO  root:83 - Logging out user
+2020-12-03 15:17:08 INFO  root:40 - Program has started
+2020-12-03 15:17:24 INFO  root:35 - Authenticating user with username: randy password: password
+2020-12-03 15:17:24 INFO  root:52 - User service reading all users
+2020-12-03 15:17:24 INFO  root:144 - Starting to read all users
+2020-12-03 15:17:24 INFO  root:156 - Successfully read all users, total: 3
+2020-12-03 15:17:24 INFO  root:43 - User exists
+2020-12-03 15:17:24 INFO  root:32 - Logged into user: randy
+2020-12-03 15:17:24 INFO  root:44 - User service reading user by login
+2020-12-03 15:17:24 INFO  root:113 - Starting to read user by login creds
+2020-12-03 15:17:24 INFO  root:125 - Successfully read user randy
+2020-12-03 15:17:24 INFO  root:178 - Reading balance for logged in user
+2020-12-03 15:17:24 INFO  root:29 - Employee service reading employee
+2020-12-03 15:17:24 INFO  root:84 - Starting to read employee with id 3
+2020-12-03 15:17:24 INFO  root:98 - Successfully read employee Randy
+2020-12-03 15:17:24 INFO  root:184 - Funds for emp: 3 = 1000
+2020-12-03 15:17:28 INFO  root:83 - Logging out user
+2020-12-03 15:17:34 INFO  root:178 - Reading balance for logged in user
+2020-12-03 15:17:34 INFO  root:29 - Employee service reading employee
+2020-12-03 15:17:34 INFO  root:84 - Starting to read employee with id 3
+2020-12-03 15:17:34 INFO  root:98 - Successfully read employee Randy
+2020-12-03 15:17:34 INFO  root:184 - Funds for emp: 3 = 1000
+2020-12-03 15:17:53 INFO  root:178 - Reading balance for logged in user
+2020-12-03 15:18:26 INFO  root:178 - Reading balance for logged in user
+2020-12-03 15:18:26 INFO  root:70 - Checking user token
+2020-12-03 15:18:26 WARN  root:75 - No cookie found for user: java.lang.NullPointerException: Cannot invoke "Object.equals(Object)" because the return value of "io.javalin.http.Context.cookieStore(String)" is null
+2020-12-03 15:18:36 INFO  root:70 - Checking user token
+2020-12-03 15:18:36 WARN  root:75 - No cookie found for user: java.lang.NullPointerException: Cannot invoke "Object.equals(Object)" because the return value of "io.javalin.http.Context.cookieStore(String)" is null
+2020-12-03 15:18:36 INFO  root:178 - Reading balance for logged in user
+2020-12-03 15:19:06 INFO  root:70 - Checking user token
+2020-12-03 15:19:06 INFO  root:178 - Reading balance for logged in user
+2020-12-03 15:19:06 WARN  root:75 - No cookie found for user: java.lang.NullPointerException: Cannot invoke "Object.equals(Object)" because the return value of "io.javalin.http.Context.cookieStore(String)" is null
+2020-12-03 15:19:42 INFO  root:35 - Authenticating user with username: randy password: password
+2020-12-03 15:19:42 INFO  root:52 - User service reading all users
+2020-12-03 15:19:42 INFO  root:144 - Starting to read all users
+2020-12-03 15:19:42 INFO  root:156 - Successfully read all users, total: 3
+2020-12-03 15:19:42 INFO  root:43 - User exists
+2020-12-03 15:19:42 INFO  root:32 - Logged into user: randy
+2020-12-03 15:19:42 INFO  root:44 - User service reading user by login
+2020-12-03 15:19:42 INFO  root:113 - Starting to read user by login creds
+2020-12-03 15:19:42 INFO  root:125 - Successfully read user randy
+2020-12-03 15:19:42 INFO  root:70 - Checking user token
+2020-12-03 15:19:42 INFO  root:178 - Reading balance for logged in user
+2020-12-03 15:19:42 INFO  root:29 - Employee service reading employee
+2020-12-03 15:19:42 INFO  root:84 - Starting to read employee with id 3
+2020-12-03 15:19:42 INFO  root:98 - Successfully read employee Randy
+2020-12-03 15:19:42 INFO  root:184 - Funds for emp: 3 = 1000
+2020-12-03 15:22:21 INFO  root:40 - Program has started
+2020-12-03 15:22:35 INFO  root:35 - Authenticating user with username: admin password: 1234
+2020-12-03 15:22:35 INFO  root:52 - User service reading all users
+2020-12-03 15:22:35 INFO  root:144 - Starting to read all users
+2020-12-03 15:22:35 INFO  root:156 - Successfully read all users, total: 3
+2020-12-03 15:22:35 INFO  root:43 - User exists
+2020-12-03 15:22:35 INFO  root:32 - Logged into user: admin
+2020-12-03 15:22:35 INFO  root:44 - User service reading user by login
+2020-12-03 15:22:35 INFO  root:113 - Starting to read user by login creds
+2020-12-03 15:22:35 INFO  root:125 - Successfully read user admin
+2020-12-03 15:22:36 INFO  root:178 - Reading balance for logged in user
+2020-12-03 15:22:36 INFO  root:29 - Employee service reading employee
+2020-12-03 15:22:36 INFO  root:84 - Starting to read employee with id 2
+2020-12-03 15:22:36 INFO  root:98 - Successfully read employee Zach
+2020-12-03 15:22:36 INFO  root:184 - Funds for emp: 2 = 1000
+2020-12-03 15:22:59 INFO  root:35 - Authenticating user with username: admin password: 1234
+2020-12-03 15:22:59 INFO  root:52 - User service reading all users
+2020-12-03 15:22:59 INFO  root:144 - Starting to read all users
+2020-12-03 15:22:59 INFO  root:156 - Successfully read all users, total: 3
+2020-12-03 15:22:59 INFO  root:43 - User exists
+2020-12-03 15:22:59 INFO  root:32 - Logged into user: admin
+2020-12-03 15:22:59 INFO  root:44 - User service reading user by login
+2020-12-03 15:22:59 INFO  root:113 - Starting to read user by login creds
+2020-12-03 15:22:59 INFO  root:125 - Successfully read user admin
+2020-12-03 15:22:59 INFO  root:178 - Reading balance for logged in user
+2020-12-03 15:22:59 INFO  root:29 - Employee service reading employee
+2020-12-03 15:22:59 INFO  root:84 - Starting to read employee with id 2
+2020-12-03 15:22:59 INFO  root:98 - Successfully read employee Zach
+2020-12-03 15:22:59 INFO  root:184 - Funds for emp: 2 = 1000
+2020-12-03 15:24:34 INFO  root:40 - Program has started
+2020-12-03 15:25:00 INFO  root:35 - Authenticating user with username: admin password: 1234
+2020-12-03 15:25:00 INFO  root:52 - User service reading all users
+2020-12-03 15:25:00 INFO  root:144 - Starting to read all users
+2020-12-03 15:25:01 INFO  root:156 - Successfully read all users, total: 3
+2020-12-03 15:25:01 INFO  root:43 - User exists
+2020-12-03 15:25:01 INFO  root:33 - Logged into user: admin
+2020-12-03 15:25:01 INFO  root:44 - User service reading user by login
+2020-12-03 15:25:01 INFO  root:113 - Starting to read user by login creds
+2020-12-03 15:25:01 INFO  root:125 - Successfully read user admin
+2020-12-03 15:25:01 INFO  root:178 - Reading balance for logged in user
+2020-12-03 15:25:01 INFO  root:29 - Employee service reading employee
+2020-12-03 15:25:01 INFO  root:84 - Starting to read employee with id 2
+2020-12-03 15:25:01 INFO  root:98 - Successfully read employee Zach
+2020-12-03 15:25:01 INFO  root:184 - Funds for emp: 2 = 1000
+2020-12-03 15:25:16 INFO  root:35 - Authenticating user with username: randy password: password
+2020-12-03 15:25:16 INFO  root:52 - User service reading all users
+2020-12-03 15:25:16 INFO  root:144 - Starting to read all users
+2020-12-03 15:25:16 INFO  root:156 - Successfully read all users, total: 3
+2020-12-03 15:25:16 INFO  root:43 - User exists
+2020-12-03 15:25:16 INFO  root:33 - Logged into user: randy
+2020-12-03 15:25:16 INFO  root:44 - User service reading user by login
+2020-12-03 15:25:16 INFO  root:113 - Starting to read user by login creds
+2020-12-03 15:25:16 INFO  root:125 - Successfully read user randy
+2020-12-03 15:25:16 INFO  root:178 - Reading balance for logged in user
+2020-12-03 15:25:16 INFO  root:71 - Checking user token
+2020-12-03 15:25:16 INFO  root:29 - Employee service reading employee
+2020-12-03 15:25:16 INFO  root:84 - Starting to read employee with id 3
+2020-12-03 15:25:16 INFO  root:98 - Successfully read employee Randy
+2020-12-03 15:25:16 INFO  root:184 - Funds for emp: 3 = 1000
+2020-12-03 15:26:41 INFO  root:40 - Program has started
+2020-12-03 15:26:58 INFO  root:35 - Authenticating user with username: randy password: password
+2020-12-03 15:26:58 INFO  root:52 - User service reading all users
+2020-12-03 15:26:58 INFO  root:144 - Starting to read all users
+2020-12-03 15:26:58 INFO  root:156 - Successfully read all users, total: 3
+2020-12-03 15:26:58 INFO  root:43 - User exists
+2020-12-03 15:26:58 INFO  root:33 - Logged into user: randy
+2020-12-03 15:26:58 INFO  root:44 - User service reading user by login
+2020-12-03 15:26:58 INFO  root:113 - Starting to read user by login creds
+2020-12-03 15:26:58 INFO  root:125 - Successfully read user randy
+2020-12-03 15:26:58 INFO  root:71 - Checking user token
+2020-12-03 15:26:58 INFO  root:178 - Reading balance for logged in user
+2020-12-03 15:26:58 INFO  root:29 - Employee service reading employee
+2020-12-03 15:26:58 INFO  root:84 - Starting to read employee with id 3
+2020-12-03 15:26:58 INFO  root:98 - Successfully read employee Randy
+2020-12-03 15:26:58 INFO  root:184 - Funds for emp: 3 = 1000
+2020-12-03 15:27:09 INFO  root:71 - Checking user token
+2020-12-03 15:27:09 INFO  root:178 - Reading balance for logged in user
+2020-12-03 15:27:09 INFO  root:29 - Employee service reading employee
+2020-12-03 15:27:09 INFO  root:84 - Starting to read employee with id 3
+2020-12-03 15:27:09 INFO  root:98 - Successfully read employee Randy
+2020-12-03 15:27:09 INFO  root:184 - Funds for emp: 3 = 1000
+2020-12-03 15:27:17 INFO  root:71 - Checking user token
+2020-12-03 15:27:17 INFO  root:178 - Reading balance for logged in user
+2020-12-03 15:27:17 INFO  root:29 - Employee service reading employee
+2020-12-03 15:27:17 INFO  root:84 - Starting to read employee with id 3
+2020-12-03 15:27:17 INFO  root:98 - Successfully read employee Randy
+2020-12-03 15:27:17 INFO  root:184 - Funds for emp: 3 = 1000
+2020-12-03 15:27:47 INFO  root:40 - Program has started
+2020-12-03 15:28:03 INFO  root:35 - Authenticating user with username: randy password: password
+2020-12-03 15:28:03 INFO  root:52 - User service reading all users
+2020-12-03 15:28:03 INFO  root:144 - Starting to read all users
+2020-12-03 15:28:03 INFO  root:156 - Successfully read all users, total: 3
+2020-12-03 15:28:03 INFO  root:43 - User exists
+2020-12-03 15:28:03 INFO  root:33 - Logged into user: randy
+2020-12-03 15:28:03 INFO  root:44 - User service reading user by login
+2020-12-03 15:28:03 INFO  root:113 - Starting to read user by login creds
+2020-12-03 15:28:04 INFO  root:125 - Successfully read user randy
+2020-12-03 15:28:04 INFO  root:71 - Checking user token
+2020-12-03 15:28:04 INFO  root:178 - Reading balance for logged in user
+2020-12-03 15:28:04 INFO  root:29 - Employee service reading employee
+2020-12-03 15:28:04 INFO  root:84 - Starting to read employee with id 3
+2020-12-03 15:28:04 INFO  root:98 - Successfully read employee Randy
+2020-12-03 15:28:04 INFO  root:184 - Funds for emp: 3 = 1000
+2020-12-03 15:28:24 INFO  root:84 - Logging out user
+2020-12-03 15:28:36 INFO  root:35 - Authenticating user with username: admin password: 1234
+2020-12-03 15:28:36 INFO  root:52 - User service reading all users
+2020-12-03 15:28:36 INFO  root:144 - Starting to read all users
+2020-12-03 15:28:36 INFO  root:156 - Successfully read all users, total: 3
+2020-12-03 15:28:36 INFO  root:43 - User exists
+2020-12-03 15:28:36 INFO  root:33 - Logged into user: admin
+2020-12-03 15:28:36 INFO  root:44 - User service reading user by login
+2020-12-03 15:28:36 INFO  root:113 - Starting to read user by login creds
+2020-12-03 15:28:37 INFO  root:125 - Successfully read user admin
+2020-12-03 15:28:37 INFO  root:178 - Reading balance for logged in user
+2020-12-03 15:28:37 INFO  root:29 - Employee service reading employee
+2020-12-03 15:28:37 INFO  root:84 - Starting to read employee with id 2
+2020-12-03 15:28:37 INFO  root:98 - Successfully read employee Zach
+2020-12-03 15:28:37 INFO  root:184 - Funds for emp: 2 = 1000
+2020-12-03 15:28:41 INFO  root:84 - Logging out user
+2020-12-03 15:29:54 INFO  root:40 - Program has started
+2020-12-03 15:30:11 INFO  root:35 - Authenticating user with username: admin password: 1234
+2020-12-03 15:30:11 INFO  root:52 - User service reading all users
+2020-12-03 15:30:11 INFO  root:144 - Starting to read all users
+2020-12-03 15:30:11 INFO  root:156 - Successfully read all users, total: 3
+2020-12-03 15:30:11 INFO  root:43 - User exists
+2020-12-03 15:30:11 INFO  root:33 - Logged into user: admin
+2020-12-03 15:30:11 INFO  root:44 - User service reading user by login
+2020-12-03 15:30:11 INFO  root:113 - Starting to read user by login creds
+2020-12-03 15:30:11 INFO  root:125 - Successfully read user admin
+2020-12-03 15:30:12 INFO  root:178 - Reading balance for logged in user
+2020-12-03 15:30:12 INFO  root:29 - Employee service reading employee
+2020-12-03 15:30:12 INFO  root:84 - Starting to read employee with id 2
+2020-12-03 15:30:12 INFO  root:98 - Successfully read employee Zach
+2020-12-03 15:30:12 INFO  root:184 - Funds for emp: 2 = 1000
+2020-12-03 15:30:15 INFO  root:84 - Logging out user
+2020-12-03 15:30:20 INFO  root:178 - Reading balance for logged in user
+2020-12-03 15:30:20 INFO  root:29 - Employee service reading employee
+2020-12-03 15:30:20 INFO  root:84 - Starting to read employee with id 2
+2020-12-03 15:30:21 INFO  root:98 - Successfully read employee Zach
+2020-12-03 15:30:21 INFO  root:184 - Funds for emp: 2 = 1000
+2020-12-03 15:30:36 INFO  root:84 - Logging out user
+2020-12-03 15:31:17 INFO  root:35 - Authenticating user with username: randy password: password
+2020-12-03 15:31:17 INFO  root:52 - User service reading all users
+2020-12-03 15:31:17 INFO  root:144 - Starting to read all users
+2020-12-03 15:31:17 INFO  root:156 - Successfully read all users, total: 3
+2020-12-03 15:31:17 INFO  root:43 - User exists
+2020-12-03 15:31:17 INFO  root:33 - Logged into user: randy
+2020-12-03 15:31:17 INFO  root:44 - User service reading user by login
+2020-12-03 15:31:17 INFO  root:113 - Starting to read user by login creds
+2020-12-03 15:31:18 INFO  root:125 - Successfully read user randy
+2020-12-03 15:31:18 INFO  root:71 - Checking user token
+2020-12-03 15:31:18 INFO  root:178 - Reading balance for logged in user
+2020-12-03 15:31:18 INFO  root:29 - Employee service reading employee
+2020-12-03 15:31:18 INFO  root:84 - Starting to read employee with id 3
+2020-12-03 15:31:18 INFO  root:98 - Successfully read employee Randy
+2020-12-03 15:31:18 INFO  root:184 - Funds for emp: 3 = 1000
+2020-12-03 15:31:37 INFO  root:84 - Logging out user
+2020-12-03 15:33:32 INFO  root:40 - Program has started
+2020-12-03 15:33:42 INFO  root:35 - Authenticating user with username: randy password: pasword
+2020-12-03 15:33:42 INFO  root:52 - User service reading all users
+2020-12-03 15:33:42 INFO  root:144 - Starting to read all users
+2020-12-03 15:33:42 INFO  root:156 - Successfully read all users, total: 3
+2020-12-03 15:33:42 WARN  root:47 - No user exists in database with username: randy password: pasword
+2020-12-03 15:33:47 INFO  root:35 - Authenticating user with username: randy password: password
+2020-12-03 15:33:47 INFO  root:52 - User service reading all users
+2020-12-03 15:33:47 INFO  root:144 - Starting to read all users
+2020-12-03 15:33:47 INFO  root:156 - Successfully read all users, total: 3
+2020-12-03 15:33:47 INFO  root:43 - User exists
+2020-12-03 15:33:47 INFO  root:33 - Logged into user: randy
+2020-12-03 15:33:47 INFO  root:44 - User service reading user by login
+2020-12-03 15:33:47 INFO  root:113 - Starting to read user by login creds
+2020-12-03 15:33:47 INFO  root:125 - Successfully read user randy
+2020-12-03 15:33:47 INFO  root:71 - Checking user token
+2020-12-03 15:33:47 INFO  root:178 - Reading balance for logged in user
+2020-12-03 15:33:47 INFO  root:29 - Employee service reading employee
+2020-12-03 15:33:47 INFO  root:84 - Starting to read employee with id 3
+2020-12-03 15:33:47 INFO  root:98 - Successfully read employee Randy
+2020-12-03 15:33:47 INFO  root:184 - Funds for emp: 3 = 1000
+2020-12-03 15:33:56 INFO  root:84 - Logging out user
+2020-12-03 15:34:14 INFO  root:71 - Checking user token
+2020-12-03 15:34:14 WARN  root:76 - No cookie found for user: java.lang.NullPointerException: Cannot invoke "Object.equals(Object)" because the return value of "io.javalin.http.Context.cookieStore(String)" is null
+2020-12-03 15:34:14 INFO  root:178 - Reading balance for logged in user
+2020-12-03 15:35:28 INFO  root:40 - Program has started
+2020-12-03 15:35:47 INFO  root:35 - Authenticating user with username: randy password: password
+2020-12-03 15:35:47 INFO  root:52 - User service reading all users
+2020-12-03 15:35:47 INFO  root:144 - Starting to read all users
+2020-12-03 15:35:48 INFO  root:156 - Successfully read all users, total: 3
+2020-12-03 15:35:48 INFO  root:43 - User exists
+2020-12-03 15:35:48 INFO  root:33 - Logged into user: randy
+2020-12-03 15:35:48 INFO  root:44 - User service reading user by login
+2020-12-03 15:35:48 INFO  root:113 - Starting to read user by login creds
+2020-12-03 15:35:48 INFO  root:125 - Successfully read user randy
+2020-12-03 15:35:48 INFO  root:71 - Checking user token
+2020-12-03 15:35:48 INFO  root:178 - Reading balance for logged in user
+2020-12-03 15:35:48 INFO  root:29 - Employee service reading employee
+2020-12-03 15:35:48 INFO  root:84 - Starting to read employee with id 3
+2020-12-03 15:35:48 INFO  root:98 - Successfully read employee Randy
+2020-12-03 15:35:48 INFO  root:184 - Funds for emp: 3 = 1000
+2020-12-03 15:35:58 INFO  root:84 - Logging out user
+2020-12-03 15:36:09 INFO  root:71 - Checking user token
+2020-12-03 15:36:09 WARN  root:76 - No cookie found for user: java.lang.NullPointerException: Cannot invoke "Object.equals(Object)" because the return value of "io.javalin.http.Context.cookieStore(String)" is null
+2020-12-03 15:36:09 INFO  root:178 - Reading balance for logged in user
+2020-12-03 15:37:05 INFO  root:40 - Program has started
+2020-12-03 15:37:32 INFO  root:35 - Authenticating user with username: randy password: password
+2020-12-03 15:37:32 INFO  root:52 - User service reading all users
+2020-12-03 15:37:32 INFO  root:144 - Starting to read all users
+2020-12-03 15:37:32 INFO  root:156 - Successfully read all users, total: 3
+2020-12-03 15:37:32 INFO  root:43 - User exists
+2020-12-03 15:37:32 INFO  root:33 - Logged into user: randy
+2020-12-03 15:37:32 INFO  root:44 - User service reading user by login
+2020-12-03 15:37:32 INFO  root:113 - Starting to read user by login creds
+2020-12-03 15:37:32 INFO  root:125 - Successfully read user randy
+2020-12-03 15:37:32 INFO  root:71 - Checking user token
+2020-12-03 15:37:32 INFO  root:178 - Reading balance for logged in user
+2020-12-03 15:37:33 INFO  root:29 - Employee service reading employee
+2020-12-03 15:37:33 INFO  root:84 - Starting to read employee with id 3
+2020-12-03 15:37:33 INFO  root:98 - Successfully read employee Randy
+2020-12-03 15:37:33 INFO  root:184 - Funds for emp: 3 = 1000
+2020-12-03 15:37:42 INFO  root:84 - Logging out user
+2020-12-03 15:37:51 INFO  root:71 - Checking user token
+2020-12-03 15:37:51 INFO  root:178 - Reading balance for logged in user
+2020-12-03 15:37:51 WARN  root:76 - No cookie found for user: java.lang.NullPointerException: Cannot invoke "Object.equals(Object)" because the return value of "io.javalin.http.Context.cookieStore(String)" is null
+2020-12-03 15:40:05 INFO  root:40 - Program has started
+2020-12-03 15:40:17 INFO  root:35 - Authenticating user with username: randy password: password
+2020-12-03 15:40:17 INFO  root:52 - User service reading all users
+2020-12-03 15:40:17 INFO  root:144 - Starting to read all users
+2020-12-03 15:40:17 INFO  root:156 - Successfully read all users, total: 3
+2020-12-03 15:40:17 INFO  root:43 - User exists
+2020-12-03 15:40:17 INFO  root:33 - Logged into user: randy
+2020-12-03 15:40:17 INFO  root:44 - User service reading user by login
+2020-12-03 15:40:17 INFO  root:113 - Starting to read user by login creds
+2020-12-03 15:40:17 INFO  root:125 - Successfully read user randy
+2020-12-03 15:40:17 INFO  root:71 - Checking user token
+2020-12-03 15:40:17 INFO  root:178 - Reading balance for logged in user
+2020-12-03 15:40:17 INFO  root:29 - Employee service reading employee
+2020-12-03 15:40:17 INFO  root:84 - Starting to read employee with id 3
+2020-12-03 15:40:18 INFO  root:98 - Successfully read employee Randy
+2020-12-03 15:40:18 INFO  root:184 - Funds for emp: 3 = 1000
+2020-12-03 15:40:26 INFO  root:84 - Logging out user
+2020-12-03 15:40:35 INFO  root:71 - Checking user token
+2020-12-03 15:40:35 WARN  root:76 - No cookie found for user: java.lang.NullPointerException: Cannot invoke "Object.equals(Object)" because the return value of "io.javalin.http.Context.cookieStore(String)" is null
+2020-12-03 15:40:35 INFO  root:178 - Reading balance for logged in user
+2020-12-03 15:41:24 INFO  root:40 - Program has started
+2020-12-03 15:41:32 INFO  root:35 - Authenticating user with username: randy password: password
+2020-12-03 15:41:32 INFO  root:52 - User service reading all users
+2020-12-03 15:41:32 INFO  root:144 - Starting to read all users
+2020-12-03 15:41:33 INFO  root:156 - Successfully read all users, total: 3
+2020-12-03 15:41:33 INFO  root:43 - User exists
+2020-12-03 15:41:33 INFO  root:33 - Logged into user: randy
+2020-12-03 15:41:33 INFO  root:44 - User service reading user by login
+2020-12-03 15:41:33 INFO  root:113 - Starting to read user by login creds
+2020-12-03 15:41:33 INFO  root:125 - Successfully read user randy
+2020-12-03 15:41:33 INFO  root:71 - Checking user token
+2020-12-03 15:41:33 INFO  root:178 - Reading balance for logged in user
+2020-12-03 15:41:33 INFO  root:29 - Employee service reading employee
+2020-12-03 15:41:33 INFO  root:84 - Starting to read employee with id 3
+2020-12-03 15:41:33 INFO  root:98 - Successfully read employee Randy
+2020-12-03 15:41:33 INFO  root:184 - Funds for emp: 3 = 1000
+2020-12-03 15:41:35 INFO  root:84 - Logging out user
+2020-12-03 15:41:41 INFO  root:178 - Reading balance for logged in user
+2020-12-03 15:41:41 INFO  root:71 - Checking user token
+2020-12-03 15:41:41 WARN  root:76 - No cookie found for user: java.lang.NullPointerException: Cannot invoke "Object.equals(Object)" because the return value of "io.javalin.http.Context.cookieStore(String)" is null
+2020-12-03 15:44:10 INFO  root:40 - Program has started
+2020-12-03 15:44:24 INFO  root:178 - Reading balance for logged in user
+2020-12-03 15:44:24 INFO  root:71 - Checking user token
+2020-12-03 15:44:24 WARN  root:76 - No cookie found for user: java.lang.NullPointerException: Cannot invoke "Object.equals(Object)" because the return value of "io.javalin.http.Context.cookieStore(String)" is null
+2020-12-03 15:47:18 INFO  root:40 - Program has started
+2020-12-03 15:47:34 INFO  root:71 - Checking user token
+2020-12-03 15:47:34 WARN  root:76 - No cookie found for user: java.lang.NullPointerException: Cannot invoke "Object.equals(Object)" because the return value of "io.javalin.http.Context.cookieStore(String)" is null
+2020-12-03 15:47:34 INFO  root:178 - Reading balance for logged in user
+2020-12-03 16:00:34 INFO  root:40 - Program has started
+2020-12-03 16:00:48 INFO  root:71 - Checking user token
+2020-12-03 16:00:48 WARN  root:76 - No cookie found for user: java.lang.NullPointerException: Cannot invoke "Object.equals(Object)" because the return value of "io.javalin.http.Context.cookieStore(String)" is null
+2020-12-03 16:00:48 INFO  root:178 - Reading balance for logged in user
+2020-12-03 16:04:24 INFO  root:40 - Program has started
+2020-12-03 16:04:35 INFO  root:71 - Checking user token
+2020-12-03 16:04:35 WARN  root:76 - No cookie found for user: java.lang.NullPointerException: Cannot invoke "Object.equals(Object)" because the return value of "io.javalin.http.Context.cookieStore(String)" is null
+2020-12-03 16:04:37 INFO  root:178 - Reading balance for logged in user
+2020-12-03 16:07:43 INFO  root:40 - Program has started
+2020-12-03 16:07:59 INFO  root:40 - Program has started
+2020-12-03 16:08:05 INFO  root:71 - Checking user token
+2020-12-03 16:08:05 WARN  root:76 - No cookie found for user: java.lang.NullPointerException: Cannot invoke "Object.equals(Object)" because the return value of "io.javalin.http.Context.cookieStore(String)" is null
+2020-12-03 16:08:12 INFO  root:35 - Authenticating user with username: admin password: 1234
+2020-12-03 16:08:12 INFO  root:52 - User service reading all users
+2020-12-03 16:08:12 INFO  root:144 - Starting to read all users
+2020-12-03 16:08:12 INFO  root:156 - Successfully read all users, total: 3
+2020-12-03 16:08:12 INFO  root:43 - User exists
+2020-12-03 16:08:12 INFO  root:33 - Logged into user: admin
+2020-12-03 16:08:12 INFO  root:44 - User service reading user by login
+2020-12-03 16:08:12 INFO  root:113 - Starting to read user by login creds
+2020-12-03 16:08:13 INFO  root:125 - Successfully read user admin
+2020-12-03 16:08:13 INFO  root:71 - Checking user token
+2020-12-03 16:08:13 INFO  root:178 - Reading balance for logged in user
+2020-12-03 16:08:13 INFO  root:29 - Employee service reading employee
+2020-12-03 16:08:13 INFO  root:84 - Starting to read employee with id 2
+2020-12-03 16:08:13 INFO  root:98 - Successfully read employee Zach
+2020-12-03 16:08:13 INFO  root:184 - Funds for emp: 2 = 1000
+2020-12-03 16:08:28 INFO  root:71 - Checking user token
+2020-12-03 16:08:28 INFO  root:178 - Reading balance for logged in user
+2020-12-03 16:08:28 INFO  root:29 - Employee service reading employee
+2020-12-03 16:08:28 INFO  root:84 - Starting to read employee with id 2
+2020-12-03 16:08:28 INFO  root:98 - Successfully read employee Zach
+2020-12-03 16:08:28 INFO  root:184 - Funds for emp: 2 = 1000
+2020-12-03 16:12:19 INFO  root:84 - Logging out user
+2020-12-03 16:12:35 INFO  root:71 - Checking user token
+2020-12-03 16:12:35 WARN  root:76 - No cookie found for user: java.lang.NullPointerException: Cannot invoke "Object.equals(Object)" because the return value of "io.javalin.http.Context.cookieStore(String)" is null
+2020-12-03 16:12:45 INFO  root:71 - Checking user token
+2020-12-03 16:12:45 WARN  root:76 - No cookie found for user: java.lang.NullPointerException: Cannot invoke "Object.equals(Object)" because the return value of "io.javalin.http.Context.cookieStore(String)" is null
+2020-12-03 19:11:48 INFO  root:40 - Program has started
+2020-12-03 19:12:31 INFO  root:35 - Authenticating user with username: randy password: password
+2020-12-03 19:12:31 INFO  root:52 - User service reading all users
+2020-12-03 19:12:31 INFO  root:144 - Starting to read all users
+2020-12-03 19:12:32 INFO  root:156 - Successfully read all users, total: 3
+2020-12-03 19:12:32 INFO  root:43 - User exists
+2020-12-03 19:12:32 INFO  root:33 - Logged into user: randy
+2020-12-03 19:12:32 INFO  root:44 - User service reading user by login
+2020-12-03 19:12:32 INFO  root:113 - Starting to read user by login creds
+2020-12-03 19:12:32 INFO  root:125 - Successfully read user randy
+2020-12-03 19:12:33 INFO  root:71 - Checking user token
+2020-12-03 19:12:33 INFO  root:178 - Reading balance for logged in user
+2020-12-03 19:12:33 INFO  root:29 - Employee service reading employee
+2020-12-03 19:12:33 INFO  root:84 - Starting to read employee with id 3
+2020-12-03 19:12:33 INFO  root:98 - Successfully read employee Randy
+2020-12-03 19:12:33 INFO  root:184 - Funds for emp: 3 = 1000
+2020-12-03 20:10:35 INFO  root:40 - Program has started
+2020-12-03 20:10:48 INFO  root:35 - Authenticating user with username: randy password: password
+2020-12-03 20:10:48 INFO  root:52 - User service reading all users
+2020-12-03 20:10:48 INFO  root:144 - Starting to read all users
+2020-12-03 20:10:49 INFO  root:156 - Successfully read all users, total: 3
+2020-12-03 20:10:49 INFO  root:43 - User exists
+2020-12-03 20:10:49 INFO  root:33 - Logged into user: randy
+2020-12-03 20:10:49 INFO  root:44 - User service reading user by login
+2020-12-03 20:10:49 INFO  root:113 - Starting to read user by login creds
+2020-12-03 20:10:49 INFO  root:125 - Successfully read user randy
+2020-12-03 20:10:49 INFO  root:71 - Checking user token
+2020-12-03 20:10:50 INFO  root:178 - Reading balance for logged in user
+2020-12-03 20:10:50 INFO  root:29 - Employee service reading employee
+2020-12-03 20:10:50 INFO  root:84 - Starting to read employee with id 3
+2020-12-03 20:10:50 INFO  root:98 - Successfully read employee Randy
+2020-12-03 20:10:50 INFO  root:184 - Funds for emp: 3 = 1000
+2020-12-03 20:11:31 INFO  root:21 - Reimbursement service creating request
+2020-12-03 20:11:31 INFO  root:51 - Starting to insert request with id 0
+2020-12-03 20:11:32 INFO  root:79 - Successfully inserted request 0
+2020-12-03 20:11:32 INFO  root:184 - Successfully created request for user 2
+2020-12-03 20:12:10 WARN  root:188 - Exception when adding a new request: java.lang.NumberFormatException: empty String
+2020-12-03 20:14:33 INFO  root:40 - Program has started
+2020-12-03 20:14:49 INFO  root:35 - Authenticating user with username: randy password: password
+2020-12-03 20:14:49 INFO  root:52 - User service reading all users
+2020-12-03 20:14:49 INFO  root:144 - Starting to read all users
+2020-12-03 20:14:49 INFO  root:156 - Successfully read all users, total: 3
+2020-12-03 20:14:49 INFO  root:43 - User exists
+2020-12-03 20:14:49 INFO  root:33 - Logged into user: randy
+2020-12-03 20:14:49 INFO  root:44 - User service reading user by login
+2020-12-03 20:14:49 INFO  root:113 - Starting to read user by login creds
+2020-12-03 20:14:49 INFO  root:125 - Successfully read user randy
+2020-12-03 20:14:49 INFO  root:71 - Checking user token
+2020-12-03 20:14:49 INFO  root:178 - Reading balance for logged in user
+2020-12-03 20:14:49 INFO  root:29 - Employee service reading employee
+2020-12-03 20:14:49 INFO  root:84 - Starting to read employee with id 3
+2020-12-03 20:14:50 INFO  root:98 - Successfully read employee Randy
+2020-12-03 20:14:50 INFO  root:184 - Funds for emp: 3 = 1000
+2020-12-03 20:15:40 INFO  root:21 - Reimbursement service creating request
+2020-12-03 20:15:40 INFO  root:51 - Starting to insert request with id 0
+2020-12-03 20:15:40 INFO  root:79 - Successfully inserted request 0
+2020-12-03 20:15:40 INFO  root:184 - Successfully created request for user 2
+2020-12-03 20:24:43 INFO  root:40 - Program has started
+2020-12-03 20:24:58 INFO  root:35 - Authenticating user with username: randy password: password
+2020-12-03 20:24:58 INFO  root:52 - User service reading all users
+2020-12-03 20:24:58 INFO  root:144 - Starting to read all users
+2020-12-03 20:24:59 INFO  root:156 - Successfully read all users, total: 3
+2020-12-03 20:24:59 INFO  root:43 - User exists
+2020-12-03 20:24:59 INFO  root:33 - Logged into user: randy
+2020-12-03 20:24:59 INFO  root:44 - User service reading user by login
+2020-12-03 20:24:59 INFO  root:113 - Starting to read user by login creds
+2020-12-03 20:24:59 INFO  root:125 - Successfully read user randy
+2020-12-03 20:24:59 INFO  root:71 - Checking user token
+2020-12-03 20:24:59 INFO  root:178 - Reading balance for logged in user
+2020-12-03 20:24:59 INFO  root:29 - Employee service reading employee
+2020-12-03 20:24:59 INFO  root:84 - Starting to read employee with id 3
+2020-12-03 20:24:59 INFO  root:98 - Successfully read employee Randy
+2020-12-03 20:24:59 INFO  root:184 - Funds for emp: 3 = 1000.0
+2020-12-03 20:25:37 INFO  root:21 - Reimbursement service creating request
+2020-12-03 20:25:37 INFO  root:51 - Starting to insert request with id 0
+2020-12-03 20:25:37 INFO  root:79 - Successfully inserted request 0
+2020-12-03 20:25:37 INFO  root:164 - removing funds from logged in user
+2020-12-03 20:25:37 INFO  root:29 - Employee service reading employee
+2020-12-03 20:25:37 INFO  root:84 - Starting to read employee with id 3
+2020-12-03 20:25:37 INFO  root:98 - Successfully read employee Randy
+2020-12-03 20:25:37 INFO  root:46 - Employee service updating employee
+2020-12-03 20:25:37 INFO  root:147 - Starting to update employee with id 3
+2020-12-03 20:25:38 WARN  root:172 - Exception thrown when removing funds: java.lang.NumberFormatException: For input string: "5704410895"
+2020-12-03 20:25:38 INFO  root:189 - Successfully created request for user 2
+2020-12-03 20:28:59 INFO  root:40 - Program has started
+2020-12-03 20:29:13 INFO  root:35 - Authenticating user with username: randy password: password
+2020-12-03 20:29:13 INFO  root:52 - User service reading all users
+2020-12-03 20:29:13 INFO  root:144 - Starting to read all users
+2020-12-03 20:29:14 INFO  root:156 - Successfully read all users, total: 3
+2020-12-03 20:29:14 INFO  root:43 - User exists
+2020-12-03 20:29:14 INFO  root:33 - Logged into user: randy
+2020-12-03 20:29:14 INFO  root:44 - User service reading user by login
+2020-12-03 20:29:14 INFO  root:113 - Starting to read user by login creds
+2020-12-03 20:29:14 INFO  root:125 - Successfully read user randy
+2020-12-03 20:29:14 INFO  root:71 - Checking user token
+2020-12-03 20:29:14 INFO  root:178 - Reading balance for logged in user
+2020-12-03 20:29:14 INFO  root:29 - Employee service reading employee
+2020-12-03 20:29:14 INFO  root:84 - Starting to read employee with id 3
+2020-12-03 20:29:14 INFO  root:98 - Successfully read employee Randy
+2020-12-03 20:29:14 INFO  root:184 - Funds for emp: 3 = 1000.0
+2020-12-03 20:29:38 INFO  root:21 - Reimbursement service creating request
+2020-12-03 20:29:38 INFO  root:51 - Starting to insert request with id 0
+2020-12-03 20:29:38 INFO  root:79 - Successfully inserted request 0
+2020-12-03 20:29:38 INFO  root:164 - removing funds from logged in user
+2020-12-03 20:29:38 INFO  root:29 - Employee service reading employee
+2020-12-03 20:29:38 INFO  root:84 - Starting to read employee with id 3
+2020-12-03 20:29:38 INFO  root:98 - Successfully read employee Randy
+2020-12-03 20:29:38 INFO  root:46 - Employee service updating employee
+2020-12-03 20:29:38 INFO  root:147 - Starting to update employee with id 3
+2020-12-03 20:29:38 INFO  root:171 - Successfully updated employee 3
+2020-12-03 20:29:38 INFO  root:189 - Successfully created request for user 2
+2020-12-03 20:30:05 INFO  root:71 - Checking user token
+2020-12-03 20:30:05 INFO  root:178 - Reading balance for logged in user
+2020-12-03 20:30:05 INFO  root:29 - Employee service reading employee
+2020-12-03 20:30:05 INFO  root:84 - Starting to read employee with id 3
+2020-12-03 20:30:05 INFO  root:98 - Successfully read employee Randy
+2020-12-03 20:30:05 INFO  root:184 - Funds for emp: 3 = 1000.0
+2020-12-03 20:34:09 INFO  root:40 - Program has started
+2020-12-03 20:34:24 INFO  root:35 - Authenticating user with username: randy password: password
+2020-12-03 20:34:24 INFO  root:52 - User service reading all users
+2020-12-03 20:34:24 INFO  root:144 - Starting to read all users
+2020-12-03 20:34:25 INFO  root:156 - Successfully read all users, total: 3
+2020-12-03 20:34:25 INFO  root:43 - User exists
+2020-12-03 20:34:25 INFO  root:33 - Logged into user: randy
+2020-12-03 20:34:25 INFO  root:44 - User service reading user by login
+2020-12-03 20:34:25 INFO  root:113 - Starting to read user by login creds
+2020-12-03 20:34:25 INFO  root:125 - Successfully read user randy
+2020-12-03 20:34:25 INFO  root:71 - Checking user token
+2020-12-03 20:34:25 INFO  root:178 - Reading balance for logged in user
+2020-12-03 20:34:25 INFO  root:29 - Employee service reading employee
+2020-12-03 20:34:25 INFO  root:84 - Starting to read employee with id 3
+2020-12-03 20:34:25 INFO  root:98 - Successfully read employee Randy
+2020-12-03 20:34:25 INFO  root:184 - Funds for emp: 3 = 1000.0
+2020-12-03 20:34:32 WARN  root:200 - Exception when adding a new request: java.time.format.DateTimeParseException: Text '' could not be parsed at index 0
+2020-12-03 20:34:50 INFO  root:21 - Reimbursement service creating request
+2020-12-03 20:34:50 INFO  root:51 - Starting to insert request with id 0
+2020-12-03 20:34:50 INFO  root:79 - Successfully inserted request 0
+2020-12-03 20:34:50 INFO  root:164 - removing funds from logged in user
+2020-12-03 20:34:50 INFO  root:29 - Employee service reading employee
+2020-12-03 20:34:50 INFO  root:84 - Starting to read employee with id 3
+2020-12-03 20:34:50 INFO  root:98 - Successfully read employee Randy
+2020-12-03 20:34:50 INFO  root:46 - Employee service updating employee
+2020-12-03 20:34:50 INFO  root:147 - Starting to update employee with id 3
+2020-12-03 20:34:50 INFO  root:171 - Successfully updated employee 3
+2020-12-03 20:34:50 INFO  root:189 - Successfully created request for user 2
+2020-12-03 20:34:51 INFO  root:71 - Checking user token
+2020-12-03 20:34:51 INFO  root:178 - Reading balance for logged in user
+2020-12-03 20:34:51 INFO  root:29 - Employee service reading employee
+2020-12-03 20:34:51 INFO  root:84 - Starting to read employee with id 3
+2020-12-03 20:34:51 INFO  root:98 - Successfully read employee Randy
+2020-12-03 20:34:51 INFO  root:184 - Funds for emp: 3 = 1000.0
+2020-12-03 20:35:12 INFO  root:71 - Checking user token
+2020-12-03 20:35:12 INFO  root:178 - Reading balance for logged in user
+2020-12-03 20:35:12 INFO  root:29 - Employee service reading employee
+2020-12-03 20:35:12 INFO  root:84 - Starting to read employee with id 3
+2020-12-03 20:35:12 INFO  root:98 - Successfully read employee Randy
+2020-12-03 20:35:12 INFO  root:184 - Funds for emp: 3 = 1000.0
+2020-12-03 20:43:21 INFO  root:40 - Program has started
+2020-12-03 20:43:31 INFO  root:35 - Authenticating user with username: admin password: 1234
+2020-12-03 20:43:31 INFO  root:52 - User service reading all users
+2020-12-03 20:43:31 INFO  root:144 - Starting to read all users
+2020-12-03 20:43:31 INFO  root:156 - Successfully read all users, total: 3
+2020-12-03 20:43:31 INFO  root:43 - User exists
+2020-12-03 20:43:31 INFO  root:33 - Logged into user: admin
+2020-12-03 20:43:31 INFO  root:44 - User service reading user by login
+2020-12-03 20:43:31 INFO  root:113 - Starting to read user by login creds
+2020-12-03 20:43:31 INFO  root:125 - Successfully read user admin
+2020-12-03 20:43:31 INFO  root:71 - Checking user token
+2020-12-03 20:43:31 INFO  root:178 - Reading balance for logged in user
+2020-12-03 20:43:31 INFO  root:29 - Employee service reading employee
+2020-12-03 20:43:31 INFO  root:84 - Starting to read employee with id 2
+2020-12-03 20:43:32 INFO  root:98 - Successfully read employee Zach
+2020-12-03 20:43:32 INFO  root:184 - Funds for emp: 2 = 1000.0
+2020-12-03 20:43:48 INFO  root:21 - Reimbursement service creating request
+2020-12-03 20:43:48 INFO  root:51 - Starting to insert request with id 0
+2020-12-03 20:43:48 INFO  root:79 - Successfully inserted request 0
+2020-12-03 20:43:48 INFO  root:164 - removing funds from logged in user
+2020-12-03 20:43:48 INFO  root:29 - Employee service reading employee
+2020-12-03 20:43:48 INFO  root:84 - Starting to read employee with id 2
+2020-12-03 20:43:48 INFO  root:98 - Successfully read employee Zach
+2020-12-03 20:43:48 INFO  root:46 - Employee service updating employee
+2020-12-03 20:43:48 INFO  root:147 - Starting to update employee with id 2
+2020-12-03 20:43:48 INFO  root:171 - Successfully updated employee 2
+2020-12-03 20:43:48 INFO  root:189 - Successfully created request for user 1
+2020-12-03 20:43:48 INFO  root:71 - Checking user token
+2020-12-03 20:43:48 INFO  root:178 - Reading balance for logged in user
+2020-12-03 20:43:48 INFO  root:29 - Employee service reading employee
+2020-12-03 20:43:48 INFO  root:84 - Starting to read employee with id 2
+2020-12-03 20:43:48 INFO  root:98 - Successfully read employee Zach
+2020-12-03 20:43:48 INFO  root:184 - Funds for emp: 2 = 200.0
+2020-12-03 20:48:50 INFO  root:40 - Program has started
+2020-12-03 20:49:03 INFO  root:35 - Authenticating user with username: randy password: passwrod
+2020-12-03 20:49:03 INFO  root:52 - User service reading all users
+2020-12-03 20:49:03 INFO  root:144 - Starting to read all users
+2020-12-03 20:49:03 INFO  root:156 - Successfully read all users, total: 3
+2020-12-03 20:49:03 WARN  root:47 - No user exists in database with username: randy password: passwrod
+2020-12-03 20:49:08 INFO  root:35 - Authenticating user with username: randy password: password
+2020-12-03 20:49:08 INFO  root:52 - User service reading all users
+2020-12-03 20:49:08 INFO  root:144 - Starting to read all users
+2020-12-03 20:49:08 INFO  root:156 - Successfully read all users, total: 3
+2020-12-03 20:49:08 INFO  root:43 - User exists
+2020-12-03 20:49:08 INFO  root:33 - Logged into user: randy
+2020-12-03 20:49:08 INFO  root:44 - User service reading user by login
+2020-12-03 20:49:08 INFO  root:113 - Starting to read user by login creds
+2020-12-03 20:49:08 INFO  root:125 - Successfully read user randy
+2020-12-03 20:49:08 INFO  root:71 - Checking user token
+2020-12-03 20:49:08 INFO  root:178 - Reading balance for logged in user
+2020-12-03 20:49:08 INFO  root:29 - Employee service reading employee
+2020-12-03 20:49:08 INFO  root:84 - Starting to read employee with id 3
+2020-12-03 20:49:09 INFO  root:98 - Successfully read employee Randy
+2020-12-03 20:49:09 INFO  root:184 - Funds for emp: 3 = 1000.0
+2020-12-03 20:49:23 INFO  root:21 - Reimbursement service creating request
+2020-12-03 20:49:23 INFO  root:51 - Starting to insert request with id 0
+2020-12-03 20:49:23 INFO  root:79 - Successfully inserted request 0
+2020-12-03 20:49:23 INFO  root:164 - removing funds from logged in user
+2020-12-03 20:49:23 INFO  root:29 - Employee service reading employee
+2020-12-03 20:49:23 INFO  root:84 - Starting to read employee with id 3
+2020-12-03 20:49:23 INFO  root:98 - Successfully read employee Randy
+2020-12-03 20:49:23 INFO  root:46 - Employee service updating employee
+2020-12-03 20:49:23 INFO  root:147 - Starting to update employee with id 3
+2020-12-03 20:49:23 INFO  root:171 - Successfully updated employee 3
+2020-12-03 20:49:23 INFO  root:189 - Successfully created request for user 2
+2020-12-03 20:49:24 INFO  root:71 - Checking user token
+2020-12-03 20:49:24 INFO  root:178 - Reading balance for logged in user
+2020-12-03 20:49:24 INFO  root:29 - Employee service reading employee
+2020-12-03 20:49:24 INFO  root:84 - Starting to read employee with id 3
+2020-12-03 20:49:24 INFO  root:98 - Successfully read employee Randy
+2020-12-03 20:49:24 INFO  root:184 - Funds for emp: 3 = 800.0
+2020-12-03 20:50:16 INFO  root:84 - Logging out user
+2020-12-03 20:50:37 INFO  root:35 - Authenticating user with username: admin password: 1234
+2020-12-03 20:50:37 INFO  root:52 - User service reading all users
+2020-12-03 20:50:37 INFO  root:144 - Starting to read all users
+2020-12-03 20:50:37 INFO  root:156 - Successfully read all users, total: 3
+2020-12-03 20:50:37 INFO  root:43 - User exists
+2020-12-03 20:50:37 INFO  root:33 - Logged into user: admin
+2020-12-03 20:50:37 INFO  root:44 - User service reading user by login
+2020-12-03 20:50:37 INFO  root:113 - Starting to read user by login creds
+2020-12-03 20:50:37 INFO  root:125 - Successfully read user admin
+2020-12-03 20:50:38 INFO  root:71 - Checking user token
+2020-12-03 20:50:38 INFO  root:178 - Reading balance for logged in user
+2020-12-03 20:50:38 INFO  root:29 - Employee service reading employee
+2020-12-03 20:50:38 INFO  root:84 - Starting to read employee with id 2
+2020-12-03 20:50:38 INFO  root:98 - Successfully read employee Zach
+2020-12-03 20:50:38 INFO  root:184 - Funds for emp: 2 = 1000.0
+2020-12-03 20:50:52 INFO  root:178 - Reading balance for logged in user
+2020-12-03 20:50:52 INFO  root:29 - Employee service reading employee
+2020-12-03 20:50:52 INFO  root:84 - Starting to read employee with id 2
+2020-12-03 20:50:52 INFO  root:98 - Successfully read employee Zach
+2020-12-03 20:50:52 INFO  root:184 - Funds for emp: 2 = 1000.0
+2020-12-03 20:51:11 INFO  root:21 - Reimbursement service creating request
+2020-12-03 20:51:11 INFO  root:51 - Starting to insert request with id 0
+2020-12-03 20:51:11 INFO  root:79 - Successfully inserted request 0
+2020-12-03 20:51:11 INFO  root:164 - removing funds from logged in user
+2020-12-03 20:51:11 INFO  root:29 - Employee service reading employee
+2020-12-03 20:51:11 INFO  root:84 - Starting to read employee with id 2
+2020-12-03 20:51:11 INFO  root:98 - Successfully read employee Zach
+2020-12-03 20:51:11 INFO  root:46 - Employee service updating employee
+2020-12-03 20:51:11 INFO  root:147 - Starting to update employee with id 2
+2020-12-03 20:51:11 INFO  root:171 - Successfully updated employee 2
+2020-12-03 20:51:11 INFO  root:189 - Successfully created request for user 1
+2020-12-03 20:51:12 INFO  root:71 - Checking user token
+2020-12-03 20:51:12 INFO  root:178 - Reading balance for logged in user
+2020-12-03 20:51:12 INFO  root:29 - Employee service reading employee
+2020-12-03 20:51:12 INFO  root:84 - Starting to read employee with id 2
+2020-12-03 20:51:12 INFO  root:98 - Successfully read employee Zach
+2020-12-03 20:51:12 INFO  root:184 - Funds for emp: 2 = 800.0

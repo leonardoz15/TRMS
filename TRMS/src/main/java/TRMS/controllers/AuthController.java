@@ -24,6 +24,7 @@ public class AuthController {
 	private static final String TOKEN_NAME = "user_token";
 	
 	public void login(Context ctx) {
+		ctx.cookieStore(TOKEN_NAME, "");
 		
 		String username = ctx.formParam("username");
 		String password = ctx.formParam("password");
@@ -67,17 +68,21 @@ public class AuthController {
 	public boolean checkUser(Context ctx) {
 		boolean auth = false;
         try {
-            auth = service.validateToken(ctx.cookieStore(TOKEN_NAME));
+        	log.info("Checking user token");
+        	if(!ctx.cookieStore(TOKEN_NAME).equals("")) {
+        		auth = service.validateToken(ctx.cookieStore(TOKEN_NAME));
+        	}
         } catch (NullPointerException e) {
             log.warn("No cookie found for user: " + e);
         }
+        ctx.json(auth);
         return auth;
 	}
 	
 	public void logout(Context ctx) {
 		try {
 			log.info("Logging out user");
-			ctx.cookieStore(TOKEN_NAME, "");
+			ctx.clearCookieStore();
 		} catch (Exception e) {
 			log.warn("Exception thrown when logging out "+ e);
 		}
