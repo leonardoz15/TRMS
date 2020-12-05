@@ -117,6 +117,9 @@ function generateRequest(id, type, projected, status) {
     deleteButton.addEventListener("click", function() {
         alert("Youre about to delete this request");
         deleteRequest(id)});
+    editButton.addEventListener("click", function() {
+        window.location.replace("http://localhost:9091/edit-reimbursement.html?request_id="+id);
+    })
 
 }
 
