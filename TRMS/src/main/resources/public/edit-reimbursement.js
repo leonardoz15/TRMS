@@ -29,7 +29,7 @@ function getRequestById(id) {
 
     var xhrRequest = new XMLHttpRequest();
     var xhrRequestUrl = "http://localhost:9091/request/"+id;
-    xhrRequests.onreadystatechange = function () {
+    xhrRequest.onreadystatechange = function () {
         if(xhrRequest.readyState == 4 && xhrRequest.status === 200) {
             let requestList = JSON.parse(xhrRequests.responseText);
             requestList.forEach(element => {
@@ -65,7 +65,7 @@ function getRequestById(id) {
     }
 
     //opens up the request
-    xhrRequests.open("GET", xhrRequestUrl, true);
+    xhrRequest.open("GET", xhrRequestUrl, true);
     //sends request
-    xhrRequests.send();
+    xhrRequest.send();
 }

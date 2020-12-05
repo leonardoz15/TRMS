@@ -60,7 +60,7 @@ public class ReimbursementRequestController {
 		//get request id from path, return json of request
 		try {
 			
-			int requestId = Integer.parseInt(ctx.formParam("request_id"));
+			int requestId = Integer.parseInt(ctx.pathParam("id"));
 		
 			ctx.json(service.readRequest(requestId));		
 			
