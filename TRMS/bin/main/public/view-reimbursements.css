@@ -57,6 +57,23 @@ body {
     justify-content: center;
 }
 
+.request-table{
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.thead-light {
+  text-align: center;
+}
+
+td {
+  text-align: center;
+}
+
+.btn{
+  margin-right: 10px;
+  margin-left:10px;
+}
+
 .footer{
     position: fixed;
     left: 0;

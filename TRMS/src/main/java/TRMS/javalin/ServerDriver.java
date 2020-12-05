@@ -48,6 +48,7 @@ public class ServerDriver {
 		app.get(EMPLOYEE_PATH +"/:id", ctx -> employeeController.getEmployee(ctx));
 		app.get(EMPLOYEE_PATH+"Balance", ctx -> employeeController.getBalance(ctx));
 		app.post(REQUEST_PATH, ctx -> reimbursementController.newRequest(ctx));
+		app.get(REQUEST_PATH, ctx -> reimbursementController.getRequestsByUserId(ctx));
 		
 		//Postman endpoints for testing: 
 		

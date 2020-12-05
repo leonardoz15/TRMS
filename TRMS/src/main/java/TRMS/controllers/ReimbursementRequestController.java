@@ -186,7 +186,7 @@ public class ReimbursementRequestController {
 			
 			employeeController.removeFunds(ctx, cost);
 			
-			log.info("Successfully created request for user " + userId);
+			log.info("Successfully added request for user " + userId);
 			ctx.status(200);
 			if(ctx.cookieStore("priv").equals("EMPLOYEE")) {
 				ctx.redirect("emp-dashboard.html");
@@ -200,6 +200,34 @@ public class ReimbursementRequestController {
 			log.warn("Exception when adding a new request: " + e);
 			ctx.status(500);
 		}
+	}
+	
+	public void getRequestsByUserId(Context ctx) {
+		//get user id from cookie, read all requests in dao, json out list of requests with user id
+		
+		try {
+			
+			int userId = Integer.parseInt(ctx.cookieStore("userId"));
+			
+			List<ReimbursementRequest> requestList = new ArrayList<ReimbursementRequest>();
+			List<ReimbursementRequest> userRequestList = new ArrayList<ReimbursementRequest>();
+			
+			requestList = service.readAllRequests();
+			
+			for(ReimbursementRequest request : requestList) {
+				if(request.getUserId() == userId) {
+					userRequestList.add(request);
+				}
+			}
+			log.info("Successfully selected requests for user " + userId + " total: " + userRequestList.size());
+			ctx.status(200);
+			ctx.json(userRequestList);
+			
+		} catch (Exception e) {
+			log.warn("Exception when selecting requests for user: " + e);
+			ctx.status(500);
+		}
+		
 	}
 
 }
