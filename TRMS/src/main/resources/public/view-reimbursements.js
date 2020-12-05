@@ -113,7 +113,27 @@ function generateRequest(id, type, projected, status) {
     tableBody.appendChild(tableRow);
     table.appendChild(tableBody);
 
-    //TODO: add listeners to both action buttons
+    //add listeners to both action buttons
+    deleteButton.addEventListener("click", function() {
+        alert("Youre about to delete this request");
+        deleteRequest(id)});
+
+}
+
+//delete request:
+function deleteRequest(requestId) {
+
+    var deleteRequest = new XMLHttpRequest();
+    var deleteUrl = "http://localhost:9091/request/"+requestId;
+    deleteRequest.onreadystatechange = function () {
+        if(deleteRequest.readyState == 4 && deleteRequest.status === 200) {
+            getRequests();
+            location.reload();
+        }
+    }
+
+    deleteRequest.open("DELETE", deleteUrl, true);
+    deleteRequest.send();
 }
 
 //logout:

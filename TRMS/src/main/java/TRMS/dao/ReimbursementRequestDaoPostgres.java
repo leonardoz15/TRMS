@@ -90,7 +90,7 @@ public class ReimbursementRequestDaoPostgres implements ReimbursementRequestDao 
 	@Override
 	public ReimbursementRequest readRequest(int requestId) {
 		
-		ReimbursementRequest read;
+		ReimbursementRequest read = null;
 		
 		String sql = "select * from request where request_id = ?";
 		
@@ -102,9 +102,12 @@ public class ReimbursementRequestDaoPostgres implements ReimbursementRequestDao 
 			stmt.setInt(1, requestId);
 			
 			ResultSet rs = stmt.executeQuery();
+			while(rs.next()) {
 			read = new ReimbursementRequest(rs.getInt(1), rs.getInt(2), rs.getDouble(3), rs.getDate(4).toLocalDate(), rs.getTime(5).toLocalTime(),
 											rs.getString(6), rs.getString(7), rs.getString(8), EventType.valueOf(rs.getString(9)), rs.getBoolean(10),
 											rs.getDouble(11), ApprovalStatus.valueOf(rs.getString(12)));
+			
+			}
 			
 			log.info("Successfully read request " + read.getRequestId());
 			
