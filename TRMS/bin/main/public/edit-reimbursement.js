@@ -13,6 +13,7 @@ window.onload = function () {
                 let query = window.location.search;
                 let params = new URLSearchParams(query);
                 var requestId = params.get('request_id');
+
                 getRequestById(requestId);
             }
         }
@@ -164,4 +165,43 @@ function generateRequest(id, cost, date, time, location, description, gradingFor
     tableBody.appendChild(projectedRow);
     tableBody.appendChild(statusRow);
     table.appendChild(tableBody);
+}
+
+//http request for attachment creation
+// function createAttachment() {
+
+//     var xhrAttach = new XMLHttpRequest();
+//     var attachUrl = "http://localhost:9091/attach/"+requestId;
+//     xhrAttach.onreadystatechange = function () {
+//         if(xhrAttach.readyState == 4 && xhrAttach.status === 200) {
+//             let fileInput = document.getElementById("inputGroupFile03");
+//             let selectedFile = fileInput.files[0];
+//         }
+//     }
+//     //opens up the request
+//     xhrAttach.open("POST", attachUrl, true);
+//     //sends request
+//     xhrAttach.send();
+// }
+
+//http request for attachment creation
+function createAttachment() {
+
+    var attachUrl = "http://localhost:9091/attach";
+
+    let fileInput = document.getElementById("inputGroupFile03");
+    let selectedFile = fileInput.files[0];
+
+    let formData = new FormData();
+
+    formData.append('request_id', requestId);
+    formData.append('file_type', selectedFile.type);
+    formData.append('files[]', selectedFile);
+
+    fetch(attachUrl, {
+        method = 'POST',
+        body = formData
+    }).then((response) => {
+        
+    });
 }

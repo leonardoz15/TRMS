@@ -1,0 +1,3 @@
+2020-12-05 16:43:10 INFO  root:43 - Program has started
+2020-12-05 16:43:16 WARN  root:36 - Exception thrown when creating attachment: java.lang.NullPointerException: Cannot invoke "io.javalin.http.UploadedFile.getContent()" because "file" is null
+2020-12-05 16:44:19 WARN  root:36 - Exception thrown when creating attachment: java.lang.IllegalArgumentException: URLDecoder: Illegal hex characters in escape (%) pattern - Error at index 0 in: "U?"

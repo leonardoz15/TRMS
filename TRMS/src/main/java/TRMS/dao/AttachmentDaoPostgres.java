@@ -3,6 +3,7 @@
  */
 package TRMS.dao;
 
+import java.io.IOException;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -51,7 +52,7 @@ public class AttachmentDaoPostgres implements AttachmentDao {
 			stmt = conn.prepareStatement(sql);
 			stmt.setInt(1, attachment.getRequestId());
 			stmt.setString(2, attachment.getFileType());
-			stmt.setBinaryStream(3, attachment.getDataStream());
+			stmt.setBytes(3, attachment.getFile());
 			
 			Savepoint s1 = conn.setSavepoint();
 			int rowsEffected = stmt.executeUpdate();
@@ -75,7 +76,7 @@ public class AttachmentDaoPostgres implements AttachmentDao {
 	@Override
 	public Attachment readAttachment(int attachId) {
 		
-		Attachment read;
+		Attachment read = null;
 		
 		String sql = "select * from attachment where attach_id = ?";
 		
@@ -87,8 +88,10 @@ public class AttachmentDaoPostgres implements AttachmentDao {
 			stmt.setInt(1, attachId);
 			
 			ResultSet rs = stmt.executeQuery();
-			read = new Attachment(rs.getInt(1), rs.getInt(2), rs.getString(3), rs.getBinaryStream(4));
-			
+			while(rs.next()) {
+				read = new Attachment(rs.getInt(1), rs.getInt(2), rs.getString(3));
+				read.setFile(rs.getBinaryStream(4).readAllBytes());
+			}
 			log.info("Successfully read attachment " + read.getAttachId());
 			
 			return read;
@@ -96,7 +99,11 @@ public class AttachmentDaoPostgres implements AttachmentDao {
 		} catch (SQLException e) {
 			log.warn("SQLException thrown when reading attachment with id " + attachId);
 			e.printStackTrace();
+		} catch (IOException e) {
+			log.warn("IOException thrown when reading attachment with id " + attachId);
+			e.printStackTrace();
 		}
+		
 		
 		return null;
 	}
@@ -116,7 +123,8 @@ public class AttachmentDaoPostgres implements AttachmentDao {
 			
 			ResultSet rs = stmt.executeQuery();
 			while(rs.next()) {
-				Attachment toAdd = new Attachment(rs.getInt(1), rs.getInt(2), rs.getString(3), rs.getBinaryStream(4));
+				Attachment toAdd = new Attachment(rs.getInt(1), rs.getInt(2), rs.getString(3));
+				toAdd.setFile(rs.getBinaryStream(4).readAllBytes());
 				
 				result.add(toAdd);
 			}
@@ -126,6 +134,9 @@ public class AttachmentDaoPostgres implements AttachmentDao {
 			
 		} catch (SQLException e) {
 			log.warn("SQLException thrown when reading all attachments");
+			e.printStackTrace();
+		} catch (IOException e) {
+			log.warn("IOException thrown when reading all attachments with id ");
 			e.printStackTrace();
 		}
 		
@@ -146,7 +157,7 @@ public class AttachmentDaoPostgres implements AttachmentDao {
 			stmt = conn.prepareStatement(sql);
 			stmt.setInt(1, attachment.getRequestId());
 			stmt.setString(2, attachment.getFileType());
-			stmt.setBinaryStream(3, attachment.getDataStream());
+			stmt.setBytes(3, attachment.getFile());
 			stmt.setInt(4, attachId);
 			
 			Savepoint s1 = conn.setSavepoint();
