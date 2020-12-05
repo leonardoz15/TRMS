@@ -187,21 +187,26 @@ function generateRequest(id, cost, date, time, location, description, gradingFor
 //http request for attachment creation
 function createAttachment() {
 
-    var attachUrl = "http://localhost:9091/attach";
+    var attachUrl = "http://localhost:9091/attachment";
 
     let fileInput = document.getElementById("inputGroupFile03");
     let selectedFile = fileInput.files[0];
 
     let formData = new FormData();
 
+    let query = window.location.search;
+    let params = new URLSearchParams(query);
+    var requestId = params.get('request_id');
+
     formData.append('request_id', requestId);
     formData.append('file_type', selectedFile.type);
-    formData.append('files[]', selectedFile);
+    formData.append('file', selectedFile);
 
     fetch(attachUrl, {
-        method = 'POST',
-        body = formData
+        method: "POST",
+        body: formData
     }).then((response) => {
-        
+        console.log("file: "+ selectedFile)
+        window.history.back();
     });
 }
