@@ -158,7 +158,7 @@ public class ReimbursementRequestDaoPostgres implements ReimbursementRequestDao 
 	public ReimbursementRequest updateRequest(int requestId, ReimbursementRequest request) {
 		
 		String sql = "update request set user_id = ?, cost = ?, date = ?, time = ?, location = ?, description = ?, grading_format = ?, "
-						+ "event_type = ?::event_type, isUrgent = ?, projected_amount = ?, approval_status = ?::approval_status where"
+						+ "event_type = ?::event_type, urgent = ?, projected_amount = ?, approval_status = ?::approval_status where"
 						+ " request_id = ?";
 		
 		log.info("Starting to update request with id " + requestId);

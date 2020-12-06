@@ -438,3 +438,16 @@
 2020-12-06 13:02:57 INFO  root:131 - Starting to read all requests
 2020-12-06 13:02:57 INFO  root:146 - Successfully read all requests, total: 2
 2020-12-06 13:02:57 INFO  root:258 - Successfully selected requests for priv SUPERVISOR total: 2
+2020-12-06 13:29:11 INFO  root:43 - Program has started
+2020-12-06 13:29:23 INFO  root:30 - Reimbursement service reading request
+2020-12-06 13:29:23 INFO  root:97 - Starting to read request with id 15
+2020-12-06 13:29:24 INFO  root:112 - Successfully read request 15
+2020-12-06 13:29:24 INFO  root:46 - Reimbursement service updating request
+2020-12-06 13:29:24 INFO  root:164 - Starting to update request with id 15
+2020-12-06 13:29:24 INFO  root:293 - Successfully approved request: 15
+2020-12-06 13:32:40 INFO  root:30 - Reimbursement service reading request
+2020-12-06 13:32:40 INFO  root:97 - Starting to read request with id 15
+2020-12-06 13:32:40 INFO  root:112 - Successfully read request 15
+2020-12-06 13:32:40 INFO  root:46 - Reimbursement service updating request
+2020-12-06 13:32:40 INFO  root:164 - Starting to update request with id 15
+2020-12-06 13:32:40 INFO  root:293 - Successfully approved request: 15

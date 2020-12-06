@@ -56,6 +56,8 @@ public class ServerDriver {
 		app.delete(REQUEST_PATH+"/:id", ctx -> reimbursementController.deleteRequest(ctx));
 		app.post(ATTACH_PATH, ctx -> attachmentController.createAttachment(ctx));
 		app.get(REQUEST_PATH+"Approval", ctx -> reimbursementController.getRequestsByUserPriv(ctx));
+		app.put(REQUEST_PATH+"Approve/:id", ctx -> reimbursementController.approveRequestById(ctx));
+		app.put(REQUEST_PATH+"Deny/:id", ctx -> reimbursementController.denyRequestById(ctx));
 		
 		//Postman endpoints for testing: 
 		

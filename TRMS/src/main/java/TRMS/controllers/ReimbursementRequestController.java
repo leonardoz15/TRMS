@@ -264,5 +264,62 @@ public class ReimbursementRequestController {
 			ctx.status(500);
 		}
 	}
+	
+	public void approveRequestById(Context ctx) {
+		//get request id from path, read request, set approval to next corresponding approval ds -> dh -> benco
+		try {
+			
+			int requestId = Integer.parseInt(ctx.pathParam("id"));
+			
+			ReimbursementRequest toUpdate = service.readRequest(requestId);
+			
+			switch (toUpdate.getApproval()) {
+				case DS_PENDING:
+					toUpdate.setApproval(ApprovalStatus.DH_PENDING);
+					break;
+				case DH_PENDING:
+					toUpdate.setApproval(ApprovalStatus.BC_PENDING);
+					break;
+				case BC_PENDING:
+					toUpdate.setApproval(ApprovalStatus.APPROVED);
+					break;
+				default:
+					log.warn("Trying to approve request not pending");
+					break;
+			}
+			
+			service.updateRequest(requestId, toUpdate);
+			
+			log.info("Successfully approved request: " + requestId);
+			ctx.status(200);
+			
+		} catch (Exception e) {
+			log.warn("Exception thrown when approving request: " + e);
+			ctx.html("Exception " + e);
+			ctx.status(500);
+		}
+	}
+	
+	public void denyRequestById(Context ctx) {
+		//get request id from path, read request, set approval to deny
+		try {
+			
+			int requestId = Integer.parseInt(ctx.pathParam("id"));
+			
+			ReimbursementRequest toUpdate = service.readRequest(requestId);
+			
+			toUpdate.setApproval(ApprovalStatus.DENIED);
+			
+			service.updateRequest(requestId, toUpdate);
+			
+			log.info("Successfully updated request: " + requestId);
+			ctx.status(200);
+			
+		} catch (Exception e) {
+			log.warn("Exception thrown when updating request: " + e);
+			ctx.html("Exception " + e);
+			ctx.status(500);
+		}
+	}
 
 }

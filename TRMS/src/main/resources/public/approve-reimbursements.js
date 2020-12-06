@@ -114,7 +114,17 @@ function generateRequests(id, type, cost, urgency) {
         //denyRequest(id);
     })
 
-}
+};
+
+function approveRequest(id) {
+
+    var approve = new XMLHttpRequest();
+    var approveUrl = "http://localhost:9091/requestApprove/"+id;
+};
+
+function denyRequest(id) {
+
+};
 
 //logout:
 var logout = document.getElementById("logout");
