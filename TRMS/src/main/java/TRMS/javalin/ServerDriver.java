@@ -55,6 +55,7 @@ public class ServerDriver {
 		app.get(REQUEST_PATH+"/:id", ctx -> reimbursementController.readRequest(ctx));
 		app.delete(REQUEST_PATH+"/:id", ctx -> reimbursementController.deleteRequest(ctx));
 		app.post(ATTACH_PATH, ctx -> attachmentController.createAttachment(ctx));
+		app.get(REQUEST_PATH+"Approval", ctx -> reimbursementController.getRequestsByUserPriv(ctx));
 		
 		//Postman endpoints for testing: 
 		

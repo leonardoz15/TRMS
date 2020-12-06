@@ -10,7 +10,7 @@ import org.apache.log4j.Logger;
 import TRMS.models.ReimbursementRequest;
 import TRMS.models.ReimbursementRequest.ApprovalStatus;
 import TRMS.models.ReimbursementRequest.EventType;
-
+import TRMS.models.User.AuthPriv;
 import TRMS.services.ReimbursementRequestFullStack;
 import TRMS.services.ReimbursementRequestService;
 import io.javalin.http.Context;
@@ -219,6 +219,50 @@ public class ReimbursementRequestController {
 			ctx.status(500);
 		}
 		
+	}
+	
+	public void getRequestsByUserPriv(Context ctx) {
+		//get user priv from cookie, read all requests, filter out by status, return json list
+		
+		try {
+			
+			AuthPriv priv = AuthPriv.valueOf(ctx.cookieStore("priv"));
+			
+			List<ReimbursementRequest> requestList = new ArrayList<ReimbursementRequest>();
+			List<ReimbursementRequest> approvalRequestList = new ArrayList<ReimbursementRequest>();
+			
+			requestList = service.readAllRequests();
+			
+			for(ReimbursementRequest request : requestList) {
+				ApprovalStatus status = request.getApproval();
+				
+				switch(status) {
+					case DS_PENDING:
+						if(priv == AuthPriv.SUPERVISOR) {
+							approvalRequestList.add(request);
+						}
+						break;
+					case DH_PENDING:
+						if(priv == AuthPriv.DEPT_HEAD) {
+							approvalRequestList.add(request);
+						}
+						break;
+					case BC_PENDING:
+						if(priv == AuthPriv.BENCO || priv == AuthPriv.BENCO_SUP || priv == AuthPriv.ADMIN) {
+							approvalRequestList.add(request);
+						}
+						break;
+				}
+				
+			}
+			log.info("Successfully selected requests for priv " + priv.toString() + " total: " + approvalRequestList.size());
+			ctx.status(200);
+			ctx.json(approvalRequestList);
+			
+		} catch (Exception e) {
+			log.warn("Exception when selecting requests for priv: " + e);
+			ctx.status(500);
+		}
 	}
 
 }
