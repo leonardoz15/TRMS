@@ -210,3 +210,23 @@ function createAttachment() {
         window.history.back();
     });
 }
+
+//logout:
+var logout = document.getElementById("logout");
+
+logout.onclick = function() {
+
+    var out = new XMLHttpRequest();
+    var outUrl = "http://localhost:9091/logout";
+    out.onreadystatechange = function () {
+        if(out.readyState == 4 && out.status === 200) {
+            window.location.replace("http://localhost:9091/index.html");   
+        }
+    }
+
+    //opens up the request
+    out.open("GET", outUrl, true);
+    //sends request
+    out.send();
+
+};
