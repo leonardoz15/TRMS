@@ -33,7 +33,7 @@ CREATE TABLE "request" (
   "description" text,
   "grading_format" varchar(100),
   "event_type" event_type,
-  "isUrgent" boolean,
+  "urgent" boolean,
   "projected_amount" numeric(4,2),
   "approval_status" approval_status,
   PRIMARY KEY ("request_id")
