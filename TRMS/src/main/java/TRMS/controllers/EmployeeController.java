@@ -145,13 +145,14 @@ public class EmployeeController {
 		ctx.json(employee);
 	}
 	
-	public void addFunds(Context ctx) {
+	public void addFunds(Context ctx, double cost) {
 		//add funds back to the emp in dao
 		log.info("Adding funds back to logged in user");
 		int empId = Integer.parseInt(ctx.cookieStore("empId"));
 		Employee read = service.readEmployee(empId);
-		
+		read.setFunds(read.getFunds()+cost);
 		try {
+			service.updateEmployee(empId, read);
 			
 		} catch (Exception e) {
 			log.warn("Exception thrown when adding funds: " + e);

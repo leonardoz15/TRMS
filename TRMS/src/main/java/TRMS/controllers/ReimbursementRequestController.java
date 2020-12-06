@@ -129,13 +129,16 @@ public class ReimbursementRequestController {
 	}
 	
 	public void deleteRequest(Context ctx) {
-		//get request ID from path, read request by id, pass to delete
+		//get request ID from path, read request by id, pass to delete, adds funds back 
 		try {
 			
 			log.info("Starting to delete request in controller");
 			int requestId = Integer.parseInt(ctx.pathParam("id"));
 			
 			ReimbursementRequest toDelete = service.readRequest(requestId);
+			
+			double cost = toDelete.getCost();
+			employeeController.addFunds(ctx, cost);
 			
 			service.deleteRequest(toDelete);
 			
