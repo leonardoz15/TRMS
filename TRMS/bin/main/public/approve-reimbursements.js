@@ -108,10 +108,10 @@ function generateRequests(id, type, cost, urgency) {
         //window.location.replace("http://localhost:9091/details-reimbursement.html?request_id="+id);
     })
     approveButton.addEventListener("click", function () {
-        //approveRequest(id);
+        approveRequest(id);
     })
     denyButton.addEventListener("click", function () {
-        //denyRequest(id);
+        denyRequest(id);
     })
 
 };
@@ -120,10 +120,30 @@ function approveRequest(id) {
 
     var approve = new XMLHttpRequest();
     var approveUrl = "http://localhost:9091/requestApprove/"+id;
+    approve.onreadystatechange = function() {
+        if(approve.readyState == 4 && approve.status === 200) {
+            getRequestsToApprove();
+            location.reload();
+        }
+    }
+
+    approve.open("PUT", approveUrl, true);
+    approve.send();
 };
 
 function denyRequest(id) {
 
+    var deny = new XMLHttpRequest();
+    var denyUrl = "http://localhost:9091/requestDeny/"+id;
+    deny.onreadystatechange = function() {
+        if(deny.readyState == 4 && deny.status === 200) {
+            getRequestsToApprove();
+            location.reload();
+        }
+    }
+
+    deny.open("PUT", denyUrl, true);
+    deny.send();
 };
 
 //logout:
