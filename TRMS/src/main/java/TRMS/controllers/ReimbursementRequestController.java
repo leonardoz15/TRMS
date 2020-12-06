@@ -23,6 +23,8 @@ public class ReimbursementRequestController {
 	
 	private EmployeeController employeeController = new EmployeeController();
 	
+	private InformationRequestController informationController = new InformationRequestController();
+	
 	public void createRequest(Context ctx) {
 		
 		try {
@@ -313,6 +315,37 @@ public class ReimbursementRequestController {
 			service.updateRequest(requestId, toUpdate);
 			
 			log.info("Successfully updated request: " + requestId);
+			ctx.status(200);
+			
+		} catch (Exception e) {
+			log.warn("Exception thrown when updating request: " + e);
+			ctx.html("Exception " + e);
+			ctx.status(500);
+		}
+	}
+	
+	public void approveRequestByForm(Context ctx) {
+		//get id, decision, and description if any, send to approve/deny or create info request
+		try {
+			
+			int requestId = Integer.parseInt(ctx.pathParam("id"));
+			
+			String decision = ctx.formParam("decision");
+			
+			switch(decision) {
+				case "approve":
+					approveRequestById(ctx);
+					break;
+				case "deny":
+					denyRequestById(ctx);
+					break;
+				case "info":
+					String description = ctx.formParam("description");
+					informationController.createInfoRequest(ctx, requestId, description);
+					break;
+			}
+			
+			log.info("Successfully approved/denied request by form: " + requestId);
 			ctx.status(200);
 			
 		} catch (Exception e) {

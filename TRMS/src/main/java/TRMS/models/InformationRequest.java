@@ -13,7 +13,7 @@ public class InformationRequest {
 	
 	private int requestId;
 	
-	private int employeeId;
+	private int userId;
 	
 	private String description;
 	
@@ -29,11 +29,11 @@ public class InformationRequest {
 	 * @param employeeId the unique id of the employee to receive the request
 	 * @param description the information that is requested
 	 */
-	public InformationRequest(int infoId, int requestId, int employeeId, String description) {
+	public InformationRequest(int infoId, int requestId, int userId, String description) {
 		super();
 		this.infoId = infoId;
 		this.requestId = requestId;
-		this.employeeId = employeeId;
+		this.userId = userId;
 		this.description = description;
 	}
 
@@ -73,8 +73,8 @@ public class InformationRequest {
 	/**
 	 * @return the employeeId
 	 */
-	public int getEmployeeId() {
-		return employeeId;
+	public int userId() {
+		return userId;
 	}
 
 
@@ -82,7 +82,7 @@ public class InformationRequest {
 	 * @param employeeId the employeeId to set
 	 */
 	public void setEmployeeId(int employeeId) {
-		this.employeeId = employeeId;
+		this.userId = userId;
 	}
 
 
@@ -104,7 +104,7 @@ public class InformationRequest {
 
 	@Override
 	public String toString() {
-		return "InformationRequest [infoId=" + infoId + ", requestId=" + requestId + ", employeeId=" + employeeId
+		return "InformationRequest [infoId=" + infoId + ", requestId=" + requestId + ", userId=" + userId
 				+ ", description=" + description + "]";
 	}
 
@@ -114,9 +114,9 @@ public class InformationRequest {
 		final int prime = 31;
 		int result = 1;
 		result = prime * result + ((description == null) ? 0 : description.hashCode());
-		result = prime * result + employeeId;
 		result = prime * result + infoId;
 		result = prime * result + requestId;
+		result = prime * result + userId;
 		return result;
 	}
 
@@ -135,13 +135,13 @@ public class InformationRequest {
 				return false;
 		} else if (!description.equals(other.description))
 			return false;
-		if (employeeId != other.employeeId)
-			return false;
 		if (infoId != other.infoId)
 			return false;
 		if (requestId != other.requestId)
 			return false;
+		if (userId != other.userId)
+			return false;
 		return true;
-	}	
+	}
 
 }
