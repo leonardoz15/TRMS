@@ -342,6 +342,9 @@ public class ReimbursementRequestController {
 				case "info":
 					String description = ctx.formParam("description");
 					informationController.createInfoRequest(ctx, requestId, description);
+					ReimbursementRequest toUpdate = service.readRequest(requestId);
+					toUpdate.setApproval(ApprovalStatus.INFO_NEEDED);
+					service.updateRequest(requestId, toUpdate);
 					break;
 			}
 			

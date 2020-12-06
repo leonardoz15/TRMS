@@ -6,8 +6,11 @@ import java.util.List;
 import org.apache.log4j.Logger;
 
 import TRMS.models.InformationRequest;
+import TRMS.models.ReimbursementRequest;
 import TRMS.services.InformationRequestFullStack;
 import TRMS.services.InformationRequestService;
+import TRMS.services.ReimbursementRequestFullStack;
+import TRMS.services.ReimbursementRequestService;
 import io.javalin.http.Context;
 
 public class InformationRequestController {
@@ -16,13 +19,17 @@ public class InformationRequestController {
 	
 	private InformationRequestService service = new InformationRequestFullStack();
 	
+	private ReimbursementRequestService reimbursementService = new ReimbursementRequestFullStack();
+	
 	public void createInfoRequest(Context ctx, int requestId, String description) {
 		
 		try {
 			
-			int employeeId = Integer.parseInt(ctx.formParam("employee_id"));
+			ReimbursementRequest request = reimbursementService.readRequest(requestId);
 			
-			InformationRequest toCreate = new InformationRequest(0, requestId, employeeId, description);
+			int userId = request.getUserId();
+			
+			InformationRequest toCreate = new InformationRequest(0, requestId, userId, description);
 			
 			service.createInfoRequest(toCreate);
 			

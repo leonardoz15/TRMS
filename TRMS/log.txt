@@ -618,3 +618,45 @@
 2020-12-06 13:51:12 INFO  root:112 - Successfully read request 15
 2020-12-06 13:51:12 INFO  root:67 - Successfully read request: 15
 2020-12-06 13:51:30 INFO  root:84 - Logging out user
+2020-12-06 18:16:19 INFO  root:43 - Program has started
+2020-12-06 18:16:25 INFO  root:30 - Reimbursement service reading request
+2020-12-06 18:16:25 INFO  root:97 - Starting to read request with id 16
+2020-12-06 18:16:26 INFO  root:112 - Successfully read request 16
+2020-12-06 18:16:26 INFO  root:20 - Information service creating request
+2020-12-06 18:16:26 INFO  root:45 - Starting to insert info request with id 0
+2020-12-06 18:16:26 INFO  root:64 - Successfully inserted info request 0
+2020-12-06 18:16:26 INFO  root:36 - Successfully created info request for reimbursement: 16
+2020-12-06 18:16:26 INFO  root:348 - Successfully approved/denied request by form: 16
+2020-12-06 18:18:41 INFO  root:43 - Program has started
+2020-12-06 18:18:44 INFO  root:30 - Reimbursement service reading request
+2020-12-06 18:18:44 INFO  root:97 - Starting to read request with id 16
+2020-12-06 18:18:44 INFO  root:112 - Successfully read request 16
+2020-12-06 18:18:44 INFO  root:20 - Information service creating request
+2020-12-06 18:18:44 INFO  root:45 - Starting to insert info request with id 0
+2020-12-06 18:18:44 INFO  root:64 - Successfully inserted info request 0
+2020-12-06 18:18:44 INFO  root:36 - Successfully created info request for reimbursement: 16
+2020-12-06 18:18:44 INFO  root:30 - Reimbursement service reading request
+2020-12-06 18:18:44 INFO  root:97 - Starting to read request with id 16
+2020-12-06 18:18:44 INFO  root:112 - Successfully read request 16
+2020-12-06 18:18:44 INFO  root:46 - Reimbursement service updating request
+2020-12-06 18:18:44 INFO  root:164 - Starting to update request with id 16
+2020-12-06 18:18:44 INFO  root:192 - Successfully updated request 16
+2020-12-06 18:18:44 INFO  root:351 - Successfully approved/denied request by form: 16
+2020-12-06 18:19:25 INFO  root:43 - Program has started
+2020-12-06 18:19:27 INFO  root:30 - Reimbursement service reading request
+2020-12-06 18:19:27 INFO  root:97 - Starting to read request with id 16
+2020-12-06 18:19:27 INFO  root:112 - Successfully read request 16
+2020-12-06 18:19:27 WARN  root:289 - Trying to approve request not pending
+2020-12-06 18:19:27 INFO  root:46 - Reimbursement service updating request
+2020-12-06 18:19:27 INFO  root:164 - Starting to update request with id 16
+2020-12-06 18:19:28 INFO  root:192 - Successfully updated request 16
+2020-12-06 18:19:28 INFO  root:295 - Successfully approved request: 16
+2020-12-06 18:19:28 INFO  root:351 - Successfully approved/denied request by form: 16
+2020-12-06 18:21:31 INFO  root:30 - Reimbursement service reading request
+2020-12-06 18:21:31 INFO  root:97 - Starting to read request with id 16
+2020-12-06 18:21:31 INFO  root:112 - Successfully read request 16
+2020-12-06 18:21:31 INFO  root:46 - Reimbursement service updating request
+2020-12-06 18:21:31 INFO  root:164 - Starting to update request with id 16
+2020-12-06 18:21:31 INFO  root:192 - Successfully updated request 16
+2020-12-06 18:21:31 INFO  root:295 - Successfully approved request: 16
+2020-12-06 18:21:31 INFO  root:351 - Successfully approved/denied request by form: 16

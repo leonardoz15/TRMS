@@ -50,7 +50,7 @@ public class InformationRequestDaoPostgres implements InformationRequestDao {
 			
 			stmt = conn.prepareStatement(sql);
 			stmt.setInt(1, infoRequest.getRequestId());
-			stmt.setInt(2, infoRequest.getEmployeeId());
+			stmt.setInt(2, infoRequest.getUserId());
 			stmt.setString(3, infoRequest.getDescription());
 			
 			Savepoint s1 = conn.setSavepoint();
@@ -145,7 +145,7 @@ public class InformationRequestDaoPostgres implements InformationRequestDao {
 			
 			stmt = conn.prepareStatement(sql);
 			stmt.setInt(1,infoRequest.getRequestId());
-			stmt.setInt(2, infoRequest.getEmployeeId());
+			stmt.setInt(2, infoRequest.getUserId());
 			stmt.setString(3, infoRequest.getDescription());
 			stmt.setInt(4, infoId);
 			

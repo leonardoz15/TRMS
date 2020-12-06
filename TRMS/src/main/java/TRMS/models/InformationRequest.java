@@ -71,17 +71,17 @@ public class InformationRequest {
 
 
 	/**
-	 * @return the employeeId
+	 * @return the userId
 	 */
-	public int userId() {
+	public int getUserId() {
 		return userId;
 	}
 
 
 	/**
-	 * @param employeeId the employeeId to set
+	 * @param userId the userId to set
 	 */
-	public void setEmployeeId(int employeeId) {
+	public void setUserId(int userId) {
 		this.userId = userId;
 	}
 

@@ -66,7 +66,6 @@ public class ServerDriver {
 		app.post("/createEmp", ctx -> employeeController.createEmployee(ctx));
 		app.post("/createUser", ctx -> userController.createUser(ctx));
 		app.post("/createRequest", ctx -> reimbursementController.createRequest(ctx));
-		app.post("/createInfoRequest", ctx -> informationController.createInfoRequest(ctx));
 		app.get("/getEmp", ctx -> employeeController.readEmployee(ctx));
 		app.get("/getUser", ctx -> userController.readUser(ctx));
 		app.get("/hello", ctx -> ctx.html("hello there"));
