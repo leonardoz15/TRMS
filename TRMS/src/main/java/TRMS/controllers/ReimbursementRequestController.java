@@ -314,6 +314,8 @@ public class ReimbursementRequestController {
 			
 			service.updateRequest(requestId, toUpdate);
 			
+			employeeController.addFunds(ctx, toUpdate.getCost());
+			
 			log.info("Successfully updated request: " + requestId);
 			ctx.status(200);
 			
@@ -350,6 +352,12 @@ public class ReimbursementRequestController {
 			
 			log.info("Successfully approved/denied request by form: " + requestId);
 			ctx.status(200);
+			if(ctx.cookieStore("priv").equals("EMPLOYEE")) {
+				ctx.redirect("http://localhost:9091/emp-dashboard.html");
+			}
+			else {
+				ctx.redirect("http://localhost:9091/approver-dashboard.html");
+			}
 			
 		} catch (Exception e) {
 			log.warn("Exception thrown when updating request: " + e);

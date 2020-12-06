@@ -105,7 +105,7 @@ function generateRequests(id, type, cost, urgency) {
 
     //add listeners to buttons
     detailsButton.addEventListener("click", function() {
-        //window.location.replace("http://localhost:9091/details-reimbursement.html?request_id="+id);
+        window.location.replace("http://localhost:9091/details-reimbursement.html?request_id="+id);
     })
     approveButton.addEventListener("click", function () {
         approveRequest(id);

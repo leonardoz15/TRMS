@@ -660,3 +660,621 @@
 2020-12-06 18:21:31 INFO  root:192 - Successfully updated request 16
 2020-12-06 18:21:31 INFO  root:295 - Successfully approved request: 16
 2020-12-06 18:21:31 INFO  root:351 - Successfully approved/denied request by form: 16
+2020-12-06 18:24:16 INFO  root:43 - Program has started
+2020-12-06 18:24:41 INFO  root:35 - Authenticating user with username: jb password: 123
+2020-12-06 18:24:41 INFO  root:52 - User service reading all users
+2020-12-06 18:24:41 INFO  root:144 - Starting to read all users
+2020-12-06 18:24:41 INFO  root:156 - Successfully read all users, total: 5
+2020-12-06 18:24:41 INFO  root:43 - User exists
+2020-12-06 18:24:41 INFO  root:33 - Logged into user: jb
+2020-12-06 18:24:41 INFO  root:44 - User service reading user by login
+2020-12-06 18:24:41 INFO  root:113 - Starting to read user by login creds
+2020-12-06 18:24:41 INFO  root:125 - Successfully read user jb
+2020-12-06 18:24:41 INFO  root:71 - Checking user token
+2020-12-06 18:24:42 INFO  root:179 - Reading balance for logged in user
+2020-12-06 18:24:42 INFO  root:29 - Employee service reading employee
+2020-12-06 18:24:42 INFO  root:84 - Starting to read employee with id 4
+2020-12-06 18:24:42 INFO  root:98 - Successfully read employee Jonny
+2020-12-06 18:24:42 INFO  root:185 - Funds for emp: 4 = 1000.0
+2020-12-06 18:24:43 INFO  root:71 - Checking user token
+2020-12-06 18:24:43 INFO  root:38 - Reimbursement service reading all requests
+2020-12-06 18:24:43 INFO  root:131 - Starting to read all requests
+2020-12-06 18:24:43 INFO  root:146 - Successfully read all requests, total: 2
+2020-12-06 18:24:43 INFO  root:260 - Successfully selected requests for priv BENCO total: 1
+2020-12-06 18:25:18 INFO  root:43 - Program has started
+2020-12-06 18:25:35 INFO  root:43 - Program has started
+2020-12-06 18:25:42 INFO  root:35 - Authenticating user with username: jb password: 123
+2020-12-06 18:25:42 INFO  root:52 - User service reading all users
+2020-12-06 18:25:42 INFO  root:144 - Starting to read all users
+2020-12-06 18:25:42 INFO  root:156 - Successfully read all users, total: 5
+2020-12-06 18:25:42 INFO  root:43 - User exists
+2020-12-06 18:25:42 INFO  root:33 - Logged into user: jb
+2020-12-06 18:25:42 INFO  root:44 - User service reading user by login
+2020-12-06 18:25:42 INFO  root:113 - Starting to read user by login creds
+2020-12-06 18:25:42 INFO  root:125 - Successfully read user jb
+2020-12-06 18:25:42 INFO  root:71 - Checking user token
+2020-12-06 18:25:42 INFO  root:179 - Reading balance for logged in user
+2020-12-06 18:25:42 INFO  root:29 - Employee service reading employee
+2020-12-06 18:25:42 INFO  root:84 - Starting to read employee with id 4
+2020-12-06 18:25:42 INFO  root:98 - Successfully read employee Jonny
+2020-12-06 18:25:42 INFO  root:185 - Funds for emp: 4 = 1000.0
+2020-12-06 18:25:44 INFO  root:71 - Checking user token
+2020-12-06 18:25:44 INFO  root:38 - Reimbursement service reading all requests
+2020-12-06 18:25:44 INFO  root:131 - Starting to read all requests
+2020-12-06 18:25:44 INFO  root:146 - Successfully read all requests, total: 2
+2020-12-06 18:25:44 INFO  root:260 - Successfully selected requests for priv BENCO total: 1
+2020-12-06 18:25:45 INFO  root:71 - Checking user token
+2020-12-06 18:26:30 INFO  root:43 - Program has started
+2020-12-06 18:26:37 INFO  root:35 - Authenticating user with username: jb password: 123
+2020-12-06 18:26:37 INFO  root:52 - User service reading all users
+2020-12-06 18:26:37 INFO  root:144 - Starting to read all users
+2020-12-06 18:26:37 INFO  root:156 - Successfully read all users, total: 5
+2020-12-06 18:26:37 INFO  root:43 - User exists
+2020-12-06 18:26:37 INFO  root:33 - Logged into user: jb
+2020-12-06 18:26:37 INFO  root:44 - User service reading user by login
+2020-12-06 18:26:37 INFO  root:113 - Starting to read user by login creds
+2020-12-06 18:26:37 INFO  root:125 - Successfully read user jb
+2020-12-06 18:26:37 INFO  root:71 - Checking user token
+2020-12-06 18:26:37 INFO  root:179 - Reading balance for logged in user
+2020-12-06 18:26:37 INFO  root:29 - Employee service reading employee
+2020-12-06 18:26:37 INFO  root:84 - Starting to read employee with id 4
+2020-12-06 18:26:38 INFO  root:98 - Successfully read employee Jonny
+2020-12-06 18:26:38 INFO  root:185 - Funds for emp: 4 = 1000.0
+2020-12-06 18:26:39 INFO  root:71 - Checking user token
+2020-12-06 18:26:39 INFO  root:38 - Reimbursement service reading all requests
+2020-12-06 18:26:39 INFO  root:131 - Starting to read all requests
+2020-12-06 18:26:39 INFO  root:146 - Successfully read all requests, total: 2
+2020-12-06 18:26:39 INFO  root:260 - Successfully selected requests for priv BENCO total: 1
+2020-12-06 18:26:40 INFO  root:71 - Checking user token
+2020-12-06 18:26:40 INFO  root:30 - Reimbursement service reading request
+2020-12-06 18:26:40 INFO  root:97 - Starting to read request with id 16
+2020-12-06 18:26:40 INFO  root:112 - Successfully read request 16
+2020-12-06 18:26:40 INFO  root:69 - Successfully read request: 16
+2020-12-06 18:27:02 INFO  root:30 - Reimbursement service reading request
+2020-12-06 18:27:02 INFO  root:97 - Starting to read request with id 16
+2020-12-06 18:27:02 INFO  root:112 - Successfully read request 16
+2020-12-06 18:27:02 INFO  root:46 - Reimbursement service updating request
+2020-12-06 18:27:02 INFO  root:164 - Starting to update request with id 16
+2020-12-06 18:27:02 INFO  root:192 - Successfully updated request 16
+2020-12-06 18:27:02 INFO  root:295 - Successfully approved request: 16
+2020-12-06 18:27:02 INFO  root:351 - Successfully approved/denied request by form: 16
+2020-12-06 18:28:24 INFO  root:43 - Program has started
+2020-12-06 18:28:34 INFO  root:35 - Authenticating user with username: randy password: password
+2020-12-06 18:28:34 INFO  root:52 - User service reading all users
+2020-12-06 18:28:34 INFO  root:144 - Starting to read all users
+2020-12-06 18:28:34 INFO  root:156 - Successfully read all users, total: 5
+2020-12-06 18:28:34 INFO  root:43 - User exists
+2020-12-06 18:28:34 INFO  root:33 - Logged into user: randy
+2020-12-06 18:28:34 INFO  root:44 - User service reading user by login
+2020-12-06 18:28:34 INFO  root:113 - Starting to read user by login creds
+2020-12-06 18:28:34 INFO  root:125 - Successfully read user randy
+2020-12-06 18:28:35 INFO  root:71 - Checking user token
+2020-12-06 18:28:35 INFO  root:179 - Reading balance for logged in user
+2020-12-06 18:28:35 INFO  root:29 - Employee service reading employee
+2020-12-06 18:28:35 INFO  root:84 - Starting to read employee with id 3
+2020-12-06 18:28:35 INFO  root:98 - Successfully read employee Randy
+2020-12-06 18:28:35 INFO  root:185 - Funds for emp: 3 = 500.0
+2020-12-06 18:28:37 INFO  root:71 - Checking user token
+2020-12-06 18:28:37 INFO  root:38 - Reimbursement service reading all requests
+2020-12-06 18:28:37 INFO  root:131 - Starting to read all requests
+2020-12-06 18:28:37 INFO  root:146 - Successfully read all requests, total: 2
+2020-12-06 18:28:37 INFO  root:215 - Successfully selected requests for user 2 total: 2
+2020-12-06 18:28:45 INFO  root:179 - Reading balance for logged in user
+2020-12-06 18:28:45 INFO  root:29 - Employee service reading employee
+2020-12-06 18:28:45 INFO  root:84 - Starting to read employee with id 3
+2020-12-06 18:28:45 INFO  root:98 - Successfully read employee Randy
+2020-12-06 18:28:45 INFO  root:185 - Funds for emp: 3 = 500.0
+2020-12-06 18:28:46 INFO  root:71 - Checking user token
+2020-12-06 18:29:22 INFO  root:21 - Reimbursement service creating request
+2020-12-06 18:29:22 INFO  root:51 - Starting to insert request with id 0
+2020-12-06 18:29:22 INFO  root:79 - Successfully inserted request 0
+2020-12-06 18:29:22 INFO  root:165 - removing funds from logged in user
+2020-12-06 18:29:22 INFO  root:29 - Employee service reading employee
+2020-12-06 18:29:22 INFO  root:84 - Starting to read employee with id 3
+2020-12-06 18:29:22 INFO  root:98 - Successfully read employee Randy
+2020-12-06 18:29:22 INFO  root:46 - Employee service updating employee
+2020-12-06 18:29:22 INFO  root:147 - Starting to update employee with id 3
+2020-12-06 18:29:22 INFO  root:171 - Successfully updated employee 3
+2020-12-06 18:29:22 INFO  root:182 - Successfully added request for user 2
+2020-12-06 18:29:22 INFO  root:71 - Checking user token
+2020-12-06 18:29:22 INFO  root:179 - Reading balance for logged in user
+2020-12-06 18:29:22 INFO  root:29 - Employee service reading employee
+2020-12-06 18:29:22 INFO  root:84 - Starting to read employee with id 3
+2020-12-06 18:29:22 INFO  root:98 - Successfully read employee Randy
+2020-12-06 18:29:22 INFO  root:185 - Funds for emp: 3 = 200.0
+2020-12-06 18:29:23 INFO  root:71 - Checking user token
+2020-12-06 18:29:23 INFO  root:38 - Reimbursement service reading all requests
+2020-12-06 18:29:23 INFO  root:131 - Starting to read all requests
+2020-12-06 18:29:23 INFO  root:146 - Successfully read all requests, total: 3
+2020-12-06 18:29:23 INFO  root:215 - Successfully selected requests for user 2 total: 3
+2020-12-06 18:29:35 INFO  root:84 - Logging out user
+2020-12-06 18:29:41 INFO  root:35 - Authenticating user with username: andrew password: password
+2020-12-06 18:29:41 INFO  root:52 - User service reading all users
+2020-12-06 18:29:41 INFO  root:144 - Starting to read all users
+2020-12-06 18:29:41 INFO  root:156 - Successfully read all users, total: 5
+2020-12-06 18:29:41 INFO  root:43 - User exists
+2020-12-06 18:29:41 INFO  root:33 - Logged into user: andrew
+2020-12-06 18:29:41 INFO  root:44 - User service reading user by login
+2020-12-06 18:29:41 INFO  root:113 - Starting to read user by login creds
+2020-12-06 18:29:41 INFO  root:125 - Successfully read user andrew
+2020-12-06 18:29:41 INFO  root:71 - Checking user token
+2020-12-06 18:29:41 INFO  root:179 - Reading balance for logged in user
+2020-12-06 18:29:41 INFO  root:29 - Employee service reading employee
+2020-12-06 18:29:41 INFO  root:84 - Starting to read employee with id 5
+2020-12-06 18:29:42 INFO  root:98 - Successfully read employee Andrew
+2020-12-06 18:29:42 INFO  root:185 - Funds for emp: 5 = 1000.0
+2020-12-06 18:29:44 INFO  root:71 - Checking user token
+2020-12-06 18:29:44 INFO  root:38 - Reimbursement service reading all requests
+2020-12-06 18:29:44 INFO  root:131 - Starting to read all requests
+2020-12-06 18:29:44 INFO  root:146 - Successfully read all requests, total: 3
+2020-12-06 18:29:44 INFO  root:260 - Successfully selected requests for priv DEPT_HEAD total: 0
+2020-12-06 18:30:14 INFO  root:84 - Logging out user
+2020-12-06 18:30:19 INFO  root:35 - Authenticating user with username: alex password: password
+2020-12-06 18:30:19 INFO  root:52 - User service reading all users
+2020-12-06 18:30:19 INFO  root:144 - Starting to read all users
+2020-12-06 18:30:19 INFO  root:156 - Successfully read all users, total: 5
+2020-12-06 18:30:19 INFO  root:43 - User exists
+2020-12-06 18:30:19 INFO  root:33 - Logged into user: alex
+2020-12-06 18:30:19 INFO  root:44 - User service reading user by login
+2020-12-06 18:30:19 INFO  root:113 - Starting to read user by login creds
+2020-12-06 18:30:19 INFO  root:125 - Successfully read user alex
+2020-12-06 18:30:20 INFO  root:71 - Checking user token
+2020-12-06 18:30:20 INFO  root:179 - Reading balance for logged in user
+2020-12-06 18:30:20 INFO  root:29 - Employee service reading employee
+2020-12-06 18:30:20 INFO  root:84 - Starting to read employee with id 6
+2020-12-06 18:30:20 INFO  root:98 - Successfully read employee Alex
+2020-12-06 18:30:20 INFO  root:185 - Funds for emp: 6 = 1000.0
+2020-12-06 18:30:21 INFO  root:71 - Checking user token
+2020-12-06 18:30:21 INFO  root:38 - Reimbursement service reading all requests
+2020-12-06 18:30:21 INFO  root:131 - Starting to read all requests
+2020-12-06 18:30:21 INFO  root:146 - Successfully read all requests, total: 3
+2020-12-06 18:30:21 INFO  root:260 - Successfully selected requests for priv SUPERVISOR total: 1
+2020-12-06 18:30:28 INFO  root:71 - Checking user token
+2020-12-06 18:30:28 INFO  root:30 - Reimbursement service reading request
+2020-12-06 18:30:28 INFO  root:97 - Starting to read request with id 18
+2020-12-06 18:30:28 INFO  root:112 - Successfully read request 18
+2020-12-06 18:30:28 INFO  root:69 - Successfully read request: 18
+2020-12-06 18:30:37 INFO  root:30 - Reimbursement service reading request
+2020-12-06 18:30:37 INFO  root:97 - Starting to read request with id 18
+2020-12-06 18:30:37 INFO  root:112 - Successfully read request 18
+2020-12-06 18:30:37 INFO  root:46 - Reimbursement service updating request
+2020-12-06 18:30:37 INFO  root:164 - Starting to update request with id 18
+2020-12-06 18:30:37 INFO  root:192 - Successfully updated request 18
+2020-12-06 18:30:37 INFO  root:295 - Successfully approved request: 18
+2020-12-06 18:30:37 INFO  root:351 - Successfully approved/denied request by form: 18
+2020-12-06 18:31:07 INFO  root:71 - Checking user token
+2020-12-06 18:31:07 INFO  root:179 - Reading balance for logged in user
+2020-12-06 18:31:07 INFO  root:29 - Employee service reading employee
+2020-12-06 18:31:07 INFO  root:84 - Starting to read employee with id 6
+2020-12-06 18:31:07 INFO  root:98 - Successfully read employee Alex
+2020-12-06 18:31:07 INFO  root:185 - Funds for emp: 6 = 1000.0
+2020-12-06 18:31:10 INFO  root:71 - Checking user token
+2020-12-06 18:31:10 INFO  root:38 - Reimbursement service reading all requests
+2020-12-06 18:31:10 INFO  root:131 - Starting to read all requests
+2020-12-06 18:31:10 INFO  root:146 - Successfully read all requests, total: 3
+2020-12-06 18:31:10 INFO  root:260 - Successfully selected requests for priv SUPERVISOR total: 0
+2020-12-06 18:31:12 INFO  root:179 - Reading balance for logged in user
+2020-12-06 18:31:12 INFO  root:29 - Employee service reading employee
+2020-12-06 18:31:12 INFO  root:84 - Starting to read employee with id 6
+2020-12-06 18:31:12 INFO  root:98 - Successfully read employee Alex
+2020-12-06 18:31:12 INFO  root:185 - Funds for emp: 6 = 1000.0
+2020-12-06 18:33:09 INFO  root:84 - Logging out user
+2020-12-06 18:33:16 INFO  root:35 - Authenticating user with username: andrew password: password
+2020-12-06 18:33:16 INFO  root:52 - User service reading all users
+2020-12-06 18:33:16 INFO  root:144 - Starting to read all users
+2020-12-06 18:33:16 INFO  root:156 - Successfully read all users, total: 5
+2020-12-06 18:33:16 INFO  root:43 - User exists
+2020-12-06 18:33:16 INFO  root:33 - Logged into user: andrew
+2020-12-06 18:33:16 INFO  root:44 - User service reading user by login
+2020-12-06 18:33:16 INFO  root:113 - Starting to read user by login creds
+2020-12-06 18:33:16 INFO  root:125 - Successfully read user andrew
+2020-12-06 18:33:16 INFO  root:71 - Checking user token
+2020-12-06 18:33:16 INFO  root:179 - Reading balance for logged in user
+2020-12-06 18:33:16 INFO  root:29 - Employee service reading employee
+2020-12-06 18:33:16 INFO  root:84 - Starting to read employee with id 5
+2020-12-06 18:33:16 INFO  root:98 - Successfully read employee Andrew
+2020-12-06 18:33:16 INFO  root:185 - Funds for emp: 5 = 1000.0
+2020-12-06 18:33:18 INFO  root:71 - Checking user token
+2020-12-06 18:33:18 INFO  root:38 - Reimbursement service reading all requests
+2020-12-06 18:33:18 INFO  root:131 - Starting to read all requests
+2020-12-06 18:33:18 INFO  root:146 - Successfully read all requests, total: 3
+2020-12-06 18:33:18 INFO  root:260 - Successfully selected requests for priv DEPT_HEAD total: 1
+2020-12-06 18:33:21 INFO  root:71 - Checking user token
+2020-12-06 18:33:21 INFO  root:30 - Reimbursement service reading request
+2020-12-06 18:33:21 INFO  root:97 - Starting to read request with id 18
+2020-12-06 18:33:21 INFO  root:112 - Successfully read request 18
+2020-12-06 18:33:21 INFO  root:69 - Successfully read request: 18
+2020-12-06 18:33:29 INFO  root:30 - Reimbursement service reading request
+2020-12-06 18:33:29 INFO  root:97 - Starting to read request with id 18
+2020-12-06 18:33:29 INFO  root:112 - Successfully read request 18
+2020-12-06 18:33:29 INFO  root:46 - Reimbursement service updating request
+2020-12-06 18:33:29 INFO  root:164 - Starting to update request with id 18
+2020-12-06 18:33:29 INFO  root:192 - Successfully updated request 18
+2020-12-06 18:33:29 INFO  root:295 - Successfully approved request: 18
+2020-12-06 18:33:29 INFO  root:351 - Successfully approved/denied request by form: 18
+2020-12-06 18:33:34 INFO  root:71 - Checking user token
+2020-12-06 18:33:34 INFO  root:179 - Reading balance for logged in user
+2020-12-06 18:33:34 INFO  root:29 - Employee service reading employee
+2020-12-06 18:33:34 INFO  root:84 - Starting to read employee with id 5
+2020-12-06 18:33:34 INFO  root:98 - Successfully read employee Andrew
+2020-12-06 18:33:34 INFO  root:185 - Funds for emp: 5 = 1000.0
+2020-12-06 18:33:37 INFO  root:84 - Logging out user
+2020-12-06 18:33:41 INFO  root:35 - Authenticating user with username: jb password: 123
+2020-12-06 18:33:41 INFO  root:52 - User service reading all users
+2020-12-06 18:33:41 INFO  root:144 - Starting to read all users
+2020-12-06 18:33:41 INFO  root:156 - Successfully read all users, total: 5
+2020-12-06 18:33:41 INFO  root:43 - User exists
+2020-12-06 18:33:41 INFO  root:33 - Logged into user: jb
+2020-12-06 18:33:41 INFO  root:44 - User service reading user by login
+2020-12-06 18:33:41 INFO  root:113 - Starting to read user by login creds
+2020-12-06 18:33:41 INFO  root:125 - Successfully read user jb
+2020-12-06 18:33:42 INFO  root:71 - Checking user token
+2020-12-06 18:33:42 INFO  root:179 - Reading balance for logged in user
+2020-12-06 18:33:42 INFO  root:29 - Employee service reading employee
+2020-12-06 18:33:42 INFO  root:84 - Starting to read employee with id 4
+2020-12-06 18:33:42 INFO  root:98 - Successfully read employee Jonny
+2020-12-06 18:33:42 INFO  root:185 - Funds for emp: 4 = 1000.0
+2020-12-06 18:33:44 INFO  root:71 - Checking user token
+2020-12-06 18:33:44 INFO  root:38 - Reimbursement service reading all requests
+2020-12-06 18:33:44 INFO  root:131 - Starting to read all requests
+2020-12-06 18:33:44 INFO  root:146 - Successfully read all requests, total: 3
+2020-12-06 18:33:44 INFO  root:260 - Successfully selected requests for priv BENCO total: 1
+2020-12-06 18:33:47 INFO  root:30 - Reimbursement service reading request
+2020-12-06 18:33:47 INFO  root:97 - Starting to read request with id 18
+2020-12-06 18:33:47 INFO  root:112 - Successfully read request 18
+2020-12-06 18:33:47 INFO  root:46 - Reimbursement service updating request
+2020-12-06 18:33:47 INFO  root:164 - Starting to update request with id 18
+2020-12-06 18:33:47 INFO  root:192 - Successfully updated request 18
+2020-12-06 18:33:47 INFO  root:317 - Successfully updated request: 18
+2020-12-06 18:33:47 INFO  root:38 - Reimbursement service reading all requests
+2020-12-06 18:33:47 INFO  root:131 - Starting to read all requests
+2020-12-06 18:33:47 INFO  root:146 - Successfully read all requests, total: 3
+2020-12-06 18:33:47 INFO  root:260 - Successfully selected requests for priv BENCO total: 0
+2020-12-06 18:33:47 INFO  root:71 - Checking user token
+2020-12-06 18:33:47 INFO  root:38 - Reimbursement service reading all requests
+2020-12-06 18:33:47 INFO  root:131 - Starting to read all requests
+2020-12-06 18:33:47 INFO  root:146 - Successfully read all requests, total: 3
+2020-12-06 18:33:47 INFO  root:260 - Successfully selected requests for priv BENCO total: 0
+2020-12-06 18:33:50 INFO  root:84 - Logging out user
+2020-12-06 18:33:54 INFO  root:35 - Authenticating user with username: randy password: password
+2020-12-06 18:33:54 INFO  root:52 - User service reading all users
+2020-12-06 18:33:54 INFO  root:144 - Starting to read all users
+2020-12-06 18:33:54 INFO  root:156 - Successfully read all users, total: 5
+2020-12-06 18:33:54 INFO  root:43 - User exists
+2020-12-06 18:33:54 INFO  root:33 - Logged into user: randy
+2020-12-06 18:33:54 INFO  root:44 - User service reading user by login
+2020-12-06 18:33:54 INFO  root:113 - Starting to read user by login creds
+2020-12-06 18:33:54 INFO  root:125 - Successfully read user randy
+2020-12-06 18:33:54 INFO  root:71 - Checking user token
+2020-12-06 18:33:54 INFO  root:179 - Reading balance for logged in user
+2020-12-06 18:33:54 INFO  root:29 - Employee service reading employee
+2020-12-06 18:33:54 INFO  root:84 - Starting to read employee with id 3
+2020-12-06 18:33:54 INFO  root:98 - Successfully read employee Randy
+2020-12-06 18:33:54 INFO  root:185 - Funds for emp: 3 = 200.0
+2020-12-06 18:33:55 INFO  root:71 - Checking user token
+2020-12-06 18:33:55 INFO  root:38 - Reimbursement service reading all requests
+2020-12-06 18:33:55 INFO  root:131 - Starting to read all requests
+2020-12-06 18:33:55 INFO  root:146 - Successfully read all requests, total: 3
+2020-12-06 18:33:55 INFO  root:215 - Successfully selected requests for user 2 total: 3
+2020-12-06 18:34:01 INFO  root:137 - Starting to delete request in controller
+2020-12-06 18:34:01 INFO  root:30 - Reimbursement service reading request
+2020-12-06 18:34:01 INFO  root:97 - Starting to read request with id 18
+2020-12-06 18:34:01 INFO  root:112 - Successfully read request 18
+2020-12-06 18:34:01 INFO  root:150 - Adding funds back to logged in user
+2020-12-06 18:34:01 INFO  root:29 - Employee service reading employee
+2020-12-06 18:34:01 INFO  root:84 - Starting to read employee with id 3
+2020-12-06 18:34:01 INFO  root:98 - Successfully read employee Randy
+2020-12-06 18:34:01 INFO  root:46 - Employee service updating employee
+2020-12-06 18:34:01 INFO  root:147 - Starting to update employee with id 3
+2020-12-06 18:34:01 INFO  root:171 - Successfully updated employee 3
+2020-12-06 18:34:01 INFO  root:54 - Reimbursement request deleting request
+2020-12-06 18:34:01 INFO  root:209 - Starting to delete request with id 18
+2020-12-06 18:34:02 INFO  root:226 - Successfully deleted request 18
+2020-12-06 18:34:02 INFO  root:147 - Successfully deleted request: 18
+2020-12-06 18:34:02 INFO  root:38 - Reimbursement service reading all requests
+2020-12-06 18:34:02 INFO  root:131 - Starting to read all requests
+2020-12-06 18:34:02 INFO  root:71 - Checking user token
+2020-12-06 18:34:02 INFO  root:38 - Reimbursement service reading all requests
+2020-12-06 18:34:02 INFO  root:131 - Starting to read all requests
+2020-12-06 18:34:02 INFO  root:146 - Successfully read all requests, total: 2
+2020-12-06 18:34:02 INFO  root:215 - Successfully selected requests for user 2 total: 2
+2020-12-06 18:34:02 INFO  root:146 - Successfully read all requests, total: 2
+2020-12-06 18:34:02 INFO  root:215 - Successfully selected requests for user 2 total: 2
+2020-12-06 18:34:06 INFO  root:71 - Checking user token
+2020-12-06 18:34:06 INFO  root:30 - Reimbursement service reading request
+2020-12-06 18:34:06 INFO  root:97 - Starting to read request with id 16
+2020-12-06 18:34:06 INFO  root:112 - Successfully read request 16
+2020-12-06 18:34:06 INFO  root:69 - Successfully read request: 16
+2020-12-06 18:34:14 INFO  root:179 - Reading balance for logged in user
+2020-12-06 18:34:14 INFO  root:29 - Employee service reading employee
+2020-12-06 18:34:14 INFO  root:84 - Starting to read employee with id 3
+2020-12-06 18:34:14 INFO  root:98 - Successfully read employee Randy
+2020-12-06 18:34:14 INFO  root:185 - Funds for emp: 3 = 500.0
+2020-12-06 18:34:18 INFO  root:71 - Checking user token
+2020-12-06 18:34:18 INFO  root:38 - Reimbursement service reading all requests
+2020-12-06 18:34:18 INFO  root:131 - Starting to read all requests
+2020-12-06 18:34:18 INFO  root:146 - Successfully read all requests, total: 2
+2020-12-06 18:34:18 INFO  root:215 - Successfully selected requests for user 2 total: 2
+2020-12-06 18:34:22 INFO  root:179 - Reading balance for logged in user
+2020-12-06 18:34:22 INFO  root:29 - Employee service reading employee
+2020-12-06 18:34:22 INFO  root:84 - Starting to read employee with id 3
+2020-12-06 18:34:22 INFO  root:98 - Successfully read employee Randy
+2020-12-06 18:34:22 INFO  root:185 - Funds for emp: 3 = 500.0
+2020-12-06 18:34:28 INFO  root:71 - Checking user token
+2020-12-06 18:34:28 INFO  root:38 - Reimbursement service reading all requests
+2020-12-06 18:34:28 INFO  root:131 - Starting to read all requests
+2020-12-06 18:34:28 INFO  root:146 - Successfully read all requests, total: 2
+2020-12-06 18:34:28 INFO  root:215 - Successfully selected requests for user 2 total: 2
+2020-12-06 18:34:30 INFO  root:179 - Reading balance for logged in user
+2020-12-06 18:34:30 INFO  root:29 - Employee service reading employee
+2020-12-06 18:34:30 INFO  root:84 - Starting to read employee with id 3
+2020-12-06 18:34:30 INFO  root:98 - Successfully read employee Randy
+2020-12-06 18:34:30 INFO  root:185 - Funds for emp: 3 = 500.0
+2020-12-06 18:36:51 INFO  root:43 - Program has started
+2020-12-06 18:37:01 INFO  root:35 - Authenticating user with username: admin password: 1234
+2020-12-06 18:37:01 INFO  root:52 - User service reading all users
+2020-12-06 18:37:01 INFO  root:144 - Starting to read all users
+2020-12-06 18:37:02 INFO  root:156 - Successfully read all users, total: 5
+2020-12-06 18:37:02 INFO  root:43 - User exists
+2020-12-06 18:37:02 INFO  root:33 - Logged into user: admin
+2020-12-06 18:37:02 INFO  root:44 - User service reading user by login
+2020-12-06 18:37:02 INFO  root:113 - Starting to read user by login creds
+2020-12-06 18:37:02 INFO  root:125 - Successfully read user admin
+2020-12-06 18:37:02 INFO  root:71 - Checking user token
+2020-12-06 18:37:02 INFO  root:179 - Reading balance for logged in user
+2020-12-06 18:37:02 INFO  root:29 - Employee service reading employee
+2020-12-06 18:37:02 INFO  root:84 - Starting to read employee with id 2
+2020-12-06 18:37:02 INFO  root:98 - Successfully read employee Zach
+2020-12-06 18:37:02 INFO  root:185 - Funds for emp: 2 = 1000.0
+2020-12-06 18:37:04 INFO  root:71 - Checking user token
+2020-12-06 18:37:04 INFO  root:38 - Reimbursement service reading all requests
+2020-12-06 18:37:04 INFO  root:131 - Starting to read all requests
+2020-12-06 18:37:04 INFO  root:146 - Successfully read all requests, total: 2
+2020-12-06 18:37:04 INFO  root:215 - Successfully selected requests for user 1 total: 0
+2020-12-06 18:37:06 INFO  root:179 - Reading balance for logged in user
+2020-12-06 18:37:06 INFO  root:29 - Employee service reading employee
+2020-12-06 18:37:06 INFO  root:84 - Starting to read employee with id 2
+2020-12-06 18:37:06 INFO  root:98 - Successfully read employee Zach
+2020-12-06 18:37:06 INFO  root:185 - Funds for emp: 2 = 1000.0
+2020-12-06 18:37:07 INFO  root:71 - Checking user token
+2020-12-06 18:37:07 INFO  root:38 - Reimbursement service reading all requests
+2020-12-06 18:37:07 INFO  root:131 - Starting to read all requests
+2020-12-06 18:37:07 INFO  root:146 - Successfully read all requests, total: 2
+2020-12-06 18:37:07 INFO  root:260 - Successfully selected requests for priv ADMIN total: 0
+2020-12-06 18:37:08 INFO  root:179 - Reading balance for logged in user
+2020-12-06 18:37:08 INFO  root:29 - Employee service reading employee
+2020-12-06 18:37:08 INFO  root:84 - Starting to read employee with id 2
+2020-12-06 18:37:08 INFO  root:98 - Successfully read employee Zach
+2020-12-06 18:37:08 INFO  root:185 - Funds for emp: 2 = 1000.0
+2020-12-06 18:37:10 INFO  root:71 - Checking user token
+2020-12-06 18:37:20 INFO  root:35 - Authenticating user with username: jb password: 123
+2020-12-06 18:37:20 INFO  root:52 - User service reading all users
+2020-12-06 18:37:20 INFO  root:144 - Starting to read all users
+2020-12-06 18:37:20 INFO  root:156 - Successfully read all users, total: 5
+2020-12-06 18:37:20 INFO  root:43 - User exists
+2020-12-06 18:37:20 INFO  root:33 - Logged into user: jb
+2020-12-06 18:37:20 INFO  root:44 - User service reading user by login
+2020-12-06 18:37:20 INFO  root:113 - Starting to read user by login creds
+2020-12-06 18:37:20 INFO  root:125 - Successfully read user jb
+2020-12-06 18:37:20 INFO  root:71 - Checking user token
+2020-12-06 18:37:20 INFO  root:179 - Reading balance for logged in user
+2020-12-06 18:37:20 INFO  root:29 - Employee service reading employee
+2020-12-06 18:37:20 INFO  root:84 - Starting to read employee with id 4
+2020-12-06 18:37:20 INFO  root:98 - Successfully read employee Jonny
+2020-12-06 18:37:20 INFO  root:185 - Funds for emp: 4 = 1000.0
+2020-12-06 18:37:21 INFO  root:71 - Checking user token
+2020-12-06 18:37:45 INFO  root:21 - Reimbursement service creating request
+2020-12-06 18:37:45 INFO  root:51 - Starting to insert request with id 0
+2020-12-06 18:37:45 INFO  root:165 - removing funds from logged in user
+2020-12-06 18:37:45 INFO  root:29 - Employee service reading employee
+2020-12-06 18:37:45 INFO  root:84 - Starting to read employee with id 4
+2020-12-06 18:37:45 INFO  root:98 - Successfully read employee Jonny
+2020-12-06 18:37:45 INFO  root:46 - Employee service updating employee
+2020-12-06 18:37:45 INFO  root:147 - Starting to update employee with id 4
+2020-12-06 18:37:45 INFO  root:171 - Successfully updated employee 4
+2020-12-06 18:37:45 INFO  root:182 - Successfully added request for user 3
+2020-12-06 18:37:45 INFO  root:71 - Checking user token
+2020-12-06 18:37:45 INFO  root:179 - Reading balance for logged in user
+2020-12-06 18:37:45 INFO  root:29 - Employee service reading employee
+2020-12-06 18:37:45 INFO  root:84 - Starting to read employee with id 4
+2020-12-06 18:37:45 INFO  root:98 - Successfully read employee Jonny
+2020-12-06 18:37:45 INFO  root:185 - Funds for emp: 4 = 0.0
+2020-12-06 18:37:47 INFO  root:71 - Checking user token
+2020-12-06 18:37:47 INFO  root:38 - Reimbursement service reading all requests
+2020-12-06 18:37:47 INFO  root:131 - Starting to read all requests
+2020-12-06 18:37:47 INFO  root:146 - Successfully read all requests, total: 2
+2020-12-06 18:37:47 INFO  root:215 - Successfully selected requests for user 3 total: 0
+2020-12-06 18:37:56 INFO  root:179 - Reading balance for logged in user
+2020-12-06 18:37:56 INFO  root:29 - Employee service reading employee
+2020-12-06 18:37:56 INFO  root:84 - Starting to read employee with id 4
+2020-12-06 18:37:56 INFO  root:98 - Successfully read employee Jonny
+2020-12-06 18:37:56 INFO  root:185 - Funds for emp: 4 = 0.0
+2020-12-06 18:37:57 INFO  root:71 - Checking user token
+2020-12-06 18:37:57 INFO  root:38 - Reimbursement service reading all requests
+2020-12-06 18:37:57 INFO  root:131 - Starting to read all requests
+2020-12-06 18:37:57 INFO  root:146 - Successfully read all requests, total: 2
+2020-12-06 18:37:57 INFO  root:260 - Successfully selected requests for priv BENCO total: 0
+2020-12-06 18:37:59 INFO  root:84 - Logging out user
+2020-12-06 18:38:05 INFO  root:35 - Authenticating user with username: alex password: password
+2020-12-06 18:38:05 INFO  root:52 - User service reading all users
+2020-12-06 18:38:05 INFO  root:144 - Starting to read all users
+2020-12-06 18:38:06 INFO  root:156 - Successfully read all users, total: 5
+2020-12-06 18:38:06 INFO  root:43 - User exists
+2020-12-06 18:38:06 INFO  root:33 - Logged into user: alex
+2020-12-06 18:38:06 INFO  root:44 - User service reading user by login
+2020-12-06 18:38:06 INFO  root:113 - Starting to read user by login creds
+2020-12-06 18:38:06 INFO  root:125 - Successfully read user alex
+2020-12-06 18:38:06 INFO  root:71 - Checking user token
+2020-12-06 18:38:06 INFO  root:179 - Reading balance for logged in user
+2020-12-06 18:38:06 INFO  root:29 - Employee service reading employee
+2020-12-06 18:38:06 INFO  root:84 - Starting to read employee with id 6
+2020-12-06 18:38:06 INFO  root:98 - Successfully read employee Alex
+2020-12-06 18:38:06 INFO  root:185 - Funds for emp: 6 = 1000.0
+2020-12-06 18:38:08 INFO  root:71 - Checking user token
+2020-12-06 18:38:08 INFO  root:38 - Reimbursement service reading all requests
+2020-12-06 18:38:08 INFO  root:131 - Starting to read all requests
+2020-12-06 18:38:08 INFO  root:146 - Successfully read all requests, total: 2
+2020-12-06 18:38:08 INFO  root:260 - Successfully selected requests for priv SUPERVISOR total: 0
+2020-12-06 18:38:10 INFO  root:84 - Logging out user
+2020-12-06 18:38:14 INFO  root:35 - Authenticating user with username: andrew password: password
+2020-12-06 18:38:14 INFO  root:52 - User service reading all users
+2020-12-06 18:38:14 INFO  root:144 - Starting to read all users
+2020-12-06 18:38:14 INFO  root:156 - Successfully read all users, total: 5
+2020-12-06 18:38:14 INFO  root:43 - User exists
+2020-12-06 18:38:14 INFO  root:33 - Logged into user: andrew
+2020-12-06 18:38:14 INFO  root:44 - User service reading user by login
+2020-12-06 18:38:14 INFO  root:113 - Starting to read user by login creds
+2020-12-06 18:38:14 INFO  root:125 - Successfully read user andrew
+2020-12-06 18:38:14 INFO  root:71 - Checking user token
+2020-12-06 18:38:14 INFO  root:179 - Reading balance for logged in user
+2020-12-06 18:38:14 INFO  root:29 - Employee service reading employee
+2020-12-06 18:38:14 INFO  root:84 - Starting to read employee with id 5
+2020-12-06 18:38:14 INFO  root:98 - Successfully read employee Andrew
+2020-12-06 18:38:14 INFO  root:185 - Funds for emp: 5 = 1000.0
+2020-12-06 18:38:16 INFO  root:71 - Checking user token
+2020-12-06 18:38:16 INFO  root:38 - Reimbursement service reading all requests
+2020-12-06 18:38:16 INFO  root:131 - Starting to read all requests
+2020-12-06 18:38:16 INFO  root:146 - Successfully read all requests, total: 2
+2020-12-06 18:38:16 INFO  root:260 - Successfully selected requests for priv DEPT_HEAD total: 0
+2020-12-06 18:39:49 INFO  root:43 - Program has started
+2020-12-06 18:40:00 INFO  root:35 - Authenticating user with username: andrew password: password
+2020-12-06 18:40:00 INFO  root:52 - User service reading all users
+2020-12-06 18:40:00 INFO  root:144 - Starting to read all users
+2020-12-06 18:40:00 INFO  root:156 - Successfully read all users, total: 5
+2020-12-06 18:40:00 INFO  root:43 - User exists
+2020-12-06 18:40:00 INFO  root:33 - Logged into user: andrew
+2020-12-06 18:40:00 INFO  root:44 - User service reading user by login
+2020-12-06 18:40:00 INFO  root:113 - Starting to read user by login creds
+2020-12-06 18:40:00 INFO  root:125 - Successfully read user andrew
+2020-12-06 18:40:00 INFO  root:71 - Checking user token
+2020-12-06 18:40:00 INFO  root:179 - Reading balance for logged in user
+2020-12-06 18:40:00 INFO  root:29 - Employee service reading employee
+2020-12-06 18:40:00 INFO  root:84 - Starting to read employee with id 5
+2020-12-06 18:40:00 INFO  root:98 - Successfully read employee Andrew
+2020-12-06 18:40:00 INFO  root:185 - Funds for emp: 5 = 1000.0
+2020-12-06 18:40:02 INFO  root:71 - Checking user token
+2020-12-06 18:40:30 INFO  root:21 - Reimbursement service creating request
+2020-12-06 18:40:30 INFO  root:51 - Starting to insert request with id 0
+2020-12-06 18:40:30 INFO  root:79 - Successfully inserted request 0
+2020-12-06 18:40:30 INFO  root:165 - removing funds from logged in user
+2020-12-06 18:40:30 INFO  root:29 - Employee service reading employee
+2020-12-06 18:40:30 INFO  root:84 - Starting to read employee with id 5
+2020-12-06 18:40:30 INFO  root:98 - Successfully read employee Andrew
+2020-12-06 18:40:30 INFO  root:46 - Employee service updating employee
+2020-12-06 18:40:30 INFO  root:147 - Starting to update employee with id 5
+2020-12-06 18:40:30 INFO  root:171 - Successfully updated employee 5
+2020-12-06 18:40:30 INFO  root:182 - Successfully added request for user 4
+2020-12-06 18:40:30 INFO  root:71 - Checking user token
+2020-12-06 18:40:30 INFO  root:179 - Reading balance for logged in user
+2020-12-06 18:40:30 INFO  root:29 - Employee service reading employee
+2020-12-06 18:40:30 INFO  root:84 - Starting to read employee with id 5
+2020-12-06 18:40:30 INFO  root:98 - Successfully read employee Andrew
+2020-12-06 18:40:30 INFO  root:185 - Funds for emp: 5 = 0.0
+2020-12-06 18:40:31 INFO  root:71 - Checking user token
+2020-12-06 18:40:31 INFO  root:38 - Reimbursement service reading all requests
+2020-12-06 18:40:31 INFO  root:131 - Starting to read all requests
+2020-12-06 18:40:32 INFO  root:146 - Successfully read all requests, total: 3
+2020-12-06 18:40:32 INFO  root:215 - Successfully selected requests for user 4 total: 1
+2020-12-06 18:40:38 INFO  root:84 - Logging out user
+2020-12-06 18:40:44 INFO  root:35 - Authenticating user with username: andrew password: password
+2020-12-06 18:40:44 INFO  root:52 - User service reading all users
+2020-12-06 18:40:44 INFO  root:144 - Starting to read all users
+2020-12-06 18:40:44 INFO  root:156 - Successfully read all users, total: 5
+2020-12-06 18:40:44 INFO  root:43 - User exists
+2020-12-06 18:40:44 INFO  root:33 - Logged into user: andrew
+2020-12-06 18:40:44 INFO  root:44 - User service reading user by login
+2020-12-06 18:40:44 INFO  root:113 - Starting to read user by login creds
+2020-12-06 18:40:44 INFO  root:125 - Successfully read user andrew
+2020-12-06 18:40:44 INFO  root:71 - Checking user token
+2020-12-06 18:40:44 INFO  root:179 - Reading balance for logged in user
+2020-12-06 18:40:44 INFO  root:29 - Employee service reading employee
+2020-12-06 18:40:44 INFO  root:84 - Starting to read employee with id 5
+2020-12-06 18:40:44 INFO  root:98 - Successfully read employee Andrew
+2020-12-06 18:40:44 INFO  root:185 - Funds for emp: 5 = 0.0
+2020-12-06 18:40:46 INFO  root:84 - Logging out user
+2020-12-06 18:40:51 INFO  root:35 - Authenticating user with username: alex password: password
+2020-12-06 18:40:51 INFO  root:52 - User service reading all users
+2020-12-06 18:40:51 INFO  root:144 - Starting to read all users
+2020-12-06 18:40:51 INFO  root:156 - Successfully read all users, total: 5
+2020-12-06 18:40:51 INFO  root:43 - User exists
+2020-12-06 18:40:51 INFO  root:33 - Logged into user: alex
+2020-12-06 18:40:51 INFO  root:44 - User service reading user by login
+2020-12-06 18:40:51 INFO  root:113 - Starting to read user by login creds
+2020-12-06 18:40:51 INFO  root:125 - Successfully read user alex
+2020-12-06 18:40:51 INFO  root:71 - Checking user token
+2020-12-06 18:40:51 INFO  root:179 - Reading balance for logged in user
+2020-12-06 18:40:51 INFO  root:29 - Employee service reading employee
+2020-12-06 18:40:51 INFO  root:84 - Starting to read employee with id 6
+2020-12-06 18:40:51 INFO  root:98 - Successfully read employee Alex
+2020-12-06 18:40:51 INFO  root:185 - Funds for emp: 6 = 1000.0
+2020-12-06 18:40:53 INFO  root:71 - Checking user token
+2020-12-06 18:40:53 INFO  root:38 - Reimbursement service reading all requests
+2020-12-06 18:40:53 INFO  root:131 - Starting to read all requests
+2020-12-06 18:40:53 INFO  root:146 - Successfully read all requests, total: 3
+2020-12-06 18:40:53 INFO  root:260 - Successfully selected requests for priv SUPERVISOR total: 1
+2020-12-06 18:41:02 INFO  root:71 - Checking user token
+2020-12-06 18:41:02 INFO  root:30 - Reimbursement service reading request
+2020-12-06 18:41:02 INFO  root:97 - Starting to read request with id 19
+2020-12-06 18:41:02 INFO  root:112 - Successfully read request 19
+2020-12-06 18:41:02 INFO  root:69 - Successfully read request: 19
+2020-12-06 18:41:14 INFO  root:30 - Reimbursement service reading request
+2020-12-06 18:41:14 INFO  root:97 - Starting to read request with id 19
+2020-12-06 18:41:15 INFO  root:112 - Successfully read request 19
+2020-12-06 18:41:15 INFO  root:20 - Information service creating request
+2020-12-06 18:41:15 INFO  root:45 - Starting to insert info request with id 0
+2020-12-06 18:41:15 INFO  root:64 - Successfully inserted info request 0
+2020-12-06 18:41:15 INFO  root:36 - Successfully created info request for reimbursement: 19
+2020-12-06 18:41:15 INFO  root:30 - Reimbursement service reading request
+2020-12-06 18:41:15 INFO  root:97 - Starting to read request with id 19
+2020-12-06 18:41:15 INFO  root:112 - Successfully read request 19
+2020-12-06 18:41:15 INFO  root:46 - Reimbursement service updating request
+2020-12-06 18:41:15 INFO  root:164 - Starting to update request with id 19
+2020-12-06 18:41:15 INFO  root:192 - Successfully updated request 19
+2020-12-06 18:41:15 INFO  root:353 - Successfully approved/denied request by form: 19
+2020-12-06 18:41:15 INFO  root:71 - Checking user token
+2020-12-06 18:41:15 INFO  root:179 - Reading balance for logged in user
+2020-12-06 18:41:15 INFO  root:29 - Employee service reading employee
+2020-12-06 18:41:15 INFO  root:84 - Starting to read employee with id 6
+2020-12-06 18:41:15 INFO  root:98 - Successfully read employee Alex
+2020-12-06 18:41:15 INFO  root:185 - Funds for emp: 6 = 1000.0
+2020-12-06 18:41:19 INFO  root:71 - Checking user token
+2020-12-06 18:41:19 INFO  root:38 - Reimbursement service reading all requests
+2020-12-06 18:41:19 INFO  root:131 - Starting to read all requests
+2020-12-06 18:41:19 INFO  root:146 - Successfully read all requests, total: 3
+2020-12-06 18:41:19 INFO  root:260 - Successfully selected requests for priv SUPERVISOR total: 0
+2020-12-06 18:41:21 INFO  root:84 - Logging out user
+2020-12-06 18:41:26 INFO  root:35 - Authenticating user with username: andrew password: password
+2020-12-06 18:41:26 INFO  root:52 - User service reading all users
+2020-12-06 18:41:26 INFO  root:144 - Starting to read all users
+2020-12-06 18:41:26 INFO  root:156 - Successfully read all users, total: 5
+2020-12-06 18:41:26 INFO  root:43 - User exists
+2020-12-06 18:41:26 INFO  root:33 - Logged into user: andrew
+2020-12-06 18:41:26 INFO  root:44 - User service reading user by login
+2020-12-06 18:41:26 INFO  root:113 - Starting to read user by login creds
+2020-12-06 18:41:26 INFO  root:125 - Successfully read user andrew
+2020-12-06 18:41:26 INFO  root:71 - Checking user token
+2020-12-06 18:41:26 INFO  root:179 - Reading balance for logged in user
+2020-12-06 18:41:26 INFO  root:29 - Employee service reading employee
+2020-12-06 18:41:26 INFO  root:84 - Starting to read employee with id 5
+2020-12-06 18:41:27 INFO  root:98 - Successfully read employee Andrew
+2020-12-06 18:41:27 INFO  root:185 - Funds for emp: 5 = 0.0
+2020-12-06 18:41:27 INFO  root:71 - Checking user token
+2020-12-06 18:41:27 INFO  root:38 - Reimbursement service reading all requests
+2020-12-06 18:41:27 INFO  root:131 - Starting to read all requests
+2020-12-06 18:41:27 INFO  root:146 - Successfully read all requests, total: 3
+2020-12-06 18:41:27 INFO  root:215 - Successfully selected requests for user 4 total: 1
+2020-12-06 18:41:30 INFO  root:71 - Checking user token
+2020-12-06 18:41:30 INFO  root:30 - Reimbursement service reading request
+2020-12-06 18:41:30 INFO  root:97 - Starting to read request with id 19
+2020-12-06 18:41:30 INFO  root:112 - Successfully read request 19
+2020-12-06 18:41:30 INFO  root:69 - Successfully read request: 19
+2020-12-06 18:41:51 INFO  root:20 - Attachment service creating attachment
+2020-12-06 18:41:51 INFO  root:46 - Starting to insert attachment with id 0
+2020-12-06 18:41:51 INFO  root:65 - Successfully inserted attachment 0
+2020-12-06 18:41:51 INFO  root:32 - Successfully created attachment for request: 19
+2020-12-06 18:41:51 INFO  root:179 - Reading balance for logged in user
+2020-12-06 18:41:51 INFO  root:29 - Employee service reading employee
+2020-12-06 18:41:51 INFO  root:84 - Starting to read employee with id 5
+2020-12-06 18:41:51 INFO  root:98 - Successfully read employee Andrew
+2020-12-06 18:41:51 INFO  root:185 - Funds for emp: 5 = 0.0
+2020-12-06 18:41:55 INFO  root:84 - Logging out user

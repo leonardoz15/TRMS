@@ -26,7 +26,7 @@ CREATE TABLE "users" (
 CREATE TABLE "request" (
   "request_id" serial,
   "user_id" int,
-  "cost" numeric(5,2),
+  "cost" numeric(6,2),
   "date" date,
   "time" time,
   "location" text,
