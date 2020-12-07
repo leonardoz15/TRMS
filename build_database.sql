@@ -10,14 +10,15 @@ CREATE TABLE "employee" (
   "phone_number" numeric(10,0),
   "address" text,
   "reports_to" int,
+  "funds_available" int,
   PRIMARY KEY ("employee_id")
 );
 
 CREATE TABLE "users" (
   "user_id" serial,
   "employee_id" int,
-  "username" varchar(25),
-  "password" varchar(25),
+  "username" text,
+  "password" text,
   "auth_level" auth_level,
   PRIMARY KEY ("user_id")
 );
@@ -25,14 +26,14 @@ CREATE TABLE "users" (
 CREATE TABLE "request" (
   "request_id" serial,
   "user_id" int,
-  "cost" numeric(5,2),
+  "cost" numeric(6,2),
   "date" date,
   "time" time,
   "location" text,
   "description" text,
   "grading_format" varchar(100),
   "event_type" event_type,
-  "isUrgent" boolean,
+  "urgent" boolean,
   "projected_amount" numeric(4,2),
   "approval_status" approval_status,
   PRIMARY KEY ("request_id")
@@ -82,4 +83,3 @@ foreign key (employee_id) references "employee" (employee_id) on delete cascade 
 
 --------------------------------------------------------------------------------------------------
 
-select * from waitlist;

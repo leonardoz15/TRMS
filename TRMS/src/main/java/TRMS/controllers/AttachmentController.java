@@ -25,7 +25,7 @@ public class AttachmentController {
 			String fileType = ctx.formParam("file_type");
 			UploadedFile file = ctx.uploadedFile("file");
 			
-			Attachment toCreate = new Attachment(0, requestId, fileType, file.getContent());
+			Attachment toCreate = new Attachment(0, requestId, fileType, file.getContent().readAllBytes());
 			
 			service.createAttachment(toCreate);			
 			
@@ -87,7 +87,7 @@ public class AttachmentController {
 			String fileType = ctx.formParam("file_type");
 			UploadedFile file = ctx.uploadedFile("file");
 			
-			Attachment toUpdate = new Attachment(0, requestId, fileType, file.getContent());
+			Attachment toUpdate = new Attachment(0, requestId, fileType, file.getContent().readAllBytes());
 			
 			service.updateAttachment(attachId, toUpdate);
 			
@@ -111,7 +111,7 @@ public class AttachmentController {
 			String fileType = ctx.formParam("file_type");
 			UploadedFile file = ctx.uploadedFile("file");
 			
-			Attachment toDelete = new Attachment(attachId, requestId, fileType, file.getContent());
+			Attachment toDelete = new Attachment(attachId, requestId, fileType, file.getContent().readAllBytes());
 			
 			service.deleteAttachment(toDelete);
 			
@@ -124,5 +124,5 @@ public class AttachmentController {
 			ctx.status(500);
 		}
 	}
-
+	
 }

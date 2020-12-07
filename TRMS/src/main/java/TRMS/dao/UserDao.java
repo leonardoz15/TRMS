@@ -17,6 +17,8 @@ public interface UserDao {
 	
 	public User readUser(int userId);
 	
+	public User readUserByLogin(String username, String password);
+	
 	public List<User> readAllUsers();
 	
 	public User updateUser(int userId, User user);

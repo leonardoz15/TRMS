@@ -25,8 +25,9 @@ public class EmployeeController {
 			String phoneNumber = ctx.formParam("phone_number");
 			String address = ctx.formParam("address");
 			int reportsTo = Integer.valueOf(ctx.formParam("reports_to"));
+			int funds = Integer.valueOf(ctx.formParam("funds"));
 			
-			Employee toCreate = new Employee(0, firstName, lastName, phoneNumber, address, reportsTo);
+			Employee toCreate = new Employee(0, firstName, lastName, phoneNumber, address, reportsTo, funds);
 			
 			service.createEmployee(toCreate);
 			
@@ -91,8 +92,10 @@ public class EmployeeController {
 			String phoneNumber = ctx.formParam("phone_number");
 			String address = ctx.formParam("address");
 			int reportsTo = Integer.valueOf(ctx.formParam("reports_to"));
+			int funds = Integer.valueOf(ctx.formParam("funds"));
 			
-			Employee toUpdate = new Employee(0, firstName, lastName, phoneNumber, address, reportsTo);
+			
+			Employee toUpdate = new Employee(0, firstName, lastName, phoneNumber, address, reportsTo, funds);
 			
 			service.updateEmployee(employeeId, toUpdate);
 			
@@ -118,8 +121,9 @@ public class EmployeeController {
 			String phoneNumber = ctx.formParam("phone_number");
 			String address = ctx.formParam("address");
 			int reportsTo = Integer.valueOf(ctx.formParam("reports_to"));
+			int funds = Integer.valueOf(ctx.formParam("funds"));
 			
-			Employee toDelete = new Employee(employeeId, firstName, lastName, phoneNumber, address, reportsTo);
+			Employee toDelete = new Employee(employeeId, firstName, lastName, phoneNumber, address, reportsTo, funds);
 			
 			service.deleteEmployee(toDelete);
 			
@@ -131,6 +135,54 @@ public class EmployeeController {
 			ctx.html("Exception " + e);
 			ctx.status(500);
 		}
+		
+	}
+	
+	public void getEmployee(Context ctx) {
+		log.info("Getting employee");
+		String empId = ctx.pathParam("id");
+		Employee employee = service.readEmployee(Integer.parseInt(empId));
+		ctx.json(employee);
+	}
+	
+	public void addFunds(Context ctx, double cost) {
+		//add funds back to the emp in dao
+		log.info("Adding funds back to logged in user");
+		int empId = Integer.parseInt(ctx.cookieStore("empId"));
+		Employee read = service.readEmployee(empId);
+		read.setFunds(read.getFunds()+cost);
+		try {
+			service.updateEmployee(empId, read);
+			
+		} catch (Exception e) {
+			log.warn("Exception thrown when adding funds: " + e);
+			ctx.status(500);
+		}
+	}
+	
+	public void removeFunds(Context ctx, double cost) {
+		//remove funds from emp in dao
+		log.info("removing funds from logged in user");
+		int empId = Integer.parseInt(ctx.cookieStore("empId"));
+		Employee read = service.readEmployee(empId);
+		read.setFunds(read.getFunds()-cost);
+		try {
+			service.updateEmployee(empId, read);
+			
+		} catch (Exception e) {
+			log.warn("Exception thrown when removing funds: " + e);
+			ctx.status(500);
+		}
+	}
+	public void getBalance(Context ctx) {
+		
+		log.info("Reading balance for logged in user");
+		
+		int empId = Integer.parseInt(ctx.cookieStore("empId"));
+		Employee read = service.readEmployee(empId);
+		
+		ctx.json(read.getFunds());
+		log.info("Funds for emp: "+empId+" = "+read.getFunds());
 		
 	}
 

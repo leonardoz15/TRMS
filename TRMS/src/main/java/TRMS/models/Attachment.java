@@ -4,6 +4,7 @@
 package TRMS.models;
 
 import java.io.InputStream;
+import java.util.Arrays;
 
 /**
  * @author Zachary Leonardo
@@ -17,7 +18,7 @@ public class Attachment {
 	
 	private String fileType;
 	
-	private InputStream dataStream;
+	private byte[] file;
 
 	
 	public Attachment() {
@@ -44,12 +45,12 @@ public class Attachment {
 	 * @param fileType
 	 * @param dataStream
 	 */
-	public Attachment(int attachId, int requestId, String fileType, InputStream dataStream) {
+	public Attachment(int attachId, int requestId, String fileType, byte[] file) {
 		super();
 		this.attachId = attachId;
 		this.requestId = requestId;
 		this.fileType = fileType;
-		this.dataStream = dataStream;
+		this.file = file;
 	}
 
 
@@ -102,25 +103,25 @@ public class Attachment {
 
 
 	/**
-	 * @return the dataStream
+	 * @return the file
 	 */
-	public InputStream getDataStream() {
-		return dataStream;
+	public byte[] getFile() {
+		return file;
 	}
 
 
 	/**
-	 * @param dataStream the dataStream to set
+	 * @param file the file to set
 	 */
-	public void setDataStream(InputStream dataStream) {
-		this.dataStream = dataStream;
+	public void setFile(byte[] file) {
+		this.file = file;
 	}
 
 
 	@Override
 	public String toString() {
-		return "Attachment [attachId=" + attachId + ", requestId=" + requestId + ", fileType=" + fileType
-				+ ", dataStream=" + dataStream + "]";
+		return "Attachment [attachId=" + attachId + ", requestId=" + requestId + ", fileType=" + fileType + ", file="
+				+ Arrays.toString(file) + "]";
 	}
 
 
@@ -129,6 +130,7 @@ public class Attachment {
 		final int prime = 31;
 		int result = 1;
 		result = prime * result + attachId;
+		result = prime * result + Arrays.hashCode(file);
 		result = prime * result + ((fileType == null) ? 0 : fileType.hashCode());
 		result = prime * result + requestId;
 		return result;
@@ -146,6 +148,8 @@ public class Attachment {
 		Attachment other = (Attachment) obj;
 		if (attachId != other.attachId)
 			return false;
+		if (!Arrays.equals(file, other.file))
+			return false;
 		if (fileType == null) {
 			if (other.fileType != null)
 				return false;
@@ -155,6 +159,5 @@ public class Attachment {
 			return false;
 		return true;
 	}
-	
 	
 }

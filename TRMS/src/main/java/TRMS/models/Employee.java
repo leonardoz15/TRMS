@@ -22,10 +22,35 @@ public class Employee {
 	
 	private int reportsTo;
 	
+	private double funds;
+	
 	
 	public Employee() {
 		super();
 	}
+
+	/**
+	 * @param employeeId
+	 * @param firstName
+	 * @param lastName
+	 * @param phoneNumber
+	 * @param address
+	 * @param reportsTo
+	 * @param funds
+	 */
+	public Employee(int employeeId, String firstName, String lastName, String phoneNumber, String address,
+			int reportsTo, double funds) {
+		super();
+		this.employeeId = employeeId;
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.phoneNumber = phoneNumber;
+		this.address = address;
+		this.reportsTo = reportsTo;
+		this.funds = funds;
+	}
+
+
 
 	/**
 	 * @param employeeID the unique ID of the employee.
@@ -34,6 +59,7 @@ public class Employee {
 	 * @param phoneNumber the phone number of the employee.
 	 * @param address the address of the employee
 	 * @param reportsTo the direct supervisor of the employee.
+	 * @param funds the amount of funds available default to $1000
 	 */
 
 	public Employee(int employeeID, String firstName, String lastName, String phoneNumber, String address,
@@ -45,6 +71,7 @@ public class Employee {
 		this.phoneNumber = phoneNumber;
 		this.address = address;
 		this.reportsTo = reportsTo;
+		this.funds = 1000;
 	}
 
 	/**
@@ -131,10 +158,25 @@ public class Employee {
 		this.reportsTo = reportsTo;
 	}
 
+	/**
+	 * @return the funds
+	 */
+	public double getFunds() {
+		return funds;
+	}
+
+	/**
+	 * @param funds the funds to set
+	 */
+	public void setFunds(double funds) {
+		this.funds = funds;
+	}
+
 	@Override
 	public String toString() {
-		return "Employee [employeeID=" + employeeId + ", firstName=" + firstName + ", lastName=" + lastName
-				+ ", phoneNumber=" + phoneNumber + ", address=" + address + ", reportsTo=" + reportsTo + "]";
+		return "Employee [employeeId=" + employeeId + ", firstName=" + firstName + ", lastName=" + lastName
+				+ ", phoneNumber=" + phoneNumber + ", address=" + address + ", reportsTo=" + reportsTo + ", funds="
+				+ funds + "]";
 	}
 
 	@Override
@@ -144,6 +186,9 @@ public class Employee {
 		result = prime * result + ((address == null) ? 0 : address.hashCode());
 		result = prime * result + employeeId;
 		result = prime * result + ((firstName == null) ? 0 : firstName.hashCode());
+		long temp;
+		temp = Double.doubleToLongBits(funds);
+		result = prime * result + (int) (temp ^ (temp >>> 32));
 		result = prime * result + ((lastName == null) ? 0 : lastName.hashCode());
 		result = prime * result + ((phoneNumber == null) ? 0 : phoneNumber.hashCode());
 		result = prime * result + reportsTo;
@@ -170,6 +215,8 @@ public class Employee {
 			if (other.firstName != null)
 				return false;
 		} else if (!firstName.equals(other.firstName))
+			return false;
+		if (Double.doubleToLongBits(funds) != Double.doubleToLongBits(other.funds))
 			return false;
 		if (lastName == null) {
 			if (other.lastName != null)
