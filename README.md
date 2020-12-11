@@ -30,11 +30,12 @@ To-do list:
 
 ## Getting Started
    
--To use TRMS, you will need a local postgres database setup with the provided build script.
--Once built, you will need to set the following system variables to connect to your local database:
-  -TRMS_URL : URL of the database
-  -TRMS_USERNAME : Username for your local install of postgres
-  -TRMS_PASSWORD : Password of your local install
+To use TRMS, you will need a local postgres database setup with the provided build script.
+
+- Once built, you will need to set the following system variables to connect to your local database:
+  - TRMS_URL : URL of the database
+  - TRMS_USERNAME : Username for your local install of postgres
+  - TRMS_PASSWORD : Password of your local install
 
 ## Usage
 
