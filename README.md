@@ -28,7 +28,7 @@ To-do list:
 * Improve testing coverage
 * Allow user creation of accounts
 
-## Getting Started
+## Set Up
    
 To use TRMS, you will need a local postgres database setup with the provided build script.
 
@@ -36,6 +36,3 @@ To use TRMS, you will need a local postgres database setup with the provided bui
   - TRMS_URL : URL of the database
   - TRMS_USERNAME : Username for your local install of postgres
   - TRMS_PASSWORD : Password of your local install
-
-## Usage
-
