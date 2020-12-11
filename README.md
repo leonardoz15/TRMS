@@ -1,20 +1,40 @@
-# zachary_leonardo_p1
+# Tuition Reimbursement Management System (TRMS)
 
-# Project 1 Description
+# Project Description
 The purpose of TRMS is to provide a system that encourages quality knowledge growth relevant to an individual’s expertise.   Currently, TRMS provides reimbursements for university courses, seminars, certification preparation classes, certifications, and technical training.  The decision has been made to develop a BPMsolution for this system to improve the timeliness and accuracy of approvals.  The current system relies solely on email communication, requiring manual lookups of available funds and is error-prone due to inbox clutter and incorrect routing of tasks.  Furthermore, there is no way to record and report on reimbursements awarded, and so the company has no way to identify highly-invested courses that could be developed to be offered in-house.
-​
-### Requirements
-​
-- Java built application
-- Utilizes JDBC to connect to a Postgres database.
-- Exposes HTTP endpoints through the use of Javalin.
-- Log4j or Log4j2 for logging throughout the program.
-- Junit and unit testing with coverage across program.
-- Mockito for dependency based testing to ensure proper unit tests.
-- Fully functional frontend
-- HTML for page structure
-- CSS for page styles
-- Javascript for page functionality
-- Utilize AJAX for acquiring resources as well as (maybe?) helping with user/app connection
-- Fully published and hosted source code on Git-hub repository
-- Application and database hosted on Azure to enable access regardless of personal devices.
+
+## Technologies Used
+
+* Java built application
+* Utilizes JDBC to connect to a Postgres database.
+* Exposes HTTP endpoints through the use of Javalin.
+* Log4j for logging throughout the program.
+* Junit for unit testing
+* Mockito for dependency based testing to ensure proper unit tests.
+* Fully functional frontend
+* HTML for page structure
+* CSS for page styles
+* Javascript for page functionality
+* Utilize AJAX for acquiring resources
+
+## Features
+* Log-in as an employee, supervisor, department head, or benefits coordiator
+* Create a reimbursement request
+* Approve reimbursement requests as an elevated user
+* Request gradually moves through approval process until final benefits coordinator approval
+* Attach files to reimbursment requests
+
+To-do list:
+* Improve testing coverage
+* Allow user creation of accounts
+
+## Getting Started
+   
+-To use TRMS, you will need a local postgres database setup with the provided build script.
+-Once built, you will need to set the following system variables to connect to your local database:
+  -TRMS_URL : URL of the database
+  -TRMS_USERNAME : Username for your local install of postgres
+  -TRMS_PASSWORD : Password of your local install
+
+## Usage
+
